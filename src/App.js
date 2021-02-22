@@ -1,6 +1,5 @@
 import React from 'react'
 import { useTable, useFilters, useGroupBy, useSortBy } from 'react-table'
-import {matchSorter} from 'match-sorter'
 import mData from './data.json'
 import FiltroActores from './FiltroActores'
 import FiltroAreas from './FiltroAreas'
