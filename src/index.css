@@ -1,0 +1,303 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+tr, th, td {
+    border: 0px solid transparent;
+    background-clip: padding-box;
+}
+
+tr > td + td {
+    border-left-width: 10px;    
+}
+
+tr + tr > td {
+    border-top-width: 10px;
+}
+
+td {
+    background-color: rgb(242, 245, 247);
+}
+
+.contAccion div {
+    margin: 3px;
+}
+
+.contAccionInfo {
+    display: flex;
+    align-items: baseline;
+}
+.accionId {
+    float: left;
+    clear: both;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 5px;
+    background-color:navy;
+    color:white;
+    border-radius: 5px;
+}
+
+.genLabelB {
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: white;
+    background-color: mediumblue;
+    display: inline;
+}
+
+.genLabelG {
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: white;
+    background-color: teal;
+    display: inline;
+}
+
+.genLabelBL {
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 4px;
+    margin-right: 6px;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+}
+
+.elemFiltro {
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 3px;
+    display: inline;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.elemFiltroGen {
+    font-weight: bold;
+    font-size: 12px;
+    padding: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 3px;
+    display: inline;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.filtroOff {
+    background-color: white;    
+}
+
+.filtroOn {
+    background-color: maroon;
+    color: white;
+}
+
+.accionTitulo {
+    font-weight: bold;
+}
+
+.accionObjetivo {
+    color:dimgrey;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.contTactica {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    /*border: 1px dashed grey;*/
+}
+
+.contTacticaDesc {
+    display: flex;
+    align-items: center;
+    padding-bottom: 3px;
+}
+
+.contTacticaDesc div {
+    margin: 3px;
+}
+
+.tacticaId {
+    flex: 0 0 13%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 5px;
+    background-color: darkblue;
+    color:white;
+    border-radius: 5px;
+}
+
+.tacticaDesc {
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: bold;
+    color:navy
+}
+
+.contTacticaDetalles {
+    display: flex;
+}
+
+.contTacticaCaps {
+    display: flex;
+    flex: 0 0 23em;
+    flex-direction: column;
+    margin: 3px;
+}
+
+.contCapRol {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.contRol {
+    font-size: 12px;
+    flex: 0 0 6em;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.contCapsDetalles {
+    font-size: 10px !important;
+}
+
+.contCapDetalle {
+    margin-bottom: 7px;
+    justify-content: center;
+}
+
+.nombreCapacidad {
+    margin: 3px;
+    font-weight: bolder;
+}
+
+.contTacticaIndMDVs {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    margin: 3px;
+}
+
+.contInd {
+    display: flex;
+    margin: 3px;
+    padding: 5px;
+    /*border: 1px dashed grey;*/
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.contIndDesc {
+    margin-right: 3px;
+}
+
+.contIndDesc div {
+    margin-bottom: 3px;
+}
+
+.contIndMeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 0 5em;
+    text-align: center;
+}
+
+.contIndMeta div {
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    border-radius: 5px;
+}
+
+.contMDV {
+    display: flex;
+    margin: 3px;
+    padding: 5px;
+    /*border: 1px dashed grey;*/
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.contMDVDesc {
+    margin-right: 5px;
+}
+
+.contMDVPlazo {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex: 0 0 5em;
+}
+
+.contMDVPlazo div {
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    border-radius: 5px;
+}
+
+.contListaEstandares {
+    margin-top: 5px;
+    font-size: 10px;
+    color: midnightblue;
+}
+
+.contListaEstandares ul {
+    margin: 0;
+    list-style-position: outside;
+    padding-left: 10px;
+}
+
+@media print {
+    .headerFiltros {
+        display: none;
+    }
+}
