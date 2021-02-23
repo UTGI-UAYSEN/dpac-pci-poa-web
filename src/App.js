@@ -3,6 +3,7 @@ import { useTable, useFilters, useGroupBy, useSortBy } from 'react-table'
 import mData from './data.json'
 import FiltroActores from './FiltroActores'
 import FiltroAreas from './FiltroAreas'
+import FiltroPOA from './FiltroPOA'
 
 const indicesRoles = { 'Responsable': 0, 'Aprobador': 1, 'Soporte': 2, 'Consultado': 3, 'Informado': 4 }
 
@@ -50,7 +51,7 @@ function obtenerElementosIndicadoresMDVs(tactica) {
       </div>
       <div className="contIndMeta">
         <div style={{ fontSize: '13px', fontWeight: 'bold' }}>Meta</div>
-        <div style={{ fontSize: '20px', fontWeight: 'bold' }}>{tactica.ios[0].meta}</div>
+        <div style={{ fontSize: '22px', fontWeight: 'bold' }}>{tactica.ios[0].meta}</div>
       </div>
     </div>);
   }
@@ -115,6 +116,7 @@ function renderCell(cellInfo) {
       const elemTactica = <div className="contTactica">
         <div className="contTacticaDesc">
           <div className="tacticaId">{tactica.tipo} {tactica.cod}</div>
+          {tactica.prioridad == 'Alta' ? <div className='indPrioridad'>Prioritaria</div> : null}
           <div className="tacticaDesc">{tactica.desc}</div>
         </div>
         <div className="contTacticaDetalles">
@@ -145,39 +147,21 @@ function Table({ columns, data }) {
     () => ({
       actor: (rows, id, filterValue) => {
         return rows.filter(row => {
-          const rowValue = row.values[id];
+          let tactica = mData.meta.tacticas[row.values['tacticas']];
 
-          if(filterValue.tipo == 'actor') {
-            let inputFiltro = filterValue.input;
+            for(let rol in tactica.capacidades) {
+              for(let j in tactica.capacidades[rol]) {
+                let actorCap = mData.meta.capacidades[tactica.capacidades[rol][j].id].actor;
 
-            if(id == 'accion') {
-              let accion = mData.meta.acciones[rowValue];
-
-              return inputFiltro[accion.responsable] == 1 ? true : false;
-            }
-            else if (id == 'tacticas') {
-              let tactica = mData.meta.tacticas[rowValue];
-
-              for(let rol in tactica.capacidades) {
-                for(let j in tactica.capacidades[rol]) {
-                  let actorCap = mData.meta.capacidades[tactica.capacidades[rol][j].id].actor;
-
-                  if(inputFiltro[actorCap] == 1)
-                    return true;
-                }
+                if(filterValue[actorCap].cap)
+                  return true;
               }
             }
-          }
-          else if(filterValue.tipo == 'area') {
-            let inputFiltro = filterValue.input;
 
-            if(id == 'accion') {
-              let accion = mData.meta.acciones[rowValue];
-              return inputFiltro[accion.area] == 1 ? true : false;
-            }
+          let accion = mData.meta.acciones[row.values['accion']];
 
-            return false;
-          }
+          if(filterValue[accion.area].area || filterValue[accion.responsable].resp)
+            return true;
 
           return false;
         })
@@ -215,20 +199,24 @@ function Table({ columns, data }) {
             <tr>
               <th className='headerFiltros' colSpan='2' style={{ textAlign: 'left' }}>
                 <div style={{ float: 'right', width: '250px' }}>
-                  <div style={{ fontWeight: 'bolder', fontSize: '40px', color: 'navy', textAlign: 'right' }}>POA 2021</div>
+                  <div style={{ fontWeight: 'bolder', fontSize: '40px', color: 'darkslategrey', textAlign: 'right' }}>POA 2021</div>
                   <div style={{ fontWeight: 'bold', fontSize: '12px', textAlign: 'right' }}>Versión 1.0</div>
                   <div style={{ fontWeight: 'bold', fontSize: '10px', textAlign: 'right' }}>
                     Desarrollado por <span style={{ color: 'darkblue' }}>Dirección de Planificación y Aseguramiento de la Calidad</span></div>
                   <div style={{ fontWeight: 'bold', fontSize: '10px', textAlign: 'right' }}>Consultas: <a href = "enrique.urra@uaysen.cl">enrique.urra@uaysen.cl</a></div>                    
                 </div>
-                <FiltroAreas 
+                <FiltroPOA 
+                  data={mData.meta}
+                  filtro={setFilter}
+                />
+                {/*<FiltroAreas 
                   acciones={mData.meta.acciones}
                   filtro={setFilter}
                 />
                 <FiltroActores 
                   actores={mData.meta.actores}
                   filtro={setFilter}
-                />
+                />*/}
               </th>
             </tr>
             {headerGroups.map(headerGroup => (

@@ -57,8 +57,8 @@ class FiltroAreas extends Component {
             return 0;
         });
 
-        return <div style={{ padding: '5px', display: 'flex', flexWrap: 'wrap' }}>
-            <div style={{ fontSize: '14px', marginBottom: '5px', color: 'darkblue' }}>Filtro área:</div>
+        return <div style={{ marginBottom: '3px', display: 'flex', flexWrap: 'wrap' }}>
+            <div style={{ fontSize: '12px', marginRight: '5px', color: 'darkblue' }}>Filtro área:</div>
             <div 
                 className='elemFiltroGen'
                 onClick={(e) => this.cambiaTodos(e, true)}

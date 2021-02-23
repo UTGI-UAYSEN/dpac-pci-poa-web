@@ -56,8 +56,8 @@ class FiltroActores extends Component {
             return 0;
         });
 
-        return <div style={{ marginBottom: '10px', padding: '5px', display: 'flex', flexWrap: 'wrap' }}>
-            <div style={{ fontSize: '14px', marginBottom: '5px', color: 'darkblue' }}>Filtro capacidades:</div>
+        return <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+            <div style={{ fontSize: '12px', marginRight: '5px', color: 'darkblue' }}>Filtro capacidades:</div>
             <div 
                 className='elemFiltroGen'
                 onClick={(e) => this.cambiaTodos(e, true)}

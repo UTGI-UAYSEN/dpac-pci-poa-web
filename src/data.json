@@ -3420,7 +3420,16 @@
                 "cobertura": "Acotada",
                 "tipo": "Función",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Cuantificable en cantidad de solicitudes abordadas.",
+                        "Cada solicitud debe indicar estudiante, estado de emisión y tiempos de emisión y otros datos de seguimiento que sean relevantes.",
+                        "Clasificado según tipo de certificado.",
+                        "Cada solicitud debe tener respaldo de certificado emitido, si corresponde.",
+                        "En formato estándar para su revisión (ej.: excel)"
+                    ],
+                    "nombre": "Registro de emisión de certificados"
+                }],
                 "cod": "F03",
                 "capacidades": {
                     "Consultado": [
@@ -3452,7 +3461,11 @@
                         }
                     ]
                 },
-                "ios": [],
+                "ios": [{
+                    "meta": "80",
+                    "formula": "Número de certificados emitidos en función a requerimientos de estudiantes.",
+                    "nombre": "Emisión de certificados"
+                }],
                 "prioridad": "Alta",
                 "desc": "Gestionar y resolver solicitudes de certificados estudiantiles."
             },
@@ -3460,7 +3473,15 @@
                 "cobertura": "Mediana",
                 "tipo": "Función",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Deben resumir y proveer información agregada relevante respecto a tramites realizados en torno a antecedentes curriculares y documentación generada durante el periodo.",
+                        "Debe proveer indicadores generales sobre los tramites cuantificados, clasificando según su tipo, carreras asociadas, estados, etc.",
+                        "Deben dar cuenta de los tiempos que toman los trámites y otros elementos asociados a la calidad del servicio entregado a los/las estudiantes.",
+                        "Debe incorporar un apartado descriptivo con análisis desde el área sobre los resultados generados en términos de eficiencia y cobertura."
+                    ],
+                    "nombre": "Informes de registro de antecedentes y documentación de estudiantes"
+                }],
                 "cod": "F04",
                 "capacidades": {
                     "Consultado": [
@@ -3496,7 +3517,11 @@
                         }
                     ]
                 },
-                "ios": [],
+                "ios": [{
+                    "meta": "4",
+                    "formula": "Número de informes periódicos que resumen estado de avance de registros en base de datos.",
+                    "nombre": "Informes trimestral de registro de antecedentes y documentación de estudiantes"
+                }],
                 "prioridad": "Alta",
                 "desc": "Gestionar de una base de datos con registro de antecedentes curriculares y documentación oficial de alumnos y egresados de pre y postgrado."
             },
@@ -3504,7 +3529,17 @@
                 "cobertura": "Acotada",
                 "tipo": "Función",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Clasificado según datos relevantes de estudiantes asociados a los trámites (carrera, situación, etc.).",
+                        "Cuantificable en cantidad de trámites registrados.",
+                        "Se debe especificar estados de trámites respectivos y tiempos de realización, según procesos asociados.",
+                        "Cada registro debe indicar reglamentación a la cual se somete.",
+                        "Cada registro debe indicar ubicación de certificación respectiva, si aplica (ej.: decreto)",
+                        "En formato estándar para su revisión (ej.: excel)"
+                    ],
+                    "nombre": "Registro de trámites académicos estudiantiles"
+                }],
                 "cod": "F01",
                 "capacidades": {
                     "Consultado": [
@@ -3536,7 +3571,11 @@
                         }
                     ]
                 },
-                "ios": [],
+                "ios": [{
+                    "meta": "400",
+                    "formula": "Número de registros de tramites académicos realizados para atender requerimientos académicos y curriculares de estudiantes.",
+                    "nombre": "Tramites de asuntos académicos estudiantiles"
+                }],
                 "prioridad": "Alta",
                 "desc": "Registrar diversos procesos y protocolos aplicados en relación a la situación de los estudiantes y según reglamentación vigente."
             },
@@ -3544,7 +3583,17 @@
                 "cobertura": "Acotada",
                 "tipo": "Función",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Clasificado según tipo de ajuste (convalidación, transferencia, etc.).",
+                        "Cuantificable en cantidad de trámites registrados.",
+                        "Se debe especificar estados de trámites respectivos y tiempos de realización, según procesos asociados.",
+                        "Cada registro debe indicar reglamentación a la cual se somete.",
+                        "En formato estándar para su revisión (ej.: excel)",
+                        "Se podría combinar con MDVs de F01."
+                    ],
+                    "nombre": "Registro de ajustes a programas cursados"
+                }],
                 "cod": "F02",
                 "capacidades": {
                     "Consultado": [
@@ -3576,7 +3625,11 @@
                         }
                     ]
                 },
-                "ios": [],
+                "ios": [{
+                    "meta": "40",
+                    "formula": "Número de registros de tramites académicos realizados para realizar ajustes sobre asignación de programas de estudiantes.",
+                    "nombre": "Ajustes en programas cursados"
+                }],
                 "prioridad": "Alta",
                 "desc": "Certificar y registrar convalidaciones, homologación, incompatibilidad de estudios y transferencias."
             },
@@ -4266,7 +4319,30 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "En función a los estándares de trabajo del equipo de Análisis Institucional.",
+                            "Versión validada por Director DAC."
+                        ],
+                        "plazo": "mar",
+                        "nombre": "Estructura de operacionalización de encuesta."
+                    },
+                    {
+                        "estandares": ["En formato estándar que permita su revisión (excel, csv, etc.)."],
+                        "plazo": "abr",
+                        "nombre": "Datos de análisis"
+                    },
+                    {
+                        "estandares": [
+                            "Generada en función a estándares del equipo de Análisis Institucional.",
+                            "Debe incorporar breve estrategia de replicación para siguiente periodo.",
+                            "Constancia de entrega a Director DAC."
+                        ],
+                        "plazo": "may",
+                        "nombre": "Informe de resultados de encuesta."
+                    }
+                ],
                 "cod": "H01",
                 "capacidades": {
                     "Informado": [
@@ -4298,7 +4374,30 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "En función a los estándares de trabajo del equipo de Análisis Institucional.",
+                            "Versión validada por Director DAC."
+                        ],
+                        "plazo": "abr",
+                        "nombre": "Estructura de operacionalización de encuesta."
+                    },
+                    {
+                        "estandares": ["En formato estándar que permita su revisión (excel, csv, etc.)."],
+                        "plazo": "may",
+                        "nombre": "Datos de análisis"
+                    },
+                    {
+                        "estandares": [
+                            "Generada en función a estándares del equipo de Análisis Institucional.",
+                            "Debe incorporar breve estrategia de replicación para siguiente periodo.",
+                            "Constancia de entrega a Director DAC."
+                        ],
+                        "plazo": "jun",
+                        "nombre": "Informe de resultados de encuesta."
+                    }
+                ],
                 "cod": "H02",
                 "capacidades": {
                     "Informado": [
@@ -4388,7 +4487,25 @@
                 "cobertura": "Mediana",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "Incluye comunicaciones por canales oficiales y medios gráficos.",
+                            "Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia.",
+                            "Puede adjuntarse evidencias de actividades que puedan generarse desde la instancia."
+                        ],
+                        "nombre": "Material de difusión"
+                    },
+                    {
+                        "estandares": [
+                            "Da cuenta de impacto generado con las instancias de difusión realizada.",
+                            "Debe incorporar métricas e indicadores asociados a criterios académicos (ej.: encuestas sobre interés en carreras, apreciación, etc.).",
+                            "Debe entregar comparativas sobre impactos esperados vs logrados (ej.: público objetivo vs público alcanzado).",
+                            "Debe comparar avances con periodos anteriores."
+                        ],
+                        "nombre": "Informe de impacto de difusión"
+                    }
+                ],
                 "cod": "F01",
                 "capacidades": {
                     "Consultado": [
@@ -4454,7 +4571,11 @@
                         }
                     ]
                 },
-                "ios": [],
+                "ios": [{
+                    "meta": "150",
+                    "formula": "Número de instancias de difusión (redes sociales, apariciones en prensa, reportajes, etc.) realizadas y verificables.",
+                    "nombre": "Difusión de oferta realizada"
+                }],
                 "prioridad": "Alta",
                 "desc": "Ejecutar la difusión comunicacional de la oferta de pregrado a nivel regional y nacional."
             },
@@ -10714,7 +10835,28 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": ["Resultado de concurso publico debidamente respaldado por estándares institucionales y requerimientos Mineduc para las contrataciones."],
+                        "plazo": "abr",
+                        "nombre": "Acta de contratación de coordinador TICE"
+                    },
+                    {
+                        "estandares": [
+                            "Informe que sistematice elementos de diagnóstico, análisis y conclusiones respecto a orgánica idónea para el área TICE.",
+                            "Debe considerar y referenciar integralmente los aspectos de diseño del Modelo de Gestión Institucional (MGU).",
+                            "Debe incorporar proyecciones asociadas a la sostenibilidad del área en el largo plazo.",
+                            "Debe articularse con las acciones asociadas al ajuste de la estructura (DPAC-22)."
+                        ],
+                        "plazo": "may",
+                        "nombre": "Informe de propuesta sobre orgánica institucional en la materia"
+                    },
+                    {
+                        "estandares": ["Debe ser coherente con recomendaciones de estructura levantadas en informe de propuesta."],
+                        "plazo": "jun",
+                        "nombre": "Decreto que formaliza área TICE"
+                    }
+                ],
                 "cod": "H01",
                 "capacidades": {"Consultado": [
                     {
@@ -10750,7 +10892,15 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Documento simple que describe componentes de estrategia para implementación del prototipo.",
+                        "Debe considerar entre otras cosas: requerimientos tecnológicos, infraestructura, reglamentación o normativa requerida, alcance de implementación y metodología de pilotaje.",
+                        "Debe establecer calendario, actividades, roles y responsabilidades asociadas a la implementación."
+                    ],
+                    "plazo": "ago",
+                    "nombre": "Estrategia de pilotaje sala MOOC"
+                }],
                 "cod": "H02",
                 "capacidades": {
                     "Consultado": [
@@ -10802,7 +10952,16 @@
                 "cobertura": "Mediana",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Debe dar cuenta del resultado del proceso de pilotaje, indicando actividades realizadas y ajustes efectuados a estrategia original.",
+                        "Debe contener evidencia gráfica de la implementación de la sala.",
+                        "Debe establecer orientaciones para la confección de material audiovisual para la enseñanza que permita metodologías híbridas.",
+                        "Debe indicar logros alcanzados y mejoras a realizar en el futuro luego de la implementación."
+                    ],
+                    "plazo": "dic",
+                    "nombre": "Reporte de resultados de pilotaje sala MOOC"
+                }],
                 "cod": "H03",
                 "capacidades": {
                     "Consultado": [
@@ -14798,7 +14957,15 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para los modulos respectivos.",
+                        "Debe tener coherencia con los procesos que fueron normalizados.",
+                        "Se debe especificar alcance de los módulos iniciales y posibles próximas etapas."
+                    ],
+                    "plazo": "jul",
+                    "nombre": "Especificación de requerimientos de sistema."
+                }],
                 "cod": "H03",
                 "capacidades": {
                     "Consultado": [
@@ -14969,7 +15136,15 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Documentación técnica de elementos de diseño de los módulos acorde a estándares TGI.",
+                        "Debe considerar al menos artefactos asociados a las bases de datos, interfaces de usuario y arquitectura del sistema, incorporando documentación sobre las tecnologías involucradas.",
+                        "Debe ser coherente con especificación de requerimientos de sistema."
+                    ],
+                    "plazo": "ago",
+                    "nombre": "Artefactos de diseño de sistema."
+                }],
                 "cod": "H04",
                 "capacidades": {
                     "Consultado": [
@@ -15065,7 +15240,15 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Especificación de macroproceso según estándares institucionales.",
+                        "Manuales de procesos críticos normalizados según estándares institucionales.",
+                        "Plan de implementación de procesos críticos según estándares institucionales."
+                    ],
+                    "plazo": "may",
+                    "nombre": "Documentación de normalización de procesos."
+                }],
                 "cod": "H01",
                 "capacidades": {
                     "Consultado": [
@@ -15217,7 +15400,15 @@
                 "cobertura": "Mediana",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Debe ser coherente con procesos normalizados.",
+                        "Se debe acompañar de minuta sobre actualización de toda la reglamentación respectiva, detallando cambios y/o incorporaciones para cada decreto que corresponda.",
+                        "Todo ajuste debe ser visado por Director DAC."
+                    ],
+                    "plazo": "jul",
+                    "nombre": "Decretos actualizados de normativa pertinente."
+                }],
                 "cod": "H02",
                 "capacidades": {
                     "Informado": [
@@ -15357,7 +15548,30 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "Al menos un acta por cada grupo de usuarios clave.",
+                            "Acompañada por validador de aceptación.",
+                            "Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+                        ],
+                        "plazo": "ene",
+                        "nombre": "Actas de capacitación."
+                    },
+                    {
+                        "estandares": [
+                            "Debe considerar las principales funcionalidades asociadas al sistema.",
+                            "En formato de transmisión estándar (docx, pdf)."
+                        ],
+                        "plazo": "ene",
+                        "nombre": "Manual de usuario de módulos."
+                    },
+                    {
+                        "estandares": ["Documento simple que certifique la entrega desde TGI hacia mandante (DAC-EPRE), en donde este último exprese su aprobación del producto."],
+                        "plazo": "ene",
+                        "nombre": "Certificado de entrega de módulos."
+                    }
+                ],
                 "cod": "H07",
                 "capacidades": {
                     "Consultado": [
@@ -15611,7 +15825,16 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Técnica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Artefactos que permitan evidenciar avance en el proceso de implementación de los módulos.",
+                        "Puede corresponder a código fuente debidamente versionado mediante sistemas apropiados (ej.: repositorios git).",
+                        "Desarrollo debe ser coherente con estándares TGI definidos.",
+                        "Entrega debe establecer claramente versión de los artefactos para futuras comparaciones."
+                    ],
+                    "plazo": "oct",
+                    "nombre": "Artefactos de desarrollo de sistema."
+                }],
                 "cod": "H05",
                 "capacidades": {
                     "Consultado": [
@@ -15797,7 +16020,17 @@
                 "cobertura": "Mínima",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Documentación que de cuenta de la ejecución de pruebas (ya sea automatizadas o no) sobre las versiones estables de los desarrollos realizados a la fecha.",
+                        "Debe considerar estándares TGI para testing.",
+                        "Debe dar cuenta de problemas detectados, correcciones y posteriores revisiones.",
+                        "Debe indicar metodología y tecnologías de soporte utilizadas.",
+                        "Debe proveer el detalle de los set de pruebas utilizados para futura replicabilidad."
+                    ],
+                    "plazo": "nov",
+                    "nombre": "Reportes de testing de sistema."
+                }],
                 "cod": "H06",
                 "capacidades": {
                     "Consultado": [
@@ -16493,7 +16726,15 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Generada en función a estándares del equipo de Análisis Institucional.",
+                        "Debe incorporar breve estrategia de replicación para siguiente periodo.",
+                        "Constancia de entrega a Director DAC."
+                    ],
+                    "plazo": "jul",
+                    "nombre": "Informe de resultados de análisis."
+                }],
                 "cod": "H05",
                 "capacidades": {
                     "Informado": [{
@@ -16547,7 +16788,15 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Generada en función a estándares del equipo de Análisis Institucional.",
+                        "Debe incorporar breve estrategia de replicación para siguiente periodo.",
+                        "Constancia de entrega a Director DAC."
+                    ],
+                    "plazo": "ene",
+                    "nombre": "Informe de resultados de análisis."
+                }],
                 "cod": "H06",
                 "capacidades": {
                     "Informado": [{
@@ -16601,7 +16850,25 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "En función a los estándares de trabajo del equipo de Análisis Institucional.",
+                            "Versión validada por Director DAC."
+                        ],
+                        "plazo": "mar",
+                        "nombre": "Estructura de operacionalización de encuesta."
+                    },
+                    {
+                        "estandares": [
+                            "Generada en función a estándares del equipo de Análisis Institucional.",
+                            "Debe incorporar breve estrategia de replicación para siguiente periodo.",
+                            "Constancia de entrega a Director DAC."
+                        ],
+                        "plazo": "may",
+                        "nombre": "Informe de resultados de encuesta."
+                    }
+                ],
                 "cod": "H03",
                 "capacidades": {
                     "Informado": [
@@ -16673,7 +16940,25 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "En función a los estándares de trabajo del equipo de Análisis Institucional.",
+                            "Versión validada por Director DAC."
+                        ],
+                        "plazo": "abr",
+                        "nombre": "Estructura de operacionalización de encuesta."
+                    },
+                    {
+                        "estandares": [
+                            "Generada en función a estándares del equipo de Análisis Institucional.",
+                            "Debe incorporar breve estrategia de replicación para siguiente periodo.",
+                            "Constancia de entrega a Director DAC."
+                        ],
+                        "plazo": "jun",
+                        "nombre": "Informe de resultados de encuesta."
+                    }
+                ],
                 "cod": "H04",
                 "capacidades": {
                     "Informado": [
@@ -16733,7 +17018,25 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "Informe simple que indique ajustes y/o actualizaciones realizadas.",
+                            "Debe dar cuenta de estado previo y justificación de los ajustes.",
+                            "Debe indicar impactos esperados de los ajustes sobre los datos y elementos predictivos de la alerta temprana."
+                        ],
+                        "plazo": "abr",
+                        "nombre": "Informe de ajustes a SAT"
+                    },
+                    {
+                        "estandares": [
+                            "Generados en función al sistema que fue ajustado.",
+                            "Presentados en función de requerimientos de acompañamiento académico."
+                        ],
+                        "plazo": "may",
+                        "nombre": "Datos de alerta temprana"
+                    }
+                ],
                 "cod": "H01",
                 "capacidades": {
                     "Consultado": [
@@ -16783,7 +17086,25 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "Generada en función a estándares del equipo de Análisis Institucional.",
+                            "Debe incorporar breve estrategia de replicación para siguiente periodo.",
+                            "Constancia de entrega a Director DAC."
+                        ],
+                        "plazo": "abr",
+                        "nombre": "Informe de resultados de encuesta."
+                    },
+                    {
+                        "estandares": [
+                            "En formato estándar que permita su revisión (excel, csv, etc.).",
+                            "Innominado o según corresponda su protección."
+                        ],
+                        "plazo": "abr",
+                        "nombre": "Datos de análisis"
+                    }
+                ],
                 "cod": "H02",
                 "capacidades": {
                     "Informado": [
@@ -17005,7 +17326,15 @@
                 "cobertura": "Mínima",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Compilación estructurada y en función a estándares TGI de requerimientos funcionales y no funcionales para los modulos respectivos.",
+                        "Debe tener coherencia con los procesos asociados.",
+                        "Se debe especificar alcance de los módulos iniciales y posibles próximas etapas."
+                    ],
+                    "plazo": "abr",
+                    "nombre": "Especificación de requerimientos de sistema."
+                }],
                 "cod": "H01",
                 "capacidades": {
                     "Consultado": [
@@ -17081,7 +17410,29 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "Compila evaluación cualitativa y cuantitativa sobre alternativas de LMS requerido.",
+                            "Evaluación se presenta en función a ventajas y desventajas de alternativas analizadas.",
+                            "Alternativas pueden considerar tanto desarrollo propio como adquisición de software.",
+                            "Cada alternativa debe especificar el alcance de la implementación para el periodo en curso.",
+                            "Entrega recomendaciones de implementación emitidas desde el área de TGI."
+                        ],
+                        "plazo": "abr",
+                        "nombre": "Informe de recomendaciones de implementación tecnológica."
+                    },
+                    {
+                        "estandares": [
+                            "Validador que confirma la elección de alternativa a implementar según informe de recomendaciones entregado.",
+                            "Alternativa elegida debe responder a definiciones propuestas en el informe.",
+                            "Validador debe ser emitido por mandante (DAC), en donde debe asumir el liderazgo en la gestión del proceso de implementación de la alternativa escogida, y en apoyo en este proceso a TGI en su rol de soporte técnico.",
+                            "Validador debe establecer los roles de otros actores que estarán involucrados en la implementación."
+                        ],
+                        "plazo": "abr",
+                        "nombre": "Validador de elección de mecanismo tecnológico para su implementación."
+                    }
+                ],
                 "cod": "H06",
                 "capacidades": {
                     "Consultado": [
@@ -17143,7 +17494,14 @@
                 "cobertura": "Mínima",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Coherente con validador de elección de mecanismo respectivo.",
+                        "Debe corresponder a documentación técnica según los estándares de adquisiciones de la Institución."
+                    ],
+                    "plazo": "may",
+                    "nombre": "Validador de adquisición de producto / servicio."
+                }],
                 "cod": "H07",
                 "capacidades": {
                     "Consultado": [
@@ -17209,7 +17567,17 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Considera la implementación inicial de sistema según alcance de alternativa definida su elección por el mandante.",
+                        "Debe referenciar artefactos de software debidamente implementados.",
+                        "Debe considerar documentación técnica asociada al diseño e implementación del mecanismo.",
+                        "Debe incorporar plan de despliegue y capacitación de usuarios sobre implementación inicial para su pilotaje.",
+                        "Debe explicitar la aprobación de mandante sobre los artefactos entregados."
+                    ],
+                    "plazo": "jul",
+                    "nombre": "Informe de implementación de sistema de información y/o servicio."
+                }],
                 "cod": "H08",
                 "capacidades": {
                     "Consultado": [
@@ -17257,7 +17625,15 @@
                 "cobertura": "Mínima",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Documentación técnica de elementos de diseño de los módulos acorde a estándares TGI.",
+                        "Debe considerar al menos artefactos asociados a las bases de datos, interfaces de usuario y arquitectura del sistema, incorporando documentación sobre las tecnologías involucradas.",
+                        "Debe ser coherente con especificación de requerimientos de sistema."
+                    ],
+                    "plazo": "may",
+                    "nombre": "Artefactos de diseño de sistema."
+                }],
                 "cod": "H02",
                 "capacidades": {
                     "Consultado": [
@@ -17373,7 +17749,16 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Técnica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Artefactos que permitan evidenciar avance en el proceso de implementación de los módulos.",
+                        "Puede corresponder a código fuente debidamente versionado mediante sistemas apropiados (ej.: repositorios git).",
+                        "Desarrollo debe ser coherente con estándares TGI definidos.",
+                        "Entrega debe establecer claramente versión de los artefactos para futuras comparaciones."
+                    ],
+                    "plazo": "ago",
+                    "nombre": "Artefactos de desarrollo de sistema."
+                }],
                 "cod": "H03",
                 "capacidades": {
                     "Consultado": [
@@ -17501,7 +17886,17 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Documentación que de cuenta de la ejecución de pruebas (ya sea automatizadas o no) sobre las versiones estables de los desarrollos realizados a la fecha.",
+                        "Debe considerar estándares TGI para testing.",
+                        "Debe dar cuenta de problemas detectados, correcciones y posteriores revisiones.",
+                        "Debe indicar metodología y tecnologías de soporte utilizadas.",
+                        "Debe proveer el detalle de los set de pruebas utilizados para futura replicabilidad."
+                    ],
+                    "plazo": "oct",
+                    "nombre": "Reportes de testing de sistema."
+                }],
                 "cod": "H04",
                 "capacidades": {
                     "Consultado": [
@@ -17577,7 +17972,30 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "Al menos un acta por cada grupo de usuarios clave.",
+                            "Acompañada por validador de aceptación.",
+                            "Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+                        ],
+                        "plazo": "ene",
+                        "nombre": "Actas de capacitación."
+                    },
+                    {
+                        "estandares": [
+                            "Debe considerar las principales funcionalidades asociadas al sistema.",
+                            "En formato de transmisión estándar (docx, pdf)."
+                        ],
+                        "plazo": "ene",
+                        "nombre": "Manual de usuario de módulos."
+                    },
+                    {
+                        "estandares": ["Documento simple que certifique la entrega desde TGI hacia mandante (DAC-EPRE), en donde este último exprese su aprobación del producto."],
+                        "plazo": "ene",
+                        "nombre": "Certificado de entrega de módulos."
+                    }
+                ],
                 "cod": "H05",
                 "capacidades": {
                     "Informado": [
@@ -20042,7 +20460,26 @@
                 "cobertura": "Mínima",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "Especificación general (documento simple) con el detalle de los datos requeridos para seguimiento del proceso.",
+                            "Emitido desde mandante (DAC_EPRE).",
+                            "Debe especificar en detalle fechas, periodicidad y otros detalles que sean necesarios para las entregas.",
+                            "Debe indicar usos que se daran a los datos que se entregarán (difusión, análisis interno, reportería, etc.)."
+                        ],
+                        "plazo": "mar",
+                        "nombre": "Requerimientos de información de proceso."
+                    },
+                    {
+                        "estandares": [
+                            "Informes incrementales del avance de la matrícula según requerimientos de mandantes.",
+                            "Debe considerar un informe final que compile los diversos incrementos, como última entrega."
+                        ],
+                        "plazo": "mar",
+                        "nombre": "Informe de resultados de proceso."
+                    }
+                ],
                 "cod": "H01",
                 "capacidades": {
                     "Informado": [
@@ -20132,7 +20569,35 @@
                 "cobertura": "Mínima",
                 "tipo": "Hito",
                 "naturaleza": "Técnica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "Al menos un acta por cada grupo de usuarios clave.",
+                            "Acompañada por validador de aceptación.",
+                            "Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+                        ],
+                        "plazo": "mar",
+                        "nombre": "Actas de capacitación."
+                    },
+                    {
+                        "estandares": [
+                            "Debe considerar las principales funcionalidades asociadas al sistema.",
+                            "En formato de transmisión estándar (docx, pdf)."
+                        ],
+                        "plazo": "mar",
+                        "nombre": "Manual de usuario de módulo."
+                    },
+                    {
+                        "estandares": ["Documento simple que certifique la entrega desde TGI hacia mandante (DAC-EPRE), en donde este último exprese su aprobación del producto."],
+                        "plazo": "mar",
+                        "nombre": "Certificado de entrega de módulo."
+                    },
+                    {
+                        "estandares": ["Formatos y estructura según estándares TGI."],
+                        "plazo": "abr",
+                        "nombre": "Documentación técnica módulo."
+                    }
+                ],
                 "cod": "H02",
                 "capacidades": {
                     "Consultado": [
@@ -20262,7 +20727,18 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Debe describir en detalle las actividades realizadas para el desarrollo del proceso, considerando los preparativos necesarios para proceso de matrícula 2022.",
+                        "Las actividades descritas deben clasificarse según su naturaleza (gestión de datos, logística, difusión, etc.)",
+                        "Debe indicar conjunto de insturmentos normativos (ej.: reglamentos) que dan soporte apropiado al proecso, tanto aquellos que se hayan formalizado a la fecha como aquellos pendientes.",
+                        "Debe dar cuenta de productos generados, responsables y plazos, tanto de aquellos ya generados como pendientes.",
+                        "En preparación a receso, debe establecer un checklist de actividades pendientes que deben ser consideradas para la vuelta, y/o aquellas actividades que deberán ser desarrolladas durante receso.",
+                        "Visado por Director DAC."
+                    ],
+                    "plazo": "ene",
+                    "nombre": "Reporte de desarrollo de proceso."
+                }],
                 "cod": "H09",
                 "capacidades": {
                     "Consultado": [
@@ -20370,7 +20846,19 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Debe indicar cobertura de articulación a nivel nacional y regional.",
+                        "Debe indicar establecimientos y/o grupos de establecimientos con los cuales se pretende trabajar, además de las estrategias para poder concretar dicha articulación.",
+                        "Debe entregar detalle sobre las capacidades académicas requeridas para dar soporte a la articulación, que sea coherente con las capacidades existentes en la institución y debidamente articulado con los Departamentos.",
+                        "Debe indicar resultados e impactos de articulación esperados con cada establecimiento, a nivel regional y nacional, en referencia a los resultados de admisión y matrícula en periodos anteriores.",
+                        "Debe indicar principales actividades, roles y responsabilidades en la estrategia a desarrollar.",
+                        "Debe generar calendario tentativo del proceso completo de articulación.",
+                        "Visado por Director DAC."
+                    ],
+                    "plazo": "may",
+                    "nombre": "Estrategia de articulación para el periodo"
+                }],
                 "cod": "H07",
                 "capacidades": {
                     "Consultado": [
@@ -20482,7 +20970,17 @@
                 "cobertura": "Mediana",
                 "tipo": "Hito",
                 "naturaleza": "Técnica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Debe describir de forma detallada las acciones realizadas en comparación a las planificadas.",
+                        "Debe proveer indicadores de resultados obtenidos que permitan dar cuenta de las acciones realizadas (ej.: establecimientos articulados por región, número de estudiantes alcanzados/as, número de charlas, exposiciones u otro tipo de actividades realizadas, etc.).",
+                        "Debe entregar un análisis respecto a los impactos esperados del proceso en la matrícula 2021 y sustentado en las acciones realizadas.",
+                        "Debe dar cuenta de logros obtenidos y debilidades identificadas.",
+                        "Debe proveer un plan de mejora para el próximo proceso y para su incorporación a la planificación anual."
+                    ],
+                    "plazo": "nov",
+                    "nombre": "Informe de resultados de difusión en establecimientos."
+                }],
                 "cod": "H08",
                 "capacidades": {
                     "Soporte": [
@@ -20534,7 +21032,16 @@
                 "cobertura": "Mínima",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Informe descriptivo de principales resultados de proceso.",
+                        "Puede contener referencias y otros análisis a resultados cuantitativos obtenidos desde H01.",
+                        "Debe dar cuenta de logros y puntos de mejora identificados.",
+                        "Debe especificar plan de mejora para atender debilidades identificadas, proyectando su incorporación a POA de próximo periodo."
+                    ],
+                    "plazo": "abr",
+                    "nombre": "Informe de resultados de matrícula de primer año"
+                }],
                 "cod": "H05",
                 "capacidades": {
                     "Informado": [
@@ -20646,7 +21153,16 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Descripción detallada de requerimientos no técnicos sobre la difusión que debe ser realizada para dar soporte al proceso.",
+                        "Específicación orientada por DVcM-COM, desde donde se entregan los insumos de forma para proveer los requerimientos.",
+                        "Debe considerar posible nueva oferta según proyecciones del área.",
+                        "Visado por Director DAC."
+                    ],
+                    "plazo": "may",
+                    "nombre": "Especificación de requerimientos comunicaciones para admisión y matrícula 2021"
+                }],
                 "cod": "H06",
                 "capacidades": {
                     "Consultado": [
@@ -20764,7 +21280,15 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Incluye comunicaciones por canales oficiales y medios gráficos.",
+                        "Considera folletería u otro material que permita comunicar aspectos relevantes de la instancia.",
+                        "Puede adjuntarse evidencias de actividades que puedan generarse desde la instancia."
+                    ],
+                    "plazo": "abr",
+                    "nombre": "Material de difusión"
+                }],
                 "cod": "H03",
                 "capacidades": {
                     "Consultado": [
@@ -20854,7 +21378,16 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Detalle de tareas, plazos y resonsabilidades sobre el desarrollo de la matrícula.",
+                        "Validado y acordado con cada uno de los actores involucrados.",
+                        "Debe indicar principales productos a generar y resultados esperados.",
+                        "Visado por Director DAC."
+                    ],
+                    "plazo": "mar",
+                    "nombre": "Programa de realización de proceso"
+                }],
                 "cod": "H04",
                 "capacidades": {
                     "Consultado": [
@@ -21812,7 +22345,11 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": ["Se anexa a reporte de H09, considerando los mismos estándares."],
+                    "plazo": "ene",
+                    "nombre": "Reporte de desarrollo de proceso."
+                }],
                 "cod": "H10",
                 "capacidades": {
                     "Consultado": [
@@ -25858,7 +26395,28 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "Documento simple que consolida requerimientos emanados desde DAC para operacionalizar proceso de calificación.",
+                            "Coherente con normativa e instrumentos relevantes.",
+                            "Debe ser revisada y retroalimentada por AI para analizar obtención desde fuentes institucionales.",
+                            "Se deben establecer roles y responsabilidades sobre los datos requeridos para su obtención oportuna."
+                        ],
+                        "plazo": "ago",
+                        "nombre": "Requerimientos de información para proceso de calificación."
+                    },
+                    {
+                        "estandares": [
+                            "Sistematización de información en formato que pueda ser usada por actores claves en proceso de calificación.",
+                            "Soporte desde AI para información desde fuentes institucionales.",
+                            "Debe ser provista y consolidada por actores identificados previamente según roles y responsabilidades.",
+                            "Considerar formatos manipulables y de uso general (ej.: excel)."
+                        ],
+                        "plazo": "nov",
+                        "nombre": "Datos para proceso de calificación."
+                    }
+                ],
                 "cod": "H03",
                 "capacidades": {
                     "Consultado": [
@@ -25912,7 +26470,27 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "Listado simple de mecanismos asociados al proceso de jerarquización anual.",
+                            "Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+                            "Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+                            "Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+                        ],
+                        "plazo": "abr",
+                        "nombre": "Índice de mecanismos que operacionalizan la jerarquización académica"
+                    },
+                    {
+                        "estandares": [
+                            "Registro ordenado de documentos que compilan los mecanismos diseñados.",
+                            "Coherente con el índice que los específica.",
+                            "Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+                        ],
+                        "plazo": "jun",
+                        "nombre": "Mecanismos actualizados"
+                    }
+                ],
                 "cod": "H04",
                 "capacidades": {
                     "Consultado": [
@@ -26012,7 +26590,28 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "Documento simple que consolida requerimientos emanados desde DAC para operacionalizar proceso de calificación.",
+                            "Coherente con normativa e instrumentos relevantes.",
+                            "Debe ser revisada y retroalimentada por AI para analizar obtención desde fuentes institucionales.",
+                            "Se deben establecer roles y responsabilidades sobre los datos requeridos para su obtención oportuna."
+                        ],
+                        "plazo": "mar",
+                        "nombre": "Requerimientos de información para proceso de calificación."
+                    },
+                    {
+                        "estandares": [
+                            "Sistematización de información en formato que pueda ser usada por actores claves en proceso de calificación.",
+                            "Soporte desde AI para información desde fuentes institucionales.",
+                            "Debe ser provista y consolidada por actores identificados previamente según roles y responsabilidades.",
+                            "Considerar formatos manipulables y de uso general (ej.: excel)."
+                        ],
+                        "plazo": "abr",
+                        "nombre": "Datos para proceso de calificación."
+                    }
+                ],
                 "cod": "H01",
                 "capacidades": {
                     "Consultado": [
@@ -26180,7 +26779,27 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "Listado simple de mecanismos asociados al proceso de calificación anual.",
+                            "Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+                            "Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+                            "Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+                        ],
+                        "plazo": "jul",
+                        "nombre": "Índice de mecanismos que operacionalizan la calificación académica"
+                    },
+                    {
+                        "estandares": [
+                            "Registro ordenado de documentos que compilan los mecanismos diseñados.",
+                            "Coherente con el índice que los específica.",
+                            "Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+                        ],
+                        "plazo": "nov",
+                        "nombre": "Mecanismos actualizados"
+                    }
+                ],
                 "cod": "H02",
                 "capacidades": {
                     "Consultado": [
@@ -27032,7 +27651,28 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "Documento simple que consolida requerimientos emanados desde DAC para operacionalizar proceso de jerarquización.",
+                            "Coherente con normativa e instrumentos relevantes.",
+                            "Debe ser revisada y retroalimentada por AI para analizar obtención desde fuentes institucionales.",
+                            "Se deben establecer roles y responsabilidades sobre los datos requeridos para su obtención oportuna."
+                        ],
+                        "plazo": "jun",
+                        "nombre": "Requerimientos de información para proceso de jerarquización."
+                    },
+                    {
+                        "estandares": [
+                            "Sistematización de información en formato que pueda ser usada por actores claves en proceso de jerarquización.",
+                            "Soporte desde AI para información desde fuentes institucionales.",
+                            "Debe ser provista y consolidada por actores identificados previamente según roles y responsabilidades.",
+                            "Considerar formatos manipulables y de uso general (ej.: excel)."
+                        ],
+                        "plazo": "ago",
+                        "nombre": "Datos para proceso de jerarquización."
+                    }
+                ],
                 "cod": "H05",
                 "capacidades": {
                     "Consultado": [
@@ -28777,7 +29417,15 @@
                 "cobertura": "Mínima",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Documentación de cada académico/a en función a mecanismos preliminares para la operacionalización 2021.",
+                        "Propuestas validadas por Jefaturas de Departamento respectivas.",
+                        "Versiones preliminares y finales, estás últimas posterior a revisión y sugerencias de ajustes de equipo DAC."
+                    ],
+                    "plazo": "may",
+                    "nombre": "Planificación anual de académicos y académicas."
+                }],
                 "cod": "H02",
                 "capacidades": {
                     "Consultado": [
@@ -28823,7 +29471,14 @@
                 "cobertura": "Mínima",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Respaldo formal de versión final de las distintas planificaciones.",
+                        "Formato para formalización según definiciones de SG (decreto único, múltiples decretos, etc.)"
+                    ],
+                    "plazo": "jun",
+                    "nombre": "Decretos que formalizan planificación anual de académicos y académicas."
+                }],
                 "cod": "H03",
                 "capacidades": {
                     "Informado": [{
@@ -29025,7 +29680,35 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "Listado simple de mecanismos asociados al proceso de planificación anual.",
+                            "Clasificados según tipo (procedimiento, protocolo, registro, etc.).",
+                            "Para cada mecanismo listado, se debe indicar si está o no sujeto a decreto.",
+                            "Debe explicitarse la revisión de los mecanismos propuestos con el área de calidad."
+                        ],
+                        "plazo": "mar",
+                        "nombre": "Índice de mecanismos que operacionalizan la planificación académica anual"
+                    },
+                    {
+                        "estandares": [
+                            "Versión inicial de mecanismos, acorde a índice, que permita operacionalizar de forma oportuna el proceso.",
+                            "Sujeto a ajustes posteriores para su implementación definitiva."
+                        ],
+                        "plazo": "mar",
+                        "nombre": "Mecanismos preliminares para operacionalizar proceso 2021"
+                    },
+                    {
+                        "estandares": [
+                            "Registro ordenado de documentos que compilan los mecanismos diseñados.",
+                            "Coherente con el índice que los específica.",
+                            "Acompañado de decretos formalizadores, en caso de mecanismos en donde el índice señale que están sujetos a decreto."
+                        ],
+                        "plazo": "jun",
+                        "nombre": "Mecanismos actualizados"
+                    }
+                ],
                 "cod": "H01",
                 "capacidades": {
                     "Consultado": [
@@ -29817,7 +30500,14 @@
                 "cobertura": "Acotada",
                 "tipo": "Función",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Al menos un acta por cada sesión realizada.",
+                        "Acompañada por validador de aceptación.",
+                        "Opcionalmente acompañadas de grabaciones de reuniones (si aplica)."
+                    ],
+                    "nombre": "Actas de reuniones del Comité"
+                }],
                 "cod": "F01",
                 "capacidades": {
                     "Consultado": [
@@ -29877,7 +30567,11 @@
                         }
                     ]
                 },
-                "ios": [],
+                "ios": [{
+                    "meta": "10",
+                    "formula": "Número de instancias de coordinación ejecutadas por el Comité.",
+                    "nombre": "Coordinación de Comité de Desarrollo Académico."
+                }],
                 "prioridad": "Alta",
                 "desc": "Desarrollar instancias de coordinación en el contexto del Comité de Desarrollo Académico."
             },
@@ -32006,7 +32700,15 @@
                 "cobertura": "Acotada",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Documento simple con especificación de ajustes realizados a plataformas respectivas.",
+                        "Debe sintetizar ajustes efectuados para cada uno de los servicios involucrados, justificándolos según su objetivo e impactos esperados tras la actualización.",
+                        "Acompañado de documentación técnica sobre plataforma respectiva que se pueda proveer desde TGI."
+                    ],
+                    "plazo": "may",
+                    "nombre": "Informe técnico de implementación de plataformas"
+                }],
                 "cod": "H01",
                 "capacidades": {
                     "Consultado": [
@@ -32101,7 +32803,28 @@
                 "cobertura": "Mediana",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [
+                    {
+                        "estandares": [
+                            "Considera la implementación inicial de sistema según alcance de tecnologías asociadas.",
+                            "Debe referenciar artefactos de software debidamente implementados.",
+                            "Debe considerar documentación técnica asociada al diseño e implementación del mecanismo.",
+                            "Debe incorporar plan de despliegue y capacitación de usuarios sobre implementación inicial para su pilotaje."
+                        ],
+                        "plazo": "oct",
+                        "nombre": "Informe de implementación de sistemas de información y/o servicio."
+                    },
+                    {
+                        "estandares": [
+                            "Debe sistematizar antecedentes entregados por usuarios del sistema respecto al uso de los mecanismos tecnológicos durante el pilotaje.",
+                            "Debe indicar aspectos de la implementación que resultan exitosos.",
+                            "Debe indicar aspectos de la implementación que no se lograron según lo esperado.",
+                            "Debe incorporar un plan de mejora simple para el siguiente periodo, tanto desde la perspectiva de procesos como de tecnología."
+                        ],
+                        "plazo": "ene",
+                        "nombre": "Informe de despliegue y evaluación de mecanismos tecnológicos implementados."
+                    }
+                ],
                 "cod": "H02",
                 "capacidades": {
                     "Consultado": [
@@ -41127,7 +41850,16 @@
                 "cobertura": "Mínima",
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
-                "mdvs": [],
+                "mdvs": [{
+                    "estandares": [
+                        "Informe descriptivo de principales resultados de proceso.",
+                        "Puede contener referencias y otros análisis a resultados cuantitativos obtenidos desde H01.",
+                        "Debe dar cuenta de logros y puntos de mejora identificados.",
+                        "Debe especificar plan de mejora para atender debilidades identificadas, proyectando su incorporación a POA de próximo periodo."
+                    ],
+                    "plazo": "may",
+                    "nombre": "Informe de resultados de matrícula de curso superior"
+                }],
                 "cod": "H05b",
                 "capacidades": {
                     "Informado": [
