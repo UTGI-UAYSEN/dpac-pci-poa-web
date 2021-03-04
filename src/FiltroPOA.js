@@ -183,7 +183,7 @@ class FiltroPOA extends Component {
                     onClick={(e) => this.cambiaTacticaProp(e)}
                     style={{ fontSize: '12px' }}
                 >
-                    {tacticaProp}
+                    {tacticaProp == 'Prioritaria' ? 'Solo prioritarias' : tacticaProp}
                 </div>
             );
         }
