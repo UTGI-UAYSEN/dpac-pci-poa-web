@@ -5,6 +5,8 @@ class FiltroPOA extends Component {
         super(props);
 
         const seleccion = {};
+        const areas = {};
+
         const obtenerSelector = (idActor) => {
             if(!seleccion[idActor])
                 seleccion[idActor] = {};
@@ -17,6 +19,7 @@ class FiltroPOA extends Component {
 
             let selectorArea = obtenerSelector(accion.area);
             selectorArea.area = true;
+            areas[accion.area] = true;
 
             let selectorResp = obtenerSelector(accion.responsable);
             selectorResp.resp = true;
@@ -38,7 +41,12 @@ class FiltroPOA extends Component {
 
         this.state = {
             seleccion,
-            filtro: props.filtro
+            roles: { Responsable: true, Aprobador: true, Soporte: true, Consultado: true, Informado: true },
+            tacticas: { Función: true, Hito: true, Prioritaria: false },
+            meses: { mar: true, abr: true, may: true, jun: true, jul: true, ago: true, sep: true, oct: true, nov: true, dic: true, ene: true, },
+            areas,
+            filtro: props.filtro,
+            filtroG: props.filtroG
         };
     }
 
@@ -51,16 +59,56 @@ class FiltroPOA extends Component {
             if(filtroInfo.cap != undefined) filtroInfo.cap = activar ? true : false;
         }
         
-        this.state.filtro('tacticas', this.state.seleccion);
+        this.state.filtro('tacticas', this.state);
         this.setState(this.state);
     }
 
     cambiaActor(e, tipoCambio) {
         let idActor = e.currentTarget.getAttribute('data-id-filtro');
         this.state.seleccion[idActor][tipoCambio] = this.state.seleccion[idActor][tipoCambio] == 0 ? 1 : 0;
-        this.state.filtro('tacticas', this.state.seleccion);
+        this.state.filtro('tacticas', this.state);
         
         this.setState(this.state);        
+    }
+
+    cambiaRol(e) {
+        let rol = e.currentTarget.getAttribute('data-rol');
+        this.state.roles[rol] = !this.state.roles[rol] ? true : false;
+        this.state.filtro('tacticas', this.state);
+
+        this.setState(this.state); 
+    }
+
+    cambiaTodosRoles(e, activar) {
+        for (let rol in this.state.roles)
+            this.state.roles[rol] = activar ? true : false;
+        
+        this.state.filtro('tacticas', this.state);
+        this.setState(this.state);
+    }
+
+    cambiaTacticaProp(e) {
+        let prop = e.currentTarget.getAttribute('data-tactica-prop');
+        this.state.tacticas[prop] = !this.state.tacticas[prop] ? true : false;
+        this.state.filtro('tacticas', this.state);
+
+        this.setState(this.state); 
+    }
+
+    cambiaMes(e) {
+        let mes = e.currentTarget.getAttribute('data-mes');
+        this.state.meses[mes] = !this.state.meses[mes] ? true : false;
+        this.state.filtro('tacticas', this.state);
+
+        this.setState(this.state); 
+    }
+
+    cambiaTodosMeses(e, activar) {
+        for (let mes in this.state.meses)
+            this.state.meses[mes] = activar ? true : false;
+        
+        this.state.filtro('tacticas', this.state);
+        this.setState(this.state);
     }
 
     render() {
@@ -71,7 +119,8 @@ class FiltroPOA extends Component {
 
             selectElems.push(
                 <div
-                    className='elemFiltro'                    
+                    className={(this.state.areas[actor] ? 'filtroArea ' : '') + ' elemFiltro'}
+                    data-actor={actor}
                     style={{ display: 'flex', alignItems: 'center' }}
                 >                    
                     <div style={{ padding: '3px' }}>{actor}</div>
@@ -103,26 +152,119 @@ class FiltroPOA extends Component {
         }
 
         selectElems.sort((e1, e2) => {
-            if(e2.props['data-id-filtro'] < e1.props['data-id-filtro'])
+            if(e2.props['data-actor'] < e1.props['data-actor'])
                 return 1;
 
             return 0;
         });
 
-        return <div style={{ display: 'flex', flexWrap: 'wrap' }}>            
-            <div 
-                className='elemFiltroGen'
-                onClick={(e) => this.cambiaTodos(e, true)}
-            >
-                Todo
+        let rolesElems = [];
+
+        for (let rol in this.state.roles) {
+            rolesElems.push(
+                <div 
+                    className={'elemFiltro actFiltro' + (this.state.roles[rol] ? ' filtroOn': ' filtroOff')}
+                    data-rol={rol}
+                    onClick={(e) => this.cambiaRol(e)}
+                    style={{ fontSize: '12px' }}
+                >
+                    {rol}
+                </div>
+            );
+        }
+
+        let tacticaElems = [];
+
+        for (let tacticaProp in this.state.tacticas) {
+            tacticaElems.push(
+                <div 
+                    className={'elemFiltro actFiltro' + (this.state.tacticas[tacticaProp] ? ' filtroOn': ' filtroOff')}
+                    data-tactica-prop={tacticaProp}
+                    onClick={(e) => this.cambiaTacticaProp(e)}
+                    style={{ fontSize: '12px' }}
+                >
+                    {tacticaProp}
+                </div>
+            );
+        }
+
+        let mesesElems = [];
+
+        for (let mes in this.state.meses) {
+            mesesElems.push(
+                <div 
+                    className={'elemFiltro actFiltro' + (this.state.meses[mes] ? ' filtroOn': ' filtroOff')}
+                    data-mes={mes}
+                    onClick={(e) => this.cambiaMes(e)}
+                    style={{ fontSize: '12px' }}
+                >
+                    {mes}
+                </div>
+            );
+        }
+
+        return <div>
+            <div className='filtrCont'>
+                <div className='filtrEtiqueta'>Actores</div>
+                <div 
+                    className='elemFiltroGen'
+                    onClick={(e) => this.cambiaTodos(e, true)}
+                >
+                    Todo
+                </div>
+                <div 
+                    className='elemFiltroGen'
+                    onClick={(e) => this.cambiaTodos(e, false)}
+                >
+                    Nada
+                </div>
+                {selectElems}
             </div>
-            <div 
-                className='elemFiltroGen'
-                onClick={(e) => this.cambiaTodos(e, false)}
-            >
-                Nada
+            <div className='filtrCont'>
+                <div className='filtrEtiqueta'>Roles</div>
+                <div 
+                    className='elemFiltroGen'
+                    onClick={(e) => this.cambiaTodosRoles(e, true)}
+                >
+                    Todo
+                </div>
+                <div 
+                    className='elemFiltroGen'
+                    onClick={(e) => this.cambiaTodosRoles(e, false)}
+                >
+                    Nada
+                </div>
+                {rolesElems}
             </div>
-            {selectElems}
+            <div className='filtrCont'>
+                <div className='filtrEtiqueta'>Tácticas</div>
+                {tacticaElems}
+            </div>
+            <div className='filtrCont'>
+            <div className='filtrEtiqueta'>Meses</div>
+                <div 
+                    className='elemFiltroGen'
+                    onClick={(e) => this.cambiaTodosMeses(e, true)}
+                >
+                    Todo
+                </div>
+                <div 
+                    className='elemFiltroGen'
+                    onClick={(e) => this.cambiaTodosMeses(e, false)}
+                >
+                    Nada
+                </div>                
+                {mesesElems}
+            </div>
+            <div className='filtrCont'>
+                <div className='filtrEtiqueta'>Texto</div>
+                <input
+                    onChange={e => {
+                        this.state.filtroG(e.target.value);
+                    }}
+                    style={{ fontSize: '10px', width: '200px' }}
+                />
+            </div>
         </div>
     }
 }

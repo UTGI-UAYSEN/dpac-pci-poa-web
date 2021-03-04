@@ -1,9 +1,8 @@
 import React from 'react'
-import { useTable, useFilters, useGroupBy, useSortBy } from 'react-table'
+import { useTable, useFilters, useGroupBy, useSortBy, useGlobalFilter, useAsyncDebounce } from 'react-table'
 import mData from './data.json'
-import FiltroActores from './FiltroActores'
-import FiltroAreas from './FiltroAreas'
 import FiltroPOA from './FiltroPOA'
+import {matchSorter} from 'match-sorter'
 
 const indicesRoles = { 'Responsable': 0, 'Aprobador': 1, 'Soporte': 2, 'Consultado': 3, 'Informado': 4 }
 
@@ -18,8 +17,8 @@ function obtenerElementosCapacidadesTacticas(tactica) {
       let capsDetalles = mData.meta.capacidades[capInfo.id];
 
       capsDetallesElems.push(<div className="contCapDetalle">
-        <div className='genLabelB'>{capsDetalles.actor}</div>        
-        <div className='genLabelG'>{capsDetalles.tipo}</div>
+        <div className='genLabelB' style={{ fontSize: '10px' }}>{capsDetalles.actor}</div>        
+        <div className='genLabelG' style={{ fontSize: '10px' }}>{capsDetalles.tipo}</div>
         <div className='nombreCapacidad'>{capsDetalles.desc} </div>
       </div>);
     }
@@ -115,7 +114,7 @@ function renderCell(cellInfo) {
 
       const elemTactica = <div className="contTactica">
         <div className="contTacticaDesc">
-          <div className="tacticaId">{tactica.tipo} {tactica.cod}</div>
+          <div className={ 'tacticaId ' + (tactica.tipo == 'Función' ? 'funcion' : 'hito') }>{tactica.tipo} {tactica.cod}</div>
           {tactica.prioridad == 'Alta' ? <div className='indPrioridad'>Prioritaria</div> : null}
           <div className="tacticaDesc">{tactica.desc}</div>
         </div>
@@ -142,33 +141,102 @@ function renderCell(cellInfo) {
   }
 }
 
+function obtenerBuscador(filtro) {
+	return (texto) => {	
+		return texto !== undefined
+			? String(texto)
+				.toLowerCase()
+				.includes(String(filtro).toLowerCase())
+			: true;
+	}
+}
+
 function Table({ columns, data }) {
-  const filterTypes = React.useMemo(
-    () => ({
-      actor: (rows, id, filterValue) => {
-        return rows.filter(row => {
-          let tactica = mData.meta.tacticas[row.values['tacticas']];
+	const filterTypes = React.useMemo(
+		() => ({
+			text: (rows, ids, filterValue) => {
+				return rows.filter(row => {
+					let buscador = obtenerBuscador(filterValue);
+					let accion = mData.meta.acciones[row.values['accion']];
+					let tactica = mData.meta.tacticas[row.values['tacticas']];
 
-            for(let rol in tactica.capacidades) {
-              for(let j in tactica.capacidades[rol]) {
-                let actorCap = mData.meta.capacidades[tactica.capacidades[rol][j].id].actor;
+					if(buscador(row.values['accion'])) return true;
+					if(buscador(accion.area)) return true;
+					if(buscador(accion.objetivo)) return true;
+					if(buscador(accion.responsable)) return true;
+					if(buscador(accion.titulo)) return true;
 
-                if(filterValue[actorCap].cap)
-                  return true;
-              }
-            }
+					if(buscador(row.values['tacticas'])) return true;
+					if(buscador(tactica.cod)) return true;
+					if(buscador(tactica.desc)) return true;
 
-          let accion = mData.meta.acciones[row.values['accion']];
+					for (let i in tactica.mdvs) {
+						let mdv = tactica.mdvs[i];
+						if(buscador(mdv.nombre)) return true;
 
-          if(filterValue[accion.area].area || filterValue[accion.responsable].resp)
-            return true;
+						for(let j in mdv.estandares)
+							if(buscador(mdv.estandares[j])) return true;
+					}
 
-          return false;
-        })
-      },
-    }),
-    []
-  )
+					for (let i in tactica.ios) {
+						let io = tactica.ios[i];
+						if(buscador(io.nombre)) return true;
+						if(buscador(io.formula)) return true;
+					}
+
+					return false;
+				})
+			},
+			actor: (rows, id, filterValue) => {
+				let filtroActores = filterValue.seleccion;
+				let filtroTacticaProps = filterValue.tacticas;
+				let filtroRol = filterValue.roles;
+				let filtroMes = filterValue.meses;
+
+				return rows.filter(row => {
+					
+					let tactica = mData.meta.tacticas[row.values['tacticas']];
+
+					if (filtroTacticaProps.Prioritaria && tactica.prioridad != 'Alta')
+						return false;
+
+					if (!filtroTacticaProps.Función && tactica.tipo == 'Función')
+						return false;
+
+					if (!filtroTacticaProps.Hito && tactica.tipo == 'Hito')
+						return false;
+
+					if(tactica.tipo == 'Hito') {
+						for (let i in tactica.mdvs) {
+							let mdv = tactica.mdvs[i];
+
+							if(mdv.plazo && !filtroMes[mdv.plazo])
+								return false;
+						}
+					}
+
+					for (let rol in tactica.capacidades) {
+						for (let j in tactica.capacidades[rol]) {
+							let actorCap = mData.meta.capacidades[tactica.capacidades[rol][j].id].actor;
+
+							if (filtroActores[actorCap].cap) {
+								if (filtroRol[rol])
+									return true;
+							}
+						}
+					}
+
+					let accion = mData.meta.acciones[row.values['accion']];
+
+					if (filtroActores[accion.area].area || filtroActores[accion.responsable].resp)
+						return true;
+
+					return false;
+				})
+			},
+		}),
+		[]
+	)
 
   const {
     getTableProps,
@@ -177,6 +245,7 @@ function Table({ columns, data }) {
     rows,
     prepareRow,
     setFilter,
+	setGlobalFilter,
   } = useTable({ 
     columns, 
     data,
@@ -184,8 +253,10 @@ function Table({ columns, data }) {
       groupBy: [ 'accion' ],
       sortBy: [ { id: 'accion' }, { id: 'tacticas' } ]
     },
-    filterTypes
-   },   
+    filterTypes,
+	globalFilter: 'text'
+   },
+   useGlobalFilter,
    useFilters,
    useGroupBy, 
    useSortBy
@@ -198,25 +269,22 @@ function Table({ columns, data }) {
           <thead>            
             <tr>
               <th className='headerFiltros' colSpan='2' style={{ textAlign: 'left' }}>
-                <div style={{ float: 'right', width: '250px' }}>
-                  <div style={{ fontWeight: 'bolder', fontSize: '40px', color: 'darkslategrey', textAlign: 'right' }}>POA 2021</div>
-                  <div style={{ fontWeight: 'bold', fontSize: '12px', textAlign: 'right' }}>Versión 1.0</div>
-                  <div style={{ fontWeight: 'bold', fontSize: '10px', textAlign: 'right' }}>
-                    Desarrollado por <span style={{ color: 'darkblue' }}>Dirección de Planificación y Aseguramiento de la Calidad</span></div>
-                  <div style={{ fontWeight: 'bold', fontSize: '10px', textAlign: 'right' }}>Consultas: <a href = "enrique.urra@uaysen.cl">enrique.urra@uaysen.cl</a></div>                    
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                  <div style={{ fontWeight: 'bolder', fontSize: '40px', color: 'midnightblue', textAlign: 'right', marginLeft: '10px'}}>POA 2021</div>
+                  <div style={{ display: 'flex', flexDirection: 'column'/*, alignItems: 'flex-end'*/ }}>
+                    <div style={{ fontWeight: 'bold', fontSize: '12px' }}>Versión 1.1.0</div>
+                    <div style={{ fontWeight: 'bold', fontSize: '10px' }}>
+                      Desarrollado por <span style={{ color: 'mediumblue' }}>Dirección de Planificación y Aseguramiento de la Calidad</span></div>
+                    <div style={{ fontWeight: 'bold', fontSize: '10px' }}>Consultas: <a href = "enrique.urra@uaysen.cl">enrique.urra@uaysen.cl</a></div>                    
+                  </div>
                 </div>
                 <FiltroPOA 
                   data={mData.meta}
                   filtro={setFilter}
+				  filtroG={useAsyncDebounce(value => {
+					setGlobalFilter(value || undefined)
+				  }, 200)}
                 />
-                {/*<FiltroAreas 
-                  acciones={mData.meta.acciones}
-                  filtro={setFilter}
-                />
-                <FiltroActores 
-                  actores={mData.meta.actores}
-                  filtro={setFilter}
-                />*/}
               </th>
             </tr>
             {headerGroups.map(headerGroup => (

@@ -42,7 +42,9 @@ td {
     margin-right: 4px;
     color: white;
     background-color: mediumblue;
-    display: inline;
+    display: inline-block;
+    min-width: 20px;
+    text-align: center;
 }
 
 .genLabelG {
@@ -54,7 +56,9 @@ td {
     margin-right: 4px;
     color: white;
     background-color: teal;
-    display: inline;
+    display: inline-block;
+    min-width: 20px;
+    text-align: center;
 }
 
 .genLabelBL {
@@ -63,7 +67,7 @@ td {
     border-radius: 5px;
     padding: 2px;
     margin-left: 2px;
-    margin-right: 2px;
+    margin-right: 5px;
     color: white;
     background-color: black;
     display: inline-block;
@@ -81,6 +85,10 @@ td {
     margin-bottom: 3px;
     background-color: darkslategrey;
     color: white;
+}
+
+.filtroArea {
+    background-color: saddlebrown;
 }
 
 .actFiltro {
@@ -168,6 +176,7 @@ td {
     display: flex;
     align-items: center;
     padding-bottom: 3px;
+    font-size: 15px;
 }
 
 .contTacticaDesc div {
@@ -179,10 +188,18 @@ td {
     text-align: center;
     font-weight: bolder;
     font-size: 15px;
-    padding: 5px;
-    background-color: darkslategrey;
-    color:white;
+    padding: 6px;
     border-radius: 5px;
+}
+
+.hito {
+    background-color: saddlebrown;
+    color:white;
+}
+
+.funcion {
+    background-color: royalblue;
+    color:white;
 }
 
 .tacticaDesc {
@@ -209,7 +226,7 @@ td {
 
 .contTacticaCaps {
     display: flex;
-    flex: 0 0 23em;
+    flex: 0 0 25em;
     flex-direction: column;
     margin: 3px;
 }
@@ -328,8 +345,29 @@ td {
     padding-left: 10px;
 }
 
+.filtrCont {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin: 5px;
+}
+
+.filtrEtiqueta {
+    width: 70px;
+    margin-left: 5px;
+    color: mediumblue;
+}
+
 @media print {
     .headerFiltros {
         display: none;
+    }
+
+    .contTactica {
+        break-inside: avoid;
+    }
+
+    .contAccion {
+        break-inside: avoid;
     }
 }
