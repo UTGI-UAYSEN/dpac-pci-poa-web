@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/UTGI-UAYSEN/dpac-pci-poa-web/static/css/main.e34f1aeb.chunk.css",
+    "main.js": "/UTGI-UAYSEN/dpac-pci-poa-web/static/js/main.859639bb.chunk.js",
+    "main.js.map": "/UTGI-UAYSEN/dpac-pci-poa-web/static/js/main.859639bb.chunk.js.map",
+    "runtime-main.js": "/UTGI-UAYSEN/dpac-pci-poa-web/static/js/runtime-main.e74d7c83.js",
+    "runtime-main.js.map": "/UTGI-UAYSEN/dpac-pci-poa-web/static/js/runtime-main.e74d7c83.js.map",
+    "static/js/2.ebfc0701.chunk.js": "/UTGI-UAYSEN/dpac-pci-poa-web/static/js/2.ebfc0701.chunk.js",
+    "static/js/2.ebfc0701.chunk.js.map": "/UTGI-UAYSEN/dpac-pci-poa-web/static/js/2.ebfc0701.chunk.js.map",
+    "index.html": "/UTGI-UAYSEN/dpac-pci-poa-web/index.html",
+    "static/css/main.e34f1aeb.chunk.css.map": "/UTGI-UAYSEN/dpac-pci-poa-web/static/css/main.e34f1aeb.chunk.css.map",
+    "static/js/2.ebfc0701.chunk.js.LICENSE.txt": "/UTGI-UAYSEN/dpac-pci-poa-web/static/js/2.ebfc0701.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e74d7c83.js",
+    "static/js/2.ebfc0701.chunk.js",
+    "static/css/main.e34f1aeb.chunk.css",
+    "static/js/main.859639bb.chunk.js"
+  ]
+}
