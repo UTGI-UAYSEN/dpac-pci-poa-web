@@ -283,7 +283,8 @@ function Table({ columns, data }) {
 										<div style={{ fontWeight: 'bold', fontSize: '12px', color: 'mediumblue' }}>Versión 1.1.0</div>
 										<div style={{ fontWeight: 'bold', fontSize: '10px' }}>
 											Desarrollado por <span style={{ color: 'mediumblue' }}>Dirección de Planificación y Aseguramiento de la Calidad</span></div>
-										<div style={{ fontWeight: 'bold', fontSize: '10px' }}>Consultas: <a href="enrique.urra@uaysen.cl">enrique.urra@uaysen.cl</a></div>
+										<div style={{ fontWeight: 'bold', fontSize: '10px' }}>Consultas: <a href="mailto:enrique.urra@uaysen.cl">enrique.urra@uaysen.cl</a></div>
+										<div style={{ fontWeight: 'bold', fontSize: '12px' }}><a target='_blank' href={process.env.PUBLIC_URL + '/Manual - Navegador POA.pdf'}>[Descargar Manual]</a></div>
 									</div>
 								</div>
 								<FiltroPOA
