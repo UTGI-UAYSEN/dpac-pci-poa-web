@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dpac-pci-poa-web/static/css/main.e34f1aeb.chunk.css",
-    "main.js": "/dpac-pci-poa-web/static/js/main.0ac5a308.chunk.js",
-    "main.js.map": "/dpac-pci-poa-web/static/js/main.0ac5a308.chunk.js.map",
+    "main.js": "/dpac-pci-poa-web/static/js/main.4a78e9fe.chunk.js",
+    "main.js.map": "/dpac-pci-poa-web/static/js/main.4a78e9fe.chunk.js.map",
     "runtime-main.js": "/dpac-pci-poa-web/static/js/runtime-main.66ddfe50.js",
     "runtime-main.js.map": "/dpac-pci-poa-web/static/js/runtime-main.66ddfe50.js.map",
     "static/js/2.ebfc0701.chunk.js": "/dpac-pci-poa-web/static/js/2.ebfc0701.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.66ddfe50.js",
     "static/js/2.ebfc0701.chunk.js",
     "static/css/main.e34f1aeb.chunk.css",
-    "static/js/main.0ac5a308.chunk.js"
+    "static/js/main.4a78e9fe.chunk.js"
   ]
 }
