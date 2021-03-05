@@ -206,12 +206,18 @@ function Table({ columns, data }) {
 						return false;
 
 					if (tactica.tipo == 'Hito') {
-						for (let i in tactica.mdvs) {
-							let mdv = tactica.mdvs[i];
+						let check = false;
+						let i = 0;
 
-							if (mdv.plazo && !filtroMes[mdv.plazo])
-								return false;
+						while(!check && i < tactica.mdvs.length) {
+							let mdv = tactica.mdvs[i];
+							check = check || filtroMes[mdv.plazo];
+
+							i++;
 						}
+
+						if(!check)
+							return false;
 					}
 
 					for (let rol in tactica.capacidades) {
