@@ -349,13 +349,35 @@ td {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    margin: 5px;
 }
 
 .filtrEtiqueta {
     width: 70px;
     margin-left: 5px;
     color: mediumblue;
+}
+
+.botonDescarga {
+    font-size: 12px;
+    text-align: center;
+    background-color: midnightblue;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.botonDescarga:link {
+    text-decoration: none;
+}
+
+.botonDescarga:visited {
+    text-decoration: none;
+}
+
+.botonDescarga:hover {
+    text-decoration: underline;
 }
 
 @media print {

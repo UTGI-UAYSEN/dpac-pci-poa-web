@@ -274,17 +274,20 @@ function Table({ columns, data }) {
 					<thead>
 						<tr>
 							<th className='headerFiltros' colSpan='2' style={{ textAlign: 'left' }}>
-								<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+								<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '5px' }}>
 									<div style={{ display: 'flex', alignItems: 'center'}}>
 										<img src={process.env.PUBLIC_URL + '/favicon.png'} alt="Logo" width="80" />
 										<div style={{ fontWeight: 'bold', fontSize: '40px', color: 'midnightblue', textAlign: 'right', marginLeft: '10px', marginBottom: '10px' }}>Navegador POA</div>
 									</div>
 									<div style={{ display: 'flex', flexDirection: 'column'/*, alignItems: 'flex-end'*/ }}>
-										<div style={{ fontWeight: 'bold', fontSize: '12px', color: 'mediumblue' }}>Versión 1.1.0</div>
+										<div style={{ fontWeight: 'bold', fontSize: '12px', color: 'mediumblue' }}>Versión 1.1.1</div>
 										<div style={{ fontWeight: 'bold', fontSize: '10px' }}>
 											Desarrollado por <span style={{ color: 'mediumblue' }}>Dirección de Planificación y Aseguramiento de la Calidad</span></div>
 										<div style={{ fontWeight: 'bold', fontSize: '10px' }}>Consultas: <a href="mailto:enrique.urra@uaysen.cl">enrique.urra@uaysen.cl</a></div>
-										<div style={{ fontWeight: 'bold', fontSize: '12px' }}><a target='_blank' href={process.env.PUBLIC_URL + '/Manual - Navegador POA.pdf'}>[Descargar Manual]</a></div>
+										<div style= {{ display: 'flex', marginTop: '5px' }}>
+											<div><a className='botonDescarga' target='_blank' href={process.env.PUBLIC_URL + '/Manual - Navegador POA.pdf'}>Descargar Manual</a></div>
+											<div><a className='botonDescarga' target='_blank' href={process.env.PUBLIC_URL + '/datos_poa.xlsx'}>Descargar Datos (xlsx)</a></div>
+										</div>
 									</div>
 								</div>
 								<FiltroPOA
