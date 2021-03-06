@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/dpac-pci-poa-web/static/css/main.e34f1aeb.chunk.css",
-    "main.js": "/dpac-pci-poa-web/static/js/main.4a78e9fe.chunk.js",
-    "main.js.map": "/dpac-pci-poa-web/static/js/main.4a78e9fe.chunk.js.map",
+    "main.css": "/dpac-pci-poa-web/static/css/main.7309afdf.chunk.css",
+    "main.js": "/dpac-pci-poa-web/static/js/main.2d756ce2.chunk.js",
+    "main.js.map": "/dpac-pci-poa-web/static/js/main.2d756ce2.chunk.js.map",
     "runtime-main.js": "/dpac-pci-poa-web/static/js/runtime-main.66ddfe50.js",
     "runtime-main.js.map": "/dpac-pci-poa-web/static/js/runtime-main.66ddfe50.js.map",
     "static/js/2.ebfc0701.chunk.js": "/dpac-pci-poa-web/static/js/2.ebfc0701.chunk.js",
     "static/js/2.ebfc0701.chunk.js.map": "/dpac-pci-poa-web/static/js/2.ebfc0701.chunk.js.map",
     "index.html": "/dpac-pci-poa-web/index.html",
-    "static/css/main.e34f1aeb.chunk.css.map": "/dpac-pci-poa-web/static/css/main.e34f1aeb.chunk.css.map",
+    "static/css/main.7309afdf.chunk.css.map": "/dpac-pci-poa-web/static/css/main.7309afdf.chunk.css.map",
     "static/js/2.ebfc0701.chunk.js.LICENSE.txt": "/dpac-pci-poa-web/static/js/2.ebfc0701.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.66ddfe50.js",
     "static/js/2.ebfc0701.chunk.js",
-    "static/css/main.e34f1aeb.chunk.css",
-    "static/js/main.4a78e9fe.chunk.js"
+    "static/css/main.7309afdf.chunk.css",
+    "static/js/main.2d756ce2.chunk.js"
   ]
 }
