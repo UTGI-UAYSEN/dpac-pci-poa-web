@@ -280,7 +280,7 @@ function Table({ columns, data }) {
 										<div style={{ fontWeight: 'bold', fontSize: '40px', color: 'midnightblue', textAlign: 'right', marginLeft: '10px', marginBottom: '10px' }}>Navegador POA</div>
 									</div>
 									<div style={{ display: 'flex', flexDirection: 'column'/*, alignItems: 'flex-end'*/ }}>
-										<div style={{ fontWeight: 'bold', fontSize: '12px', color: 'mediumblue' }}>Versión 1.1.1</div>
+										<div style={{ fontWeight: 'bold', fontSize: '12px', color: 'mediumblue' }}>Versión 1.1.2</div>
 										<div style={{ fontWeight: 'bold', fontSize: '10px' }}>
 											Desarrollado por <span style={{ color: 'mediumblue' }}>Dirección de Planificación y Aseguramiento de la Calidad</span></div>
 										<div style={{ fontWeight: 'bold', fontSize: '10px' }}>Consultas: <a href="mailto:enrique.urra@uaysen.cl">enrique.urra@uaysen.cl</a></div>
