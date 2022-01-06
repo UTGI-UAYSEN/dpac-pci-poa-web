@@ -1,8 +1,76 @@
 {
     "data": [
         {
-            "accion": "DPAC-21",
-            "tactica": "DPAC-21-H03"
+            "accion": "DPAC-16",
+            "tactica": "DPAC-16-H02"
+        },
+        {
+            "accion": "DPAC-16",
+            "tactica": "DPAC-16-H01"
+        },
+        {
+            "accion": "DPAC-16",
+            "tactica": "DPAC-16-H03"
+        },
+        {
+            "accion": "DPAC-17",
+            "tactica": "DPAC-17-H01"
+        },
+        {
+            "accion": "DPAC-18",
+            "tactica": "DPAC-18-H02"
+        },
+        {
+            "accion": "DPAC-18",
+            "tactica": "DPAC-18-H05"
+        },
+        {
+            "accion": "DPAC-18",
+            "tactica": "DPAC-18-H01"
+        },
+        {
+            "accion": "DPAC-18",
+            "tactica": "DPAC-18-H04"
+        },
+        {
+            "accion": "DPAC-18",
+            "tactica": "DPAC-18-H03"
+        },
+        {
+            "accion": "DPAC-19",
+            "tactica": "DPAC-19-H03"
+        },
+        {
+            "accion": "DPAC-19",
+            "tactica": "DPAC-19-H01"
+        },
+        {
+            "accion": "DPAC-19",
+            "tactica": "DPAC-19-H02"
+        },
+        {
+            "accion": "DPAC-20",
+            "tactica": "DPAC-20-H02"
+        },
+        {
+            "accion": "DPAC-20",
+            "tactica": "DPAC-20-H05"
+        },
+        {
+            "accion": "DPAC-20",
+            "tactica": "DPAC-20-H01"
+        },
+        {
+            "accion": "DPAC-20",
+            "tactica": "DPAC-20-H06"
+        },
+        {
+            "accion": "DPAC-20",
+            "tactica": "DPAC-20-H04"
+        },
+        {
+            "accion": "DPAC-20",
+            "tactica": "DPAC-20-H03"
         },
         {
             "accion": "DPAC-21",
@@ -13,8 +81,8 @@
             "tactica": "DPAC-21-H01"
         },
         {
-            "accion": "DPAC-22",
-            "tactica": "DPAC-22-H01"
+            "accion": "DPAC-21",
+            "tactica": "DPAC-21-H03"
         },
         {
             "accion": "DPAC-22",
@@ -25,8 +93,8 @@
             "tactica": "DPAC-22-H03"
         },
         {
-            "accion": "DPAC-23",
-            "tactica": "DPAC-23-H02"
+            "accion": "DPAC-22",
+            "tactica": "DPAC-22-H01"
         },
         {
             "accion": "DPAC-23",
@@ -34,11 +102,15 @@
         },
         {
             "accion": "DPAC-23",
+            "tactica": "DPAC-23-H02"
+        },
+        {
+            "accion": "DPAC-23",
             "tactica": "DPAC-23-H03"
         },
         {
             "accion": "DPAC-24",
-            "tactica": "DPAC-24-H01"
+            "tactica": "DPAC-24-H04"
         },
         {
             "accion": "DPAC-24",
@@ -46,7 +118,7 @@
         },
         {
             "accion": "DPAC-24",
-            "tactica": "DPAC-24-H04"
+            "tactica": "DPAC-24-H01"
         },
         {
             "accion": "DPAC-24",
@@ -66,7 +138,7 @@
         },
         {
             "accion": "DAF-01",
-            "tactica": "DAF-01-H01"
+            "tactica": "DAF-01-F01"
         },
         {
             "accion": "DAF-01",
@@ -74,11 +146,11 @@
         },
         {
             "accion": "DAF-01",
-            "tactica": "DAF-01-F02"
+            "tactica": "DAF-01-H01"
         },
         {
             "accion": "DAF-01",
-            "tactica": "DAF-01-F01"
+            "tactica": "DAF-01-F02"
         },
         {
             "accion": "DAF-02",
@@ -90,19 +162,19 @@
         },
         {
             "accion": "DAF-03",
-            "tactica": "DAF-03-H01b"
-        },
-        {
-            "accion": "DAF-03",
             "tactica": "DAF-03-H03"
         },
         {
             "accion": "DAF-03",
-            "tactica": "DAF-03-H02"
+            "tactica": "DAF-03-H01"
         },
         {
             "accion": "DAF-03",
-            "tactica": "DAF-03-H01"
+            "tactica": "DAF-03-H01b"
+        },
+        {
+            "accion": "DAF-03",
+            "tactica": "DAF-03-H02"
         },
         {
             "accion": "DAF-04",
@@ -114,7 +186,15 @@
         },
         {
             "accion": "DAF-05",
-            "tactica": "DAF-05-H03"
+            "tactica": "DAF-05-F04"
+        },
+        {
+            "accion": "DAF-05",
+            "tactica": "DAF-05-F02"
+        },
+        {
+            "accion": "DAF-05",
+            "tactica": "DAF-05-H02"
         },
         {
             "accion": "DAF-05",
@@ -126,7 +206,7 @@
         },
         {
             "accion": "DAF-05",
-            "tactica": "DAF-05-F02"
+            "tactica": "DAF-05-H03"
         },
         {
             "accion": "DAF-05",
@@ -135,22 +215,6 @@
         {
             "accion": "DAF-05",
             "tactica": "DAF-05-F03"
-        },
-        {
-            "accion": "DAF-05",
-            "tactica": "DAF-05-F04"
-        },
-        {
-            "accion": "DAF-05",
-            "tactica": "DAF-05-H02"
-        },
-        {
-            "accion": "DAF-07",
-            "tactica": "DAF-07-F02"
-        },
-        {
-            "accion": "DAF-07",
-            "tactica": "DAF-07-F04"
         },
         {
             "accion": "DAF-07",
@@ -165,6 +229,14 @@
             "tactica": "DAF-07-F01"
         },
         {
+            "accion": "DAF-07",
+            "tactica": "DAF-07-F04"
+        },
+        {
+            "accion": "DAF-07",
+            "tactica": "DAF-07-F02"
+        },
+        {
             "accion": "DAF-08",
             "tactica": "DAF-08-F02"
         },
@@ -174,11 +246,7 @@
         },
         {
             "accion": "DAF-09",
-            "tactica": "DAF-09-H02"
-        },
-        {
-            "accion": "DAF-09",
-            "tactica": "DAF-09-H01"
+            "tactica": "DAF-09-F01"
         },
         {
             "accion": "DAF-09",
@@ -186,15 +254,15 @@
         },
         {
             "accion": "DAF-09",
-            "tactica": "DAF-09-F01"
+            "tactica": "DAF-09-H01"
+        },
+        {
+            "accion": "DAF-09",
+            "tactica": "DAF-09-H02"
         },
         {
             "accion": "DAF-09",
             "tactica": "DAF-09-F03"
-        },
-        {
-            "accion": "DAF-10",
-            "tactica": "DAF-10-F02"
         },
         {
             "accion": "DAF-10",
@@ -209,6 +277,14 @@
             "tactica": "DAF-10-F01"
         },
         {
+            "accion": "DAF-10",
+            "tactica": "DAF-10-F02"
+        },
+        {
+            "accion": "DAF-11",
+            "tactica": "DAF-11-F01"
+        },
+        {
             "accion": "DAF-11",
             "tactica": "DAF-11-F02"
         },
@@ -221,12 +297,12 @@
             "tactica": "DAF-11-F03"
         },
         {
-            "accion": "DAF-11",
-            "tactica": "DAF-11-F01"
+            "accion": "DAF-12",
+            "tactica": "DAF-12-F02"
         },
         {
             "accion": "DAF-12",
-            "tactica": "DAF-12-F04"
+            "tactica": "DAF-12-F03"
         },
         {
             "accion": "DAF-12",
@@ -234,11 +310,7 @@
         },
         {
             "accion": "DAF-12",
-            "tactica": "DAF-12-F02"
-        },
-        {
-            "accion": "DAF-12",
-            "tactica": "DAF-12-F03"
+            "tactica": "DAF-12-F04"
         },
         {
             "accion": "DAF-13",
@@ -262,7 +334,11 @@
         },
         {
             "accion": "DAF-14",
-            "tactica": "DAF-14-H04"
+            "tactica": "DAF-14-H03"
+        },
+        {
+            "accion": "DAF-14",
+            "tactica": "DAF-14-H01"
         },
         {
             "accion": "DAF-14",
@@ -270,11 +346,7 @@
         },
         {
             "accion": "DAF-14",
-            "tactica": "DAF-14-H03"
-        },
-        {
-            "accion": "DAF-14",
-            "tactica": "DAF-14-H01"
+            "tactica": "DAF-14-H04"
         },
         {
             "accion": "DAF-15",
@@ -290,19 +362,15 @@
         },
         {
             "accion": "DAF-17",
-            "tactica": "DAF-17-H02"
-        },
-        {
-            "accion": "DAF-17",
             "tactica": "DAF-17-H03"
         },
         {
             "accion": "DAF-17",
-            "tactica": "DAF-17-H01"
+            "tactica": "DAF-17-H02"
         },
         {
-            "accion": "DAF-18",
-            "tactica": "DAF-18-H02"
+            "accion": "DAF-17",
+            "tactica": "DAF-17-H01"
         },
         {
             "accion": "DAF-18",
@@ -314,11 +382,15 @@
         },
         {
             "accion": "DAF-18",
-            "tactica": "DAF-18-H05"
+            "tactica": "DAF-18-H02"
         },
         {
             "accion": "DAF-18",
             "tactica": "DAF-18-H03"
+        },
+        {
+            "accion": "DAF-18",
+            "tactica": "DAF-18-H05"
         },
         {
             "accion": "DAF-19",
@@ -330,27 +402,27 @@
         },
         {
             "accion": "DAF-20",
-            "tactica": "DAF-20-H01"
-        },
-        {
-            "accion": "DAF-20",
             "tactica": "DAF-20-H03"
         },
         {
             "accion": "DAF-20",
-            "tactica": "DAF-20-H06"
+            "tactica": "DAF-20-H01"
         },
         {
             "accion": "DAF-20",
             "tactica": "DAF-20-H02"
         },
         {
-            "accion": "DAF-21",
-            "tactica": "DAF-21-H02"
+            "accion": "DAF-20",
+            "tactica": "DAF-20-H06"
         },
         {
             "accion": "DAF-21",
             "tactica": "DAF-21-H03"
+        },
+        {
+            "accion": "DAF-21",
+            "tactica": "DAF-21-H02"
         },
         {
             "accion": "DAF-21",
@@ -362,19 +434,11 @@
         },
         {
             "accion": "DAF-22",
-            "tactica": "DAF-22-H03"
-        },
-        {
-            "accion": "DAF-22",
             "tactica": "DAF-22-H02"
         },
         {
-            "accion": "DAF-23",
-            "tactica": "DAF-23-H07"
-        },
-        {
-            "accion": "DAF-23",
-            "tactica": "DAF-23-H01"
+            "accion": "DAF-22",
+            "tactica": "DAF-22-H03"
         },
         {
             "accion": "DAF-23",
@@ -383,6 +447,14 @@
         {
             "accion": "DAF-23",
             "tactica": "DAF-23-H03"
+        },
+        {
+            "accion": "DAF-23",
+            "tactica": "DAF-23-H07"
+        },
+        {
+            "accion": "DAF-23",
+            "tactica": "DAF-23-H01"
         },
         {
             "accion": "DAF-23",
@@ -398,15 +470,11 @@
         },
         {
             "accion": "DAF-25",
-            "tactica": "DAF-25-H03"
-        },
-        {
-            "accion": "DAF-25",
             "tactica": "DAF-25-H04"
         },
         {
-            "accion": "DAF-27",
-            "tactica": "DAF-27-H05"
+            "accion": "DAF-25",
+            "tactica": "DAF-25-H03"
         },
         {
             "accion": "DAF-27",
@@ -414,15 +482,7 @@
         },
         {
             "accion": "DAF-27",
-            "tactica": "DAF-27-H07"
-        },
-        {
-            "accion": "DAF-27",
-            "tactica": "DAF-27-H06"
-        },
-        {
-            "accion": "DAF-27",
-            "tactica": "DAF-27-H01"
+            "tactica": "DAF-27-H05"
         },
         {
             "accion": "DAF-27",
@@ -434,11 +494,19 @@
         },
         {
             "accion": "DAF-27",
+            "tactica": "DAF-27-H01"
+        },
+        {
+            "accion": "DAF-27",
+            "tactica": "DAF-27-H07"
+        },
+        {
+            "accion": "DAF-27",
             "tactica": "DAF-27-H03"
         },
         {
-            "accion": "DAF-28",
-            "tactica": "DAF-28-H01"
+            "accion": "DAF-27",
+            "tactica": "DAF-27-H06"
         },
         {
             "accion": "DAF-28",
@@ -446,11 +514,23 @@
         },
         {
             "accion": "DAF-28",
-            "tactica": "DAF-28-H03"
+            "tactica": "DAF-28-H05"
         },
         {
             "accion": "DAF-28",
-            "tactica": "DAF-28-H05"
+            "tactica": "DAF-28-H01"
+        },
+        {
+            "accion": "DAF-28",
+            "tactica": "DAF-28-H03"
+        },
+        {
+            "accion": "DAF-29",
+            "tactica": "DAF-29-H01"
+        },
+        {
+            "accion": "DAF-29",
+            "tactica": "DAF-29-H04"
         },
         {
             "accion": "DAF-29",
@@ -463,14 +543,6 @@
         {
             "accion": "DAF-29",
             "tactica": "DAF-29-H03"
-        },
-        {
-            "accion": "DAF-29",
-            "tactica": "DAF-29-H04"
-        },
-        {
-            "accion": "DAF-29",
-            "tactica": "DAF-29-H01"
         },
         {
             "accion": "DAF-30",
@@ -486,14 +558,6 @@
         },
         {
             "accion": "DI-02",
-            "tactica": "DI-02-H02"
-        },
-        {
-            "accion": "DI-02",
-            "tactica": "DI-02-H03"
-        },
-        {
-            "accion": "DI-02",
             "tactica": "DI-02-H04"
         },
         {
@@ -501,12 +565,16 @@
             "tactica": "DI-02-H01"
         },
         {
-            "accion": "DI-03",
-            "tactica": "DI-03-H02"
+            "accion": "DI-02",
+            "tactica": "DI-02-H02"
+        },
+        {
+            "accion": "DI-02",
+            "tactica": "DI-02-H03"
         },
         {
             "accion": "DI-03",
-            "tactica": "DI-03-F03"
+            "tactica": "DI-03-H02"
         },
         {
             "accion": "DI-03",
@@ -522,7 +590,19 @@
         },
         {
             "accion": "DI-03",
+            "tactica": "DI-03-F03"
+        },
+        {
+            "accion": "DI-03",
             "tactica": "DI-03-F02"
+        },
+        {
+            "accion": "DI-04",
+            "tactica": "DI-04-F03"
+        },
+        {
+            "accion": "DI-04",
+            "tactica": "DI-04-F01"
         },
         {
             "accion": "DI-04",
@@ -533,12 +613,8 @@
             "tactica": "DI-04-F02"
         },
         {
-            "accion": "DI-04",
-            "tactica": "DI-04-F01"
-        },
-        {
-            "accion": "DI-04",
-            "tactica": "DI-04-F03"
+            "accion": "DI-05",
+            "tactica": "DI-05-H01"
         },
         {
             "accion": "DI-05",
@@ -546,15 +622,11 @@
         },
         {
             "accion": "DI-05",
-            "tactica": "DI-05-F01"
-        },
-        {
-            "accion": "DI-05",
-            "tactica": "DI-05-H01"
-        },
-        {
-            "accion": "DI-05",
             "tactica": "DI-05-F02"
+        },
+        {
+            "accion": "DI-05",
+            "tactica": "DI-05-F01"
         },
         {
             "accion": "DI-06",
@@ -562,15 +634,7 @@
         },
         {
             "accion": "DI-06",
-            "tactica": "DI-06-H06"
-        },
-        {
-            "accion": "DI-06",
-            "tactica": "DI-06-H02"
-        },
-        {
-            "accion": "DI-06",
-            "tactica": "DI-06-H04"
+            "tactica": "DI-06-H03"
         },
         {
             "accion": "DI-06",
@@ -578,7 +642,11 @@
         },
         {
             "accion": "DI-06",
-            "tactica": "DI-06-H01"
+            "tactica": "DI-06-H04"
+        },
+        {
+            "accion": "DI-06",
+            "tactica": "DI-06-H06"
         },
         {
             "accion": "DI-06",
@@ -586,15 +654,15 @@
         },
         {
             "accion": "DI-06",
+            "tactica": "DI-06-H02"
+        },
+        {
+            "accion": "DI-06",
             "tactica": "DI-06-H07"
         },
         {
             "accion": "DI-06",
-            "tactica": "DI-06-H03"
-        },
-        {
-            "accion": "DI-07",
-            "tactica": "DI-07-F03"
+            "tactica": "DI-06-H01"
         },
         {
             "accion": "DI-07",
@@ -609,28 +677,24 @@
             "tactica": "DI-07-F01"
         },
         {
-            "accion": "DI-08",
-            "tactica": "DI-08-F02"
+            "accion": "DI-07",
+            "tactica": "DI-07-F03"
         },
         {
             "accion": "DI-08",
             "tactica": "DI-08-F01"
         },
         {
-            "accion": "DI-09",
-            "tactica": "DI-09-F01"
+            "accion": "DI-08",
+            "tactica": "DI-08-F02"
         },
         {
             "accion": "DI-09",
             "tactica": "DI-09-H01"
         },
         {
-            "accion": "DI-11",
-            "tactica": "DI-11-F03"
-        },
-        {
-            "accion": "DI-11",
-            "tactica": "DI-11-F02"
+            "accion": "DI-09",
+            "tactica": "DI-09-F01"
         },
         {
             "accion": "DI-11",
@@ -638,15 +702,15 @@
         },
         {
             "accion": "DI-11",
+            "tactica": "DI-11-F02"
+        },
+        {
+            "accion": "DI-11",
             "tactica": "DI-11-F04"
         },
         {
-            "accion": "DI-11b",
-            "tactica": "DI-11b-F04"
-        },
-        {
-            "accion": "DI-11b",
-            "tactica": "DI-11b-F03"
+            "accion": "DI-11",
+            "tactica": "DI-11-F03"
         },
         {
             "accion": "DI-11b",
@@ -654,19 +718,19 @@
         },
         {
             "accion": "DI-11b",
+            "tactica": "DI-11b-F03"
+        },
+        {
+            "accion": "DI-11b",
+            "tactica": "DI-11b-F04"
+        },
+        {
+            "accion": "DI-11b",
             "tactica": "DI-11b-F01"
         },
         {
             "accion": "DI-12",
-            "tactica": "DI-12-H05"
-        },
-        {
-            "accion": "DI-12",
-            "tactica": "DI-12-H04"
-        },
-        {
-            "accion": "DI-12",
-            "tactica": "DI-12-H02"
+            "tactica": "DI-12-H01"
         },
         {
             "accion": "DI-12",
@@ -674,7 +738,15 @@
         },
         {
             "accion": "DI-12",
-            "tactica": "DI-12-H01"
+            "tactica": "DI-12-H05"
+        },
+        {
+            "accion": "DI-12",
+            "tactica": "DI-12-H02"
+        },
+        {
+            "accion": "DI-12",
+            "tactica": "DI-12-H04"
         },
         {
             "accion": "DI-13",
@@ -682,19 +754,7 @@
         },
         {
             "accion": "DI-14",
-            "tactica": "DI-14-H01"
-        },
-        {
-            "accion": "DI-14",
-            "tactica": "DI-14-H03"
-        },
-        {
-            "accion": "DI-14",
-            "tactica": "DI-14-H07"
-        },
-        {
-            "accion": "DI-14",
-            "tactica": "DI-14-H06"
+            "tactica": "DI-14-H04"
         },
         {
             "accion": "DI-14",
@@ -702,15 +762,27 @@
         },
         {
             "accion": "DI-14",
+            "tactica": "DI-14-H07"
+        },
+        {
+            "accion": "DI-14",
             "tactica": "DI-14-H05"
         },
         {
             "accion": "DI-14",
-            "tactica": "DI-14-H04"
+            "tactica": "DI-14-H01"
+        },
+        {
+            "accion": "DI-14",
+            "tactica": "DI-14-H06"
+        },
+        {
+            "accion": "DI-14",
+            "tactica": "DI-14-H03"
         },
         {
             "accion": "DI-15",
-            "tactica": "DI-15-H02"
+            "tactica": "DI-15-H01"
         },
         {
             "accion": "DI-15",
@@ -718,11 +790,11 @@
         },
         {
             "accion": "DI-15",
-            "tactica": "DI-15-H04"
+            "tactica": "DI-15-H02"
         },
         {
             "accion": "DI-15",
-            "tactica": "DI-15-H01"
+            "tactica": "DI-15-H04"
         },
         {
             "accion": "DI-16",
@@ -730,7 +802,7 @@
         },
         {
             "accion": "DI-17",
-            "tactica": "DI-17-H03"
+            "tactica": "DI-17-H01"
         },
         {
             "accion": "DI-17",
@@ -738,7 +810,7 @@
         },
         {
             "accion": "DI-17",
-            "tactica": "DI-17-H01"
+            "tactica": "DI-17-H03"
         },
         {
             "accion": "DI-18",
@@ -754,6 +826,10 @@
         },
         {
             "accion": "DVcM-01",
+            "tactica": "DVcM-01-H01"
+        },
+        {
+            "accion": "DVcM-01",
             "tactica": "DVcM-01-H03"
         },
         {
@@ -762,11 +838,11 @@
         },
         {
             "accion": "DVcM-01",
-            "tactica": "DVcM-01-H01"
+            "tactica": "DVcM-01-H04"
         },
         {
-            "accion": "DVcM-01",
-            "tactica": "DVcM-01-H04"
+            "accion": "DVcM-02",
+            "tactica": "DVcM-02-F02"
         },
         {
             "accion": "DVcM-02",
@@ -774,19 +850,15 @@
         },
         {
             "accion": "DVcM-02",
-            "tactica": "DVcM-02-F01"
-        },
-        {
-            "accion": "DVcM-02",
             "tactica": "DVcM-02-F04"
         },
         {
             "accion": "DVcM-02",
-            "tactica": "DVcM-02-F02"
+            "tactica": "DVcM-02-F01"
         },
         {
             "accion": "DVcM-03",
-            "tactica": "DVcM-03-H01"
+            "tactica": "DVcM-03-F01"
         },
         {
             "accion": "DVcM-03",
@@ -794,7 +866,23 @@
         },
         {
             "accion": "DVcM-03",
+            "tactica": "DVcM-03-H04"
+        },
+        {
+            "accion": "DVcM-03",
             "tactica": "DVcM-03-F02"
+        },
+        {
+            "accion": "DVcM-03",
+            "tactica": "DVcM-03-H06"
+        },
+        {
+            "accion": "DVcM-03",
+            "tactica": "DVcM-03-H03"
+        },
+        {
+            "accion": "DVcM-03",
+            "tactica": "DVcM-03-H01"
         },
         {
             "accion": "DVcM-03",
@@ -803,22 +891,6 @@
         {
             "accion": "DVcM-03",
             "tactica": "DVcM-03-F02b"
-        },
-        {
-            "accion": "DVcM-03",
-            "tactica": "DVcM-03-H06"
-        },
-        {
-            "accion": "DVcM-03",
-            "tactica": "DVcM-03-F01"
-        },
-        {
-            "accion": "DVcM-03",
-            "tactica": "DVcM-03-H03"
-        },
-        {
-            "accion": "DVcM-03",
-            "tactica": "DVcM-03-H04"
         },
         {
             "accion": "DVcM-03b",
@@ -846,15 +918,7 @@
         },
         {
             "accion": "DVcM-05",
-            "tactica": "DVcM-05-H07"
-        },
-        {
-            "accion": "DVcM-05",
-            "tactica": "DVcM-05-H09"
-        },
-        {
-            "accion": "DVcM-05",
-            "tactica": "DVcM-05-H03"
+            "tactica": "DVcM-05-H08"
         },
         {
             "accion": "DVcM-05",
@@ -862,11 +926,19 @@
         },
         {
             "accion": "DVcM-05",
-            "tactica": "DVcM-05-H08"
+            "tactica": "DVcM-05-H06"
         },
         {
             "accion": "DVcM-05",
-            "tactica": "DVcM-05-H06"
+            "tactica": "DVcM-05-H10"
+        },
+        {
+            "accion": "DVcM-05",
+            "tactica": "DVcM-05-H01"
+        },
+        {
+            "accion": "DVcM-05",
+            "tactica": "DVcM-05-H09"
         },
         {
             "accion": "DVcM-05",
@@ -878,11 +950,15 @@
         },
         {
             "accion": "DVcM-05",
-            "tactica": "DVcM-05-H10"
+            "tactica": "DVcM-05-H03"
         },
         {
             "accion": "DVcM-05",
-            "tactica": "DVcM-05-H01"
+            "tactica": "DVcM-05-H07"
+        },
+        {
+            "accion": "DVcM-06",
+            "tactica": "DVcM-06-F04"
         },
         {
             "accion": "DVcM-06",
@@ -894,19 +970,7 @@
         },
         {
             "accion": "DVcM-06",
-            "tactica": "DVcM-06-F04"
-        },
-        {
-            "accion": "DVcM-06",
             "tactica": "DVcM-06-F01"
-        },
-        {
-            "accion": "DVcM-07",
-            "tactica": "DVcM-07-H03"
-        },
-        {
-            "accion": "DVcM-07",
-            "tactica": "DVcM-07-F02"
         },
         {
             "accion": "DVcM-07",
@@ -918,7 +982,15 @@
         },
         {
             "accion": "DVcM-07",
+            "tactica": "DVcM-07-H03"
+        },
+        {
+            "accion": "DVcM-07",
             "tactica": "DVcM-07-H04"
+        },
+        {
+            "accion": "DVcM-07",
+            "tactica": "DVcM-07-F02"
         },
         {
             "accion": "DVcM-07",
@@ -926,11 +998,7 @@
         },
         {
             "accion": "DVcM-08",
-            "tactica": "DVcM-08-H10"
-        },
-        {
-            "accion": "DVcM-08",
-            "tactica": "DVcM-08-H04"
+            "tactica": "DVcM-08-H05"
         },
         {
             "accion": "DVcM-08",
@@ -942,6 +1010,14 @@
         },
         {
             "accion": "DVcM-08",
+            "tactica": "DVcM-08-H03"
+        },
+        {
+            "accion": "DVcM-08",
+            "tactica": "DVcM-08-H06"
+        },
+        {
+            "accion": "DVcM-08",
             "tactica": "DVcM-08-H01"
         },
         {
@@ -950,23 +1026,15 @@
         },
         {
             "accion": "DVcM-08",
+            "tactica": "DVcM-08-H04"
+        },
+        {
+            "accion": "DVcM-08",
             "tactica": "DVcM-08-H02"
         },
         {
             "accion": "DVcM-08",
-            "tactica": "DVcM-08-H05"
-        },
-        {
-            "accion": "DVcM-08",
-            "tactica": "DVcM-08-H03"
-        },
-        {
-            "accion": "DVcM-08",
-            "tactica": "DVcM-08-H06"
-        },
-        {
-            "accion": "DVcM-10",
-            "tactica": "DVcM-10-F02"
+            "tactica": "DVcM-08-H10"
         },
         {
             "accion": "DVcM-10",
@@ -974,7 +1042,7 @@
         },
         {
             "accion": "DVcM-10",
-            "tactica": "DVcM-10-F03"
+            "tactica": "DVcM-10-F02"
         },
         {
             "accion": "DVcM-10",
@@ -985,12 +1053,8 @@
             "tactica": "DVcM-10-H01"
         },
         {
-            "accion": "DVcM-11",
-            "tactica": "DVcM-11-H01"
-        },
-        {
-            "accion": "DVcM-11",
-            "tactica": "DVcM-11-F01"
+            "accion": "DVcM-10",
+            "tactica": "DVcM-10-F03"
         },
         {
             "accion": "DVcM-11",
@@ -1005,8 +1069,16 @@
             "tactica": "DVcM-11-F04"
         },
         {
+            "accion": "DVcM-11",
+            "tactica": "DVcM-11-H01"
+        },
+        {
+            "accion": "DVcM-11",
+            "tactica": "DVcM-11-F01"
+        },
+        {
             "accion": "DVcM-12",
-            "tactica": "DVcM-12-H05"
+            "tactica": "DVcM-12-H03"
         },
         {
             "accion": "DVcM-12",
@@ -1014,7 +1086,7 @@
         },
         {
             "accion": "DVcM-12",
-            "tactica": "DVcM-12-H01"
+            "tactica": "DVcM-12-H04"
         },
         {
             "accion": "DVcM-12",
@@ -1022,11 +1094,11 @@
         },
         {
             "accion": "DVcM-12",
-            "tactica": "DVcM-12-H04"
+            "tactica": "DVcM-12-H05"
         },
         {
             "accion": "DVcM-12",
-            "tactica": "DVcM-12-H03"
+            "tactica": "DVcM-12-H01"
         },
         {
             "accion": "DVcM-13",
@@ -1034,15 +1106,15 @@
         },
         {
             "accion": "DVcM-13",
-            "tactica": "DVcM-13-H03"
-        },
-        {
-            "accion": "DVcM-13",
             "tactica": "DVcM-13-H01"
         },
         {
+            "accion": "DVcM-13",
+            "tactica": "DVcM-13-H03"
+        },
+        {
             "accion": "DVcM-15",
-            "tactica": "DVcM-15-H07"
+            "tactica": "DVcM-15-H04"
         },
         {
             "accion": "DVcM-15",
@@ -1050,7 +1122,11 @@
         },
         {
             "accion": "DVcM-15",
-            "tactica": "DVcM-15-H03"
+            "tactica": "DVcM-15-H06"
+        },
+        {
+            "accion": "DVcM-15",
+            "tactica": "DVcM-15-H07"
         },
         {
             "accion": "DVcM-15",
@@ -1058,19 +1134,15 @@
         },
         {
             "accion": "DVcM-15",
+            "tactica": "DVcM-15-H03"
+        },
+        {
+            "accion": "DVcM-15",
             "tactica": "DVcM-15-H05"
         },
         {
             "accion": "DVcM-15",
-            "tactica": "DVcM-15-H06"
-        },
-        {
-            "accion": "DVcM-15",
             "tactica": "DVcM-15-H02"
-        },
-        {
-            "accion": "DVcM-15",
-            "tactica": "DVcM-15-H04"
         },
         {
             "accion": "DVcM-16",
@@ -1094,11 +1166,7 @@
         },
         {
             "accion": "DVcM-18",
-            "tactica": "DVcM-18-H04"
-        },
-        {
-            "accion": "DVcM-18",
-            "tactica": "DVcM-18-H02"
+            "tactica": "DVcM-18-H06"
         },
         {
             "accion": "DVcM-18",
@@ -1106,15 +1174,19 @@
         },
         {
             "accion": "DVcM-18",
-            "tactica": "DVcM-18-H06"
+            "tactica": "DVcM-18-H02"
         },
         {
-            "accion": "DVcM-19",
-            "tactica": "DVcM-19-H04"
+            "accion": "DVcM-18",
+            "tactica": "DVcM-18-H04"
         },
         {
             "accion": "DVcM-19",
             "tactica": "DVcM-19-H02"
+        },
+        {
+            "accion": "DVcM-19",
+            "tactica": "DVcM-19-H04"
         },
         {
             "accion": "DVcM-19",
@@ -1126,7 +1198,7 @@
         },
         {
             "accion": "Rectoria-01",
-            "tactica": "Rectoria-01-F01"
+            "tactica": "Rectoria-01-F02"
         },
         {
             "accion": "Rectoria-01",
@@ -1134,15 +1206,15 @@
         },
         {
             "accion": "Rectoria-01",
-            "tactica": "Rectoria-01-F03"
+            "tactica": "Rectoria-01-F01"
         },
         {
             "accion": "Rectoria-01",
-            "tactica": "Rectoria-01-F02"
+            "tactica": "Rectoria-01-F03"
         },
         {
             "accion": "Rectoria-02",
-            "tactica": "Rectoria-02-H03"
+            "tactica": "Rectoria-02-H01"
         },
         {
             "accion": "Rectoria-02",
@@ -1150,7 +1222,7 @@
         },
         {
             "accion": "Rectoria-02",
-            "tactica": "Rectoria-02-H01"
+            "tactica": "Rectoria-02-H03"
         },
         {
             "accion": "Rectoria-03",
@@ -1158,23 +1230,7 @@
         },
         {
             "accion": "Rectoria-03",
-            "tactica": "Rectoria-03-H03"
-        },
-        {
-            "accion": "Rectoria-03",
-            "tactica": "Rectoria-03-H09"
-        },
-        {
-            "accion": "Rectoria-03",
-            "tactica": "Rectoria-03-F02"
-        },
-        {
-            "accion": "Rectoria-03",
-            "tactica": "Rectoria-03-F01"
-        },
-        {
-            "accion": "Rectoria-03",
-            "tactica": "Rectoria-03-H06"
+            "tactica": "Rectoria-03-H05"
         },
         {
             "accion": "Rectoria-03",
@@ -1182,19 +1238,31 @@
         },
         {
             "accion": "Rectoria-03",
-            "tactica": "Rectoria-03-H05"
+            "tactica": "Rectoria-03-H02"
         },
         {
             "accion": "Rectoria-03",
-            "tactica": "Rectoria-03-H02"
+            "tactica": "Rectoria-03-H09"
         },
         {
             "accion": "Rectoria-03",
             "tactica": "Rectoria-03-H04"
         },
         {
-            "accion": "Rectoria-04",
-            "tactica": "Rectoria-04-H01"
+            "accion": "Rectoria-03",
+            "tactica": "Rectoria-03-H06"
+        },
+        {
+            "accion": "Rectoria-03",
+            "tactica": "Rectoria-03-F01"
+        },
+        {
+            "accion": "Rectoria-03",
+            "tactica": "Rectoria-03-H03"
+        },
+        {
+            "accion": "Rectoria-03",
+            "tactica": "Rectoria-03-F02"
         },
         {
             "accion": "Rectoria-04",
@@ -1202,23 +1270,15 @@
         },
         {
             "accion": "Rectoria-04",
-            "tactica": "Rectoria-04-F02"
-        },
-        {
-            "accion": "Rectoria-04",
             "tactica": "Rectoria-04-F03"
         },
         {
-            "accion": "Rectoria-05",
-            "tactica": "Rectoria-05-F01"
+            "accion": "Rectoria-04",
+            "tactica": "Rectoria-04-H01"
         },
         {
-            "accion": "Rectoria-05",
-            "tactica": "Rectoria-05-F05"
-        },
-        {
-            "accion": "Rectoria-05",
-            "tactica": "Rectoria-05-F02"
+            "accion": "Rectoria-04",
+            "tactica": "Rectoria-04-F02"
         },
         {
             "accion": "Rectoria-05",
@@ -1230,23 +1290,19 @@
         },
         {
             "accion": "Rectoria-05",
+            "tactica": "Rectoria-05-F05"
+        },
+        {
+            "accion": "Rectoria-05",
             "tactica": "Rectoria-05-H01"
         },
         {
-            "accion": "Rectoria-06",
-            "tactica": "Rectoria-06-H02"
+            "accion": "Rectoria-05",
+            "tactica": "Rectoria-05-F02"
         },
         {
-            "accion": "Rectoria-06",
-            "tactica": "Rectoria-06-H05"
-        },
-        {
-            "accion": "Rectoria-06",
-            "tactica": "Rectoria-06-H07"
-        },
-        {
-            "accion": "Rectoria-06",
-            "tactica": "Rectoria-06-H04"
+            "accion": "Rectoria-05",
+            "tactica": "Rectoria-05-F01"
         },
         {
             "accion": "Rectoria-06",
@@ -1254,7 +1310,23 @@
         },
         {
             "accion": "Rectoria-06",
-            "tactica": "Rectoria-06-H03"
+            "tactica": "Rectoria-06-H05"
+        },
+        {
+            "accion": "Rectoria-06",
+            "tactica": "Rectoria-06-H06"
+        },
+        {
+            "accion": "Rectoria-06",
+            "tactica": "Rectoria-06-H07"
+        },
+        {
+            "accion": "Rectoria-06",
+            "tactica": "Rectoria-06-H02"
+        },
+        {
+            "accion": "Rectoria-06",
+            "tactica": "Rectoria-06-H04"
         },
         {
             "accion": "Rectoria-06",
@@ -1262,15 +1334,7 @@
         },
         {
             "accion": "Rectoria-06",
-            "tactica": "Rectoria-06-H06"
-        },
-        {
-            "accion": "Rectoria-07",
-            "tactica": "Rectoria-07-H05"
-        },
-        {
-            "accion": "Rectoria-07",
-            "tactica": "Rectoria-07-H02"
+            "tactica": "Rectoria-06-H03"
         },
         {
             "accion": "Rectoria-07",
@@ -1278,11 +1342,23 @@
         },
         {
             "accion": "Rectoria-07",
+            "tactica": "Rectoria-07-H01"
+        },
+        {
+            "accion": "Rectoria-07",
+            "tactica": "Rectoria-07-H05"
+        },
+        {
+            "accion": "Rectoria-07",
             "tactica": "Rectoria-07-H03"
         },
         {
             "accion": "Rectoria-07",
-            "tactica": "Rectoria-07-H01"
+            "tactica": "Rectoria-07-H02"
+        },
+        {
+            "accion": "Rectoria-08",
+            "tactica": "Rectoria-08-H06"
         },
         {
             "accion": "Rectoria-08",
@@ -1294,7 +1370,7 @@
         },
         {
             "accion": "Rectoria-08",
-            "tactica": "Rectoria-08-H06"
+            "tactica": "Rectoria-08-H02"
         },
         {
             "accion": "Rectoria-08",
@@ -1305,20 +1381,12 @@
             "tactica": "Rectoria-08-H04"
         },
         {
-            "accion": "Rectoria-08",
-            "tactica": "Rectoria-08-H02"
-        },
-        {
-            "accion": "Rectoria-09",
-            "tactica": "Rectoria-09-H08"
-        },
-        {
             "accion": "Rectoria-09",
             "tactica": "Rectoria-09-H02"
         },
         {
             "accion": "Rectoria-09",
-            "tactica": "Rectoria-09-H03"
+            "tactica": "Rectoria-09-H08"
         },
         {
             "accion": "Rectoria-09",
@@ -1329,24 +1397,8 @@
             "tactica": "Rectoria-09-H04"
         },
         {
-            "accion": "Rectoria-10",
-            "tactica": "Rectoria-10-H03"
-        },
-        {
-            "accion": "Rectoria-10",
-            "tactica": "Rectoria-10-H01"
-        },
-        {
-            "accion": "Rectoria-10",
-            "tactica": "Rectoria-10-H06"
-        },
-        {
-            "accion": "Rectoria-10",
-            "tactica": "Rectoria-10-H05"
-        },
-        {
-            "accion": "Rectoria-10",
-            "tactica": "Rectoria-10-H04"
+            "accion": "Rectoria-09",
+            "tactica": "Rectoria-09-H03"
         },
         {
             "accion": "Rectoria-10",
@@ -1354,15 +1406,35 @@
         },
         {
             "accion": "Rectoria-10",
+            "tactica": "Rectoria-10-H03"
+        },
+        {
+            "accion": "Rectoria-10",
             "tactica": "Rectoria-10-H09"
         },
         {
             "accion": "Rectoria-10",
-            "tactica": "Rectoria-10-H07"
+            "tactica": "Rectoria-10-H05"
         },
         {
             "accion": "Rectoria-10",
             "tactica": "Rectoria-10-H08"
+        },
+        {
+            "accion": "Rectoria-10",
+            "tactica": "Rectoria-10-H06"
+        },
+        {
+            "accion": "Rectoria-10",
+            "tactica": "Rectoria-10-H04"
+        },
+        {
+            "accion": "Rectoria-10",
+            "tactica": "Rectoria-10-H01"
+        },
+        {
+            "accion": "Rectoria-10",
+            "tactica": "Rectoria-10-H07"
         },
         {
             "accion": "SG-01",
@@ -1370,11 +1442,11 @@
         },
         {
             "accion": "SG-01",
-            "tactica": "SG-01-F01"
+            "tactica": "SG-01-F02"
         },
         {
             "accion": "SG-01",
-            "tactica": "SG-01-F02"
+            "tactica": "SG-01-F01"
         },
         {
             "accion": "SG-02",
@@ -1386,6 +1458,10 @@
         },
         {
             "accion": "SG-03",
+            "tactica": "SG-03-H01"
+        },
+        {
+            "accion": "SG-03",
             "tactica": "SG-03-F01"
         },
         {
@@ -1394,19 +1470,7 @@
         },
         {
             "accion": "SG-03",
-            "tactica": "SG-03-H01"
-        },
-        {
-            "accion": "SG-03",
             "tactica": "SG-03-H02"
-        },
-        {
-            "accion": "SG-04",
-            "tactica": "SG-04-H01"
-        },
-        {
-            "accion": "SG-04",
-            "tactica": "SG-04-F03"
         },
         {
             "accion": "SG-04",
@@ -1414,15 +1478,23 @@
         },
         {
             "accion": "SG-04",
-            "tactica": "SG-04-F02"
+            "tactica": "SG-04-F03"
         },
         {
             "accion": "SG-04",
             "tactica": "SG-04-H02"
         },
         {
+            "accion": "SG-04",
+            "tactica": "SG-04-H01"
+        },
+        {
+            "accion": "SG-04",
+            "tactica": "SG-04-F02"
+        },
+        {
             "accion": "SG-05",
-            "tactica": "SG-05-H04"
+            "tactica": "SG-05-H02"
         },
         {
             "accion": "SG-05",
@@ -1430,7 +1502,7 @@
         },
         {
             "accion": "SG-05",
-            "tactica": "SG-05-H02"
+            "tactica": "SG-05-H04"
         },
         {
             "accion": "SG-05",
@@ -1442,15 +1514,19 @@
         },
         {
             "accion": "SG-06",
-            "tactica": "SG-06-H03"
-        },
-        {
-            "accion": "SG-06",
             "tactica": "SG-06-H02"
         },
         {
             "accion": "SG-06",
             "tactica": "SG-06-H01"
+        },
+        {
+            "accion": "SG-06",
+            "tactica": "SG-06-H03"
+        },
+        {
+            "accion": "SG-07",
+            "tactica": "SG-07-H06"
         },
         {
             "accion": "SG-07",
@@ -1469,24 +1545,8 @@
             "tactica": "SG-07-H05"
         },
         {
-            "accion": "SG-07",
-            "tactica": "SG-07-H06"
-        },
-        {
-            "accion": "CI-01",
-            "tactica": "CI-01-H02"
-        },
-        {
-            "accion": "CI-01",
-            "tactica": "CI-01-H03"
-        },
-        {
             "accion": "CI-01",
             "tactica": "CI-01-H05"
-        },
-        {
-            "accion": "CI-01",
-            "tactica": "CI-01-H01"
         },
         {
             "accion": "CI-01",
@@ -1494,15 +1554,27 @@
         },
         {
             "accion": "CI-01",
+            "tactica": "CI-01-H02"
+        },
+        {
+            "accion": "CI-01",
+            "tactica": "CI-01-H01"
+        },
+        {
+            "accion": "CI-01",
+            "tactica": "CI-01-H03"
+        },
+        {
+            "accion": "CI-01",
             "tactica": "CI-01-F01"
         },
         {
             "accion": "CI-02",
-            "tactica": "CI-02-F01"
+            "tactica": "CI-02-F02"
         },
         {
             "accion": "CI-02",
-            "tactica": "CI-02-F02"
+            "tactica": "CI-02-F01"
         },
         {
             "accion": "CI-03",
@@ -1513,32 +1585,8 @@
             "tactica": "CI-03-H04"
         },
         {
-            "accion": "CI-04",
-            "tactica": "CI-04-H02"
-        },
-        {
-            "accion": "CI-04",
-            "tactica": "CI-04-H01"
-        },
-        {
-            "accion": "CI-05",
-            "tactica": "CI-05-H01"
-        },
-        {
-            "accion": "CI-05",
-            "tactica": "CI-05-H04"
-        },
-        {
-            "accion": "CI-05",
-            "tactica": "CI-05-H02"
-        },
-        {
             "accion": "DAC-01",
-            "tactica": "DAC-01-H06"
-        },
-        {
-            "accion": "DAC-01",
-            "tactica": "DAC-01-H04"
+            "tactica": "DAC-01-H03"
         },
         {
             "accion": "DAC-01",
@@ -1550,11 +1598,15 @@
         },
         {
             "accion": "DAC-01",
+            "tactica": "DAC-01-H04"
+        },
+        {
+            "accion": "DAC-01",
             "tactica": "DAC-01-H01"
         },
         {
             "accion": "DAC-01",
-            "tactica": "DAC-01-H03"
+            "tactica": "DAC-01-H06"
         },
         {
             "accion": "DAC-01b",
@@ -1582,43 +1634,7 @@
         },
         {
             "accion": "DAC-03",
-            "tactica": "DAC-03-H05b"
-        },
-        {
-            "accion": "DAC-03",
-            "tactica": "DAC-03-H05"
-        },
-        {
-            "accion": "DAC-03",
-            "tactica": "DAC-03-H08"
-        },
-        {
-            "accion": "DAC-03",
-            "tactica": "DAC-03-H03"
-        },
-        {
-            "accion": "DAC-03",
-            "tactica": "DAC-03-H10"
-        },
-        {
-            "accion": "DAC-03",
-            "tactica": "DAC-03-F01"
-        },
-        {
-            "accion": "DAC-03",
-            "tactica": "DAC-03-F02"
-        },
-        {
-            "accion": "DAC-03",
-            "tactica": "DAC-03-H01"
-        },
-        {
-            "accion": "DAC-03",
-            "tactica": "DAC-03-H09"
-        },
-        {
-            "accion": "DAC-03",
-            "tactica": "DAC-03-H04"
+            "tactica": "DAC-03-H06"
         },
         {
             "accion": "DAC-03",
@@ -1626,11 +1642,51 @@
         },
         {
             "accion": "DAC-03",
+            "tactica": "DAC-03-H03"
+        },
+        {
+            "accion": "DAC-03",
+            "tactica": "DAC-03-H05"
+        },
+        {
+            "accion": "DAC-03",
+            "tactica": "DAC-03-H05b"
+        },
+        {
+            "accion": "DAC-03",
+            "tactica": "DAC-03-F02"
+        },
+        {
+            "accion": "DAC-03",
+            "tactica": "DAC-03-H10"
+        },
+        {
+            "accion": "DAC-03",
             "tactica": "DAC-03-H02"
         },
         {
             "accion": "DAC-03",
-            "tactica": "DAC-03-H06"
+            "tactica": "DAC-03-F01"
+        },
+        {
+            "accion": "DAC-03",
+            "tactica": "DAC-03-H09"
+        },
+        {
+            "accion": "DAC-03",
+            "tactica": "DAC-03-H01"
+        },
+        {
+            "accion": "DAC-03",
+            "tactica": "DAC-03-H08"
+        },
+        {
+            "accion": "DAC-03",
+            "tactica": "DAC-03-H04"
+        },
+        {
+            "accion": "DAC-04",
+            "tactica": "DAC-04-H05"
         },
         {
             "accion": "DAC-04",
@@ -1638,7 +1694,15 @@
         },
         {
             "accion": "DAC-04",
+            "tactica": "DAC-04-H02"
+        },
+        {
+            "accion": "DAC-04",
             "tactica": "DAC-04-H05b"
+        },
+        {
+            "accion": "DAC-04",
+            "tactica": "DAC-04-H04"
         },
         {
             "accion": "DAC-04",
@@ -1650,31 +1714,7 @@
         },
         {
             "accion": "DAC-04",
-            "tactica": "DAC-04-H04"
-        },
-        {
-            "accion": "DAC-04",
-            "tactica": "DAC-04-H05"
-        },
-        {
-            "accion": "DAC-04",
             "tactica": "DAC-04-H03"
-        },
-        {
-            "accion": "DAC-04",
-            "tactica": "DAC-04-H02"
-        },
-        {
-            "accion": "DAC-05",
-            "tactica": "DAC-05-H05"
-        },
-        {
-            "accion": "DAC-05",
-            "tactica": "DAC-05-H02"
-        },
-        {
-            "accion": "DAC-05",
-            "tactica": "DAC-05-H03"
         },
         {
             "accion": "DAC-05",
@@ -1682,7 +1722,15 @@
         },
         {
             "accion": "DAC-05",
-            "tactica": "DAC-05-H01"
+            "tactica": "DAC-05-H02"
+        },
+        {
+            "accion": "DAC-05",
+            "tactica": "DAC-05-H06"
+        },
+        {
+            "accion": "DAC-05",
+            "tactica": "DAC-05-H03"
         },
         {
             "accion": "DAC-05",
@@ -1690,7 +1738,11 @@
         },
         {
             "accion": "DAC-05",
-            "tactica": "DAC-05-H06"
+            "tactica": "DAC-05-H05"
+        },
+        {
+            "accion": "DAC-05",
+            "tactica": "DAC-05-H01"
         },
         {
             "accion": "DAC-06",
@@ -1714,23 +1766,11 @@
         },
         {
             "accion": "DAC-08",
-            "tactica": "DAC-08-H03"
-        },
-        {
-            "accion": "DAC-08",
             "tactica": "DAC-08-H01"
         },
         {
-            "accion": "DAC-09",
-            "tactica": "DAC-09-H03"
-        },
-        {
-            "accion": "DAC-09",
-            "tactica": "DAC-09-H04"
-        },
-        {
-            "accion": "DAC-09",
-            "tactica": "DAC-09-H05"
+            "accion": "DAC-08",
+            "tactica": "DAC-08-H03"
         },
         {
             "accion": "DAC-09",
@@ -1738,7 +1778,7 @@
         },
         {
             "accion": "DAC-09",
-            "tactica": "DAC-09-H03b"
+            "tactica": "DAC-09-H05"
         },
         {
             "accion": "DAC-09",
@@ -1750,7 +1790,19 @@
         },
         {
             "accion": "DAC-09",
+            "tactica": "DAC-09-H03"
+        },
+        {
+            "accion": "DAC-09",
             "tactica": "DAC-09-H01"
+        },
+        {
+            "accion": "DAC-09",
+            "tactica": "DAC-09-H04"
+        },
+        {
+            "accion": "DAC-09",
+            "tactica": "DAC-09-H03b"
         },
         {
             "accion": "DAC-09",
@@ -1758,15 +1810,15 @@
         },
         {
             "accion": "DAC-10",
-            "tactica": "DAC-10-H01"
-        },
-        {
-            "accion": "DAC-10",
             "tactica": "DAC-10-H04"
         },
         {
             "accion": "DAC-10",
-            "tactica": "DAC-10-H05"
+            "tactica": "DAC-10-H03"
+        },
+        {
+            "accion": "DAC-10",
+            "tactica": "DAC-10-H01"
         },
         {
             "accion": "DAC-10",
@@ -1774,31 +1826,11 @@
         },
         {
             "accion": "DAC-10",
-            "tactica": "DAC-10-H02"
+            "tactica": "DAC-10-H05"
         },
         {
             "accion": "DAC-10",
-            "tactica": "DAC-10-H03"
-        },
-        {
-            "accion": "DAC-11",
-            "tactica": "DAC-11-F05"
-        },
-        {
-            "accion": "DAC-11",
-            "tactica": "DAC-11-H03"
-        },
-        {
-            "accion": "DAC-11",
-            "tactica": "DAC-11-H02"
-        },
-        {
-            "accion": "DAC-11",
-            "tactica": "DAC-11-F03"
-        },
-        {
-            "accion": "DAC-11",
-            "tactica": "DAC-11-H01"
+            "tactica": "DAC-10-H02"
         },
         {
             "accion": "DAC-11",
@@ -1813,12 +1845,24 @@
             "tactica": "DAC-11-F01"
         },
         {
-            "accion": "DAC-12",
-            "tactica": "DAC-12-F01"
+            "accion": "DAC-11",
+            "tactica": "DAC-11-F03"
         },
         {
-            "accion": "DAC-12",
-            "tactica": "DAC-12-F03"
+            "accion": "DAC-11",
+            "tactica": "DAC-11-H01"
+        },
+        {
+            "accion": "DAC-11",
+            "tactica": "DAC-11-F05"
+        },
+        {
+            "accion": "DAC-11",
+            "tactica": "DAC-11-H02"
+        },
+        {
+            "accion": "DAC-11",
+            "tactica": "DAC-11-H03"
         },
         {
             "accion": "DAC-12",
@@ -1826,11 +1870,19 @@
         },
         {
             "accion": "DAC-12",
+            "tactica": "DAC-12-F01"
+        },
+        {
+            "accion": "DAC-12",
             "tactica": "DAC-12-H01"
         },
         {
+            "accion": "DAC-12",
+            "tactica": "DAC-12-F03"
+        },
+        {
             "accion": "DAC-42",
-            "tactica": "DAC-42-F03"
+            "tactica": "DAC-42-F02"
         },
         {
             "accion": "DAC-42",
@@ -1838,11 +1890,7 @@
         },
         {
             "accion": "DAC-42",
-            "tactica": "DAC-42-F02"
-        },
-        {
-            "accion": "DAC-13",
-            "tactica": "DAC-13-F02"
+            "tactica": "DAC-42-F03"
         },
         {
             "accion": "DAC-13",
@@ -1853,12 +1901,16 @@
             "tactica": "DAC-13-F03"
         },
         {
-            "accion": "DAC-14",
-            "tactica": "DAC-14-F01b"
+            "accion": "DAC-13",
+            "tactica": "DAC-13-F02"
         },
         {
             "accion": "DAC-14",
-            "tactica": "DAC-14-F02"
+            "tactica": "DAC-14-F01"
+        },
+        {
+            "accion": "DAC-14",
+            "tactica": "DAC-14-F01b"
         },
         {
             "accion": "DAC-14",
@@ -1866,7 +1918,11 @@
         },
         {
             "accion": "DAC-14",
-            "tactica": "DAC-14-F01"
+            "tactica": "DAC-14-F02"
+        },
+        {
+            "accion": "DAC-15",
+            "tactica": "DAC-15-F02"
         },
         {
             "accion": "DAC-15",
@@ -1877,8 +1933,8 @@
             "tactica": "DAC-15-F03"
         },
         {
-            "accion": "DAC-15",
-            "tactica": "DAC-15-F02"
+            "accion": "DAC-16",
+            "tactica": "DAC-16-F02"
         },
         {
             "accion": "DAC-16",
@@ -1886,23 +1942,11 @@
         },
         {
             "accion": "DAC-16",
-            "tactica": "DAC-16-F04"
-        },
-        {
-            "accion": "DAC-16",
-            "tactica": "DAC-16-F02"
-        },
-        {
-            "accion": "DAC-16",
             "tactica": "DAC-16-F03"
         },
         {
-            "accion": "DAC-17",
-            "tactica": "DAC-17-H05"
-        },
-        {
-            "accion": "DAC-17",
-            "tactica": "DAC-17-H01"
+            "accion": "DAC-16",
+            "tactica": "DAC-16-F04"
         },
         {
             "accion": "DAC-17",
@@ -1914,19 +1958,27 @@
         },
         {
             "accion": "DAC-17",
-            "tactica": "DAC-17-H02"
-        },
-        {
-            "accion": "DAC-17",
             "tactica": "DAC-17-H03"
         },
         {
-            "accion": "DAC-18",
-            "tactica": "DAC-18-H02"
+            "accion": "DAC-17",
+            "tactica": "DAC-17-H05"
+        },
+        {
+            "accion": "DAC-17",
+            "tactica": "DAC-17-H01"
+        },
+        {
+            "accion": "DAC-17",
+            "tactica": "DAC-17-H02"
         },
         {
             "accion": "DAC-18",
             "tactica": "DAC-18-H01"
+        },
+        {
+            "accion": "DAC-18",
+            "tactica": "DAC-18-H02"
         },
         {
             "accion": "DAC-19",
@@ -1938,15 +1990,19 @@
         },
         {
             "accion": "DAC-21",
-            "tactica": "DAC-21-H03"
-        },
-        {
-            "accion": "DAC-21",
             "tactica": "DAC-21-H02"
         },
         {
             "accion": "DAC-21",
+            "tactica": "DAC-21-H03"
+        },
+        {
+            "accion": "DAC-21",
             "tactica": "DAC-21-H01"
+        },
+        {
+            "accion": "DAC-22",
+            "tactica": "DAC-22-H04"
         },
         {
             "accion": "DAC-22",
@@ -1958,15 +2014,7 @@
         },
         {
             "accion": "DAC-22",
-            "tactica": "DAC-22-H04"
-        },
-        {
-            "accion": "DAC-22",
             "tactica": "DAC-22-H03"
-        },
-        {
-            "accion": "DAC-23",
-            "tactica": "DAC-23-H02"
         },
         {
             "accion": "DAC-23",
@@ -1977,8 +2025,8 @@
             "tactica": "DAC-23-H01"
         },
         {
-            "accion": "DAC-26",
-            "tactica": "DAC-26-H02"
+            "accion": "DAC-23",
+            "tactica": "DAC-23-H02"
         },
         {
             "accion": "DAC-26",
@@ -1989,8 +2037,8 @@
             "tactica": "DAC-26-H01"
         },
         {
-            "accion": "DAC-27",
-            "tactica": "DAC-27-H02"
+            "accion": "DAC-26",
+            "tactica": "DAC-26-H02"
         },
         {
             "accion": "DAC-27",
@@ -2001,8 +2049,8 @@
             "tactica": "DAC-27-H03"
         },
         {
-            "accion": "DAC-28",
-            "tactica": "DAC-28-H01"
+            "accion": "DAC-27",
+            "tactica": "DAC-27-H02"
         },
         {
             "accion": "DAC-28",
@@ -2013,8 +2061,8 @@
             "tactica": "DAC-28-H02"
         },
         {
-            "accion": "DAC-29",
-            "tactica": "DAC-29-H02"
+            "accion": "DAC-28",
+            "tactica": "DAC-28-H01"
         },
         {
             "accion": "DAC-29",
@@ -2025,6 +2073,14 @@
             "tactica": "DAC-29-H01"
         },
         {
+            "accion": "DAC-29",
+            "tactica": "DAC-29-H02"
+        },
+        {
+            "accion": "DAC-30",
+            "tactica": "DAC-30-H01"
+        },
+        {
             "accion": "DAC-30",
             "tactica": "DAC-30-H02"
         },
@@ -2033,8 +2089,12 @@
             "tactica": "DAC-30-H03"
         },
         {
-            "accion": "DAC-30",
-            "tactica": "DAC-30-H01"
+            "accion": "DAC-31",
+            "tactica": "DAC-31-H3"
+        },
+        {
+            "accion": "DAC-31",
+            "tactica": "DAC-31-H4"
         },
         {
             "accion": "DAC-31",
@@ -2042,15 +2102,11 @@
         },
         {
             "accion": "DAC-31",
-            "tactica": "DAC-31-H3"
-        },
-        {
-            "accion": "DAC-31",
             "tactica": "DAC-31-H02"
         },
         {
-            "accion": "DAC-31",
-            "tactica": "DAC-31-H4"
+            "accion": "DAC-32",
+            "tactica": "DAC-32-H01"
         },
         {
             "accion": "DAC-32",
@@ -2058,15 +2114,15 @@
         },
         {
             "accion": "DAC-32",
-            "tactica": "DAC-32-H02"
-        },
-        {
-            "accion": "DAC-32",
             "tactica": "DAC-32-H03"
         },
         {
             "accion": "DAC-32",
-            "tactica": "DAC-32-H01"
+            "tactica": "DAC-32-H02"
+        },
+        {
+            "accion": "DAC-33",
+            "tactica": "DAC-33-H07"
         },
         {
             "accion": "DAC-33",
@@ -2074,7 +2130,7 @@
         },
         {
             "accion": "DAC-33",
-            "tactica": "DAC-33-H03"
+            "tactica": "DAC-33-H06"
         },
         {
             "accion": "DAC-33",
@@ -2090,19 +2146,7 @@
         },
         {
             "accion": "DAC-33",
-            "tactica": "DAC-33-H06"
-        },
-        {
-            "accion": "DAC-33",
-            "tactica": "DAC-33-H07"
-        },
-        {
-            "accion": "DAC-34",
-            "tactica": "DAC-34-H03"
-        },
-        {
-            "accion": "DAC-34",
-            "tactica": "DAC-34-H04"
+            "tactica": "DAC-33-H03"
         },
         {
             "accion": "DAC-34",
@@ -2110,11 +2154,19 @@
         },
         {
             "accion": "DAC-34",
-            "tactica": "DAC-34-H05"
+            "tactica": "DAC-34-H01"
         },
         {
             "accion": "DAC-34",
-            "tactica": "DAC-34-H01"
+            "tactica": "DAC-34-H04"
+        },
+        {
+            "accion": "DAC-34",
+            "tactica": "DAC-34-H03"
+        },
+        {
+            "accion": "DAC-34",
+            "tactica": "DAC-34-H05"
         },
         {
             "accion": "DAC-34",
@@ -2122,7 +2174,7 @@
         },
         {
             "accion": "DAC-35",
-            "tactica": "DAC-35-H03"
+            "tactica": "DAC-35-H02"
         },
         {
             "accion": "DAC-35",
@@ -2130,15 +2182,7 @@
         },
         {
             "accion": "DAC-35",
-            "tactica": "DAC-35-H02"
-        },
-        {
-            "accion": "DAC-36",
-            "tactica": "DAC-36-H04"
-        },
-        {
-            "accion": "DAC-36",
-            "tactica": "DAC-36-H03"
+            "tactica": "DAC-35-H03"
         },
         {
             "accion": "DAC-36",
@@ -2146,7 +2190,15 @@
         },
         {
             "accion": "DAC-36",
+            "tactica": "DAC-36-H04"
+        },
+        {
+            "accion": "DAC-36",
             "tactica": "DAC-36-H01"
+        },
+        {
+            "accion": "DAC-36",
+            "tactica": "DAC-36-H03"
         },
         {
             "accion": "DAC-37",
@@ -2158,7 +2210,7 @@
         },
         {
             "accion": "DAC-38",
-            "tactica": "DAC-38-H02"
+            "tactica": "DAC-38-H03"
         },
         {
             "accion": "DAC-38",
@@ -2170,11 +2222,11 @@
         },
         {
             "accion": "DAC-38",
-            "tactica": "DAC-38-H03"
+            "tactica": "DAC-38-H02"
         },
         {
             "accion": "DAC-40",
-            "tactica": "DAC-40-H01"
+            "tactica": "DAC-40-H02"
         },
         {
             "accion": "DAC-40",
@@ -2190,15 +2242,7 @@
         },
         {
             "accion": "DAC-40",
-            "tactica": "DAC-40-H02"
-        },
-        {
-            "accion": "DAC-41",
-            "tactica": "DAC-41-H03"
-        },
-        {
-            "accion": "DAC-41",
-            "tactica": "DAC-41-H02"
+            "tactica": "DAC-40-H01"
         },
         {
             "accion": "DAC-41",
@@ -2213,16 +2257,20 @@
             "tactica": "DAC-41-H01"
         },
         {
+            "accion": "DAC-41",
+            "tactica": "DAC-41-H02"
+        },
+        {
+            "accion": "DAC-41",
+            "tactica": "DAC-41-H03"
+        },
+        {
+            "accion": "DAC-43",
+            "tactica": "DAC-43-H04"
+        },
+        {
             "accion": "DAC-43",
             "tactica": "DAC-43-H01"
-        },
-        {
-            "accion": "DAC-43",
-            "tactica": "DAC-43-F01"
-        },
-        {
-            "accion": "DAC-43",
-            "tactica": "DAC-43-H02"
         },
         {
             "accion": "DAC-43",
@@ -2230,7 +2278,15 @@
         },
         {
             "accion": "DAC-43",
-            "tactica": "DAC-43-H04"
+            "tactica": "DAC-43-H02"
+        },
+        {
+            "accion": "DAC-43",
+            "tactica": "DAC-43-F01"
+        },
+        {
+            "accion": "DAC-44",
+            "tactica": "DAC-44-H01"
         },
         {
             "accion": "DAC-44",
@@ -2241,20 +2297,8 @@
             "tactica": "DAC-44-H03"
         },
         {
-            "accion": "DAC-44",
-            "tactica": "DAC-44-H01"
-        },
-        {
             "accion": "DPAC-01",
             "tactica": "DPAC-01-F03"
-        },
-        {
-            "accion": "DPAC-01",
-            "tactica": "DPAC-01-F02"
-        },
-        {
-            "accion": "DPAC-01",
-            "tactica": "DPAC-01-F04"
         },
         {
             "accion": "DPAC-01",
@@ -2265,36 +2309,24 @@
             "tactica": "DPAC-01-F05"
         },
         {
-            "accion": "DPAC-02",
-            "tactica": "DPAC-02-F01"
+            "accion": "DPAC-01",
+            "tactica": "DPAC-01-F04"
         },
         {
-            "accion": "DPAC-02",
-            "tactica": "DPAC-02-F02"
+            "accion": "DPAC-01",
+            "tactica": "DPAC-01-F02"
         },
         {
             "accion": "DPAC-02",
             "tactica": "DPAC-02-F03"
         },
         {
-            "accion": "DPAC-03",
-            "tactica": "DPAC-03-H05"
+            "accion": "DPAC-02",
+            "tactica": "DPAC-02-F01"
         },
         {
-            "accion": "DPAC-03",
-            "tactica": "DPAC-03-F01"
-        },
-        {
-            "accion": "DPAC-03",
-            "tactica": "DPAC-03-H06"
-        },
-        {
-            "accion": "DPAC-03",
-            "tactica": "DPAC-03-H02"
-        },
-        {
-            "accion": "DPAC-03",
-            "tactica": "DPAC-03-H09"
+            "accion": "DPAC-02",
+            "tactica": "DPAC-02-F02"
         },
         {
             "accion": "DPAC-03",
@@ -2310,7 +2342,27 @@
         },
         {
             "accion": "DPAC-03",
+            "tactica": "DPAC-03-H05"
+        },
+        {
+            "accion": "DPAC-03",
+            "tactica": "DPAC-03-H02"
+        },
+        {
+            "accion": "DPAC-03",
+            "tactica": "DPAC-03-F01"
+        },
+        {
+            "accion": "DPAC-03",
             "tactica": "DPAC-03-H07"
+        },
+        {
+            "accion": "DPAC-03",
+            "tactica": "DPAC-03-H09"
+        },
+        {
+            "accion": "DPAC-03",
+            "tactica": "DPAC-03-H06"
         },
         {
             "accion": "DPAC-04",
@@ -2318,7 +2370,15 @@
         },
         {
             "accion": "DPAC-04",
+            "tactica": "DPAC-04-H03"
+        },
+        {
+            "accion": "DPAC-04",
             "tactica": "DPAC-04-F01"
+        },
+        {
+            "accion": "DPAC-04",
+            "tactica": "DPAC-04-F04"
         },
         {
             "accion": "DPAC-04",
@@ -2330,27 +2390,7 @@
         },
         {
             "accion": "DPAC-04",
-            "tactica": "DPAC-04-F04"
-        },
-        {
-            "accion": "DPAC-04",
-            "tactica": "DPAC-04-H03"
-        },
-        {
-            "accion": "DPAC-04",
             "tactica": "DPAC-04-H02"
-        },
-        {
-            "accion": "DPAC-05",
-            "tactica": "DPAC-05-H07"
-        },
-        {
-            "accion": "DPAC-05",
-            "tactica": "DPAC-05-H06"
-        },
-        {
-            "accion": "DPAC-05",
-            "tactica": "DPAC-05-H08"
         },
         {
             "accion": "DPAC-05",
@@ -2362,14 +2402,6 @@
         },
         {
             "accion": "DPAC-05",
-            "tactica": "DPAC-05-F01"
-        },
-        {
-            "accion": "DPAC-05",
-            "tactica": "DPAC-05-H01"
-        },
-        {
-            "accion": "DPAC-05",
             "tactica": "DPAC-05-H03"
         },
         {
@@ -2378,11 +2410,27 @@
         },
         {
             "accion": "DPAC-05",
-            "tactica": "DPAC-05-H09"
+            "tactica": "DPAC-05-H06"
         },
         {
-            "accion": "DPAC-06",
-            "tactica": "DPAC-06-H01"
+            "accion": "DPAC-05",
+            "tactica": "DPAC-05-F01"
+        },
+        {
+            "accion": "DPAC-05",
+            "tactica": "DPAC-05-H08"
+        },
+        {
+            "accion": "DPAC-05",
+            "tactica": "DPAC-05-H07"
+        },
+        {
+            "accion": "DPAC-05",
+            "tactica": "DPAC-05-H01"
+        },
+        {
+            "accion": "DPAC-05",
+            "tactica": "DPAC-05-H09"
         },
         {
             "accion": "DPAC-06",
@@ -2393,20 +2441,8 @@
             "tactica": "DPAC-06-H02"
         },
         {
-            "accion": "DPAC-07",
-            "tactica": "DPAC-07-H07"
-        },
-        {
-            "accion": "DPAC-07",
-            "tactica": "DPAC-07-H02"
-        },
-        {
-            "accion": "DPAC-07",
-            "tactica": "DPAC-07-H06"
-        },
-        {
-            "accion": "DPAC-07",
-            "tactica": "DPAC-07-H01"
+            "accion": "DPAC-06",
+            "tactica": "DPAC-06-H01"
         },
         {
             "accion": "DPAC-07",
@@ -2414,19 +2450,27 @@
         },
         {
             "accion": "DPAC-07",
-            "tactica": "DPAC-07-H03"
+            "tactica": "DPAC-07-H06"
         },
         {
             "accion": "DPAC-07",
             "tactica": "DPAC-07-H04"
         },
         {
-            "accion": "DPAC-08",
-            "tactica": "DPAC-08-H02"
+            "accion": "DPAC-07",
+            "tactica": "DPAC-07-H07"
         },
         {
-            "accion": "DPAC-08",
-            "tactica": "DPAC-08-H03"
+            "accion": "DPAC-07",
+            "tactica": "DPAC-07-H03"
+        },
+        {
+            "accion": "DPAC-07",
+            "tactica": "DPAC-07-H02"
+        },
+        {
+            "accion": "DPAC-07",
+            "tactica": "DPAC-07-H01"
         },
         {
             "accion": "DPAC-08",
@@ -2437,12 +2481,20 @@
             "tactica": "DPAC-08-H01"
         },
         {
-            "accion": "DPAC-09",
-            "tactica": "DPAC-09-H04"
+            "accion": "DPAC-08",
+            "tactica": "DPAC-08-H03"
+        },
+        {
+            "accion": "DPAC-08",
+            "tactica": "DPAC-08-H02"
         },
         {
             "accion": "DPAC-09",
-            "tactica": "DPAC-09-H02"
+            "tactica": "DPAC-09-H05"
+        },
+        {
+            "accion": "DPAC-09",
+            "tactica": "DPAC-09-H04"
         },
         {
             "accion": "DPAC-09",
@@ -2450,11 +2502,11 @@
         },
         {
             "accion": "DPAC-09",
-            "tactica": "DPAC-09-H01"
+            "tactica": "DPAC-09-H02"
         },
         {
             "accion": "DPAC-09",
-            "tactica": "DPAC-09-H05"
+            "tactica": "DPAC-09-H01"
         },
         {
             "accion": "DPAC-10",
@@ -2462,11 +2514,15 @@
         },
         {
             "accion": "DPAC-10",
-            "tactica": "DPAC-10-H02"
+            "tactica": "DPAC-10-H03"
         },
         {
             "accion": "DPAC-10",
-            "tactica": "DPAC-10-H03"
+            "tactica": "DPAC-10-H02"
+        },
+        {
+            "accion": "DPAC-11",
+            "tactica": "DPAC-11-H02"
         },
         {
             "accion": "DPAC-11",
@@ -2475,14 +2531,6 @@
         {
             "accion": "DPAC-11",
             "tactica": "DPAC-11-H01"
-        },
-        {
-            "accion": "DPAC-11",
-            "tactica": "DPAC-11-H02"
-        },
-        {
-            "accion": "DPAC-12",
-            "tactica": "DPAC-12-H02"
         },
         {
             "accion": "DPAC-12",
@@ -2494,6 +2542,10 @@
         },
         {
             "accion": "DPAC-12",
+            "tactica": "DPAC-12-H02"
+        },
+        {
+            "accion": "DPAC-12",
             "tactica": "DPAC-12-H01"
         },
         {
@@ -2502,11 +2554,11 @@
         },
         {
             "accion": "DPAC-13",
-            "tactica": "DPAC-13-H01"
+            "tactica": "DPAC-13-H02"
         },
         {
             "accion": "DPAC-13",
-            "tactica": "DPAC-13-H02"
+            "tactica": "DPAC-13-H01"
         },
         {
             "accion": "DPAC-14",
@@ -2522,10 +2574,6 @@
         },
         {
             "accion": "DPAC-15",
-            "tactica": "DPAC-15-H04"
-        },
-        {
-            "accion": "DPAC-15",
             "tactica": "DPAC-15-H01"
         },
         {
@@ -2533,76 +2581,28 @@
             "tactica": "DPAC-15-H05"
         },
         {
-            "accion": "DPAC-16",
-            "tactica": "DPAC-16-H01"
+            "accion": "DPAC-15",
+            "tactica": "DPAC-15-H04"
         },
         {
-            "accion": "DPAC-16",
-            "tactica": "DPAC-16-H02"
+            "accion": "CI-04",
+            "tactica": "CI-04-H02"
         },
         {
-            "accion": "DPAC-16",
-            "tactica": "DPAC-16-H03"
+            "accion": "CI-04",
+            "tactica": "CI-04-H01"
         },
         {
-            "accion": "DPAC-17",
-            "tactica": "DPAC-17-H01"
+            "accion": "CI-05",
+            "tactica": "CI-05-H02"
         },
         {
-            "accion": "DPAC-18",
-            "tactica": "DPAC-18-H05"
+            "accion": "CI-05",
+            "tactica": "CI-05-H01"
         },
         {
-            "accion": "DPAC-18",
-            "tactica": "DPAC-18-H02"
-        },
-        {
-            "accion": "DPAC-18",
-            "tactica": "DPAC-18-H01"
-        },
-        {
-            "accion": "DPAC-18",
-            "tactica": "DPAC-18-H04"
-        },
-        {
-            "accion": "DPAC-18",
-            "tactica": "DPAC-18-H03"
-        },
-        {
-            "accion": "DPAC-19",
-            "tactica": "DPAC-19-H01"
-        },
-        {
-            "accion": "DPAC-19",
-            "tactica": "DPAC-19-H03"
-        },
-        {
-            "accion": "DPAC-19",
-            "tactica": "DPAC-19-H02"
-        },
-        {
-            "accion": "DPAC-20",
-            "tactica": "DPAC-20-H01"
-        },
-        {
-            "accion": "DPAC-20",
-            "tactica": "DPAC-20-H03"
-        },
-        {
-            "accion": "DPAC-20",
-            "tactica": "DPAC-20-H05"
-        },
-        {
-            "accion": "DPAC-20",
-            "tactica": "DPAC-20-H06"
-        },
-        {
-            "accion": "DPAC-20",
-            "tactica": "DPAC-20-H04"
-        },
-        {
-            "accion": "DPAC-20",
-            "tactica": "DPAC-20-H02"
+            "accion": "CI-05",
+            "tactica": "CI-05-H04"
         }
     ],
     "meta": {
@@ -3266,7 +3266,7 @@
                     ]
                 },
                 "ios": [{
-                    "meta": "80",
+                    "meta": "37",
                     "formula": "Número de coordinaciones efectuadas con equipos técnicos.",
                     "nombre": "Instancias de coordinación con equipos técnicos."
                 }],
@@ -6836,6 +6836,57 @@
                 "prioridad": "Alta",
                 "desc": "Liderar y articular las gestiones para la generación y/o provisión de cargos y/o contrataciones de académicos y académicas en la Institución."
             },
+            "DI-06-H09": {
+                "cobertura": "Acotada",
+                "tipo": "Hito",
+                "naturaleza": "Analítica",
+                "mdvs": [{
+                    "estandares": [
+                        "Documentación formal sobre otros fondos de investigación internos distintos a semilla y equipamiento interno.",
+                        "Puede considerar decretos de bases de fondos, actas de selección, decretos de adjudicación, entre otros validadores pertinentes."
+                    ],
+                    "plazo": "dic",
+                    "nombre": "Validadores generales para otros fondos internos de investigación."
+                }],
+                "cod": "H09",
+                "capacidades": {
+                    "Informado": [{
+                        "id": "multiple-todos-gestion-academica",
+                        "participacion": "Normal"
+                    }],
+                    "Consultado": [
+                        {
+                            "id": "SG-JUR-coordinacion-general",
+                            "participacion": "Normal"
+                        },
+                        {
+                            "id": "SG-JUR-operacion-misc",
+                            "participacion": "Normal"
+                        },
+                        {
+                            "id": "DAF-FIN-coordinacion-general",
+                            "participacion": "Normal"
+                        },
+                        {
+                            "id": "DAF-FIN-finanzas",
+                            "participacion": "Normal"
+                        }
+                    ],
+                    "Responsable": [
+                        {
+                            "id": "DI-DINV-coordinacion-general",
+                            "participacion": "Normal"
+                        },
+                        {
+                            "id": "DI-DINV-operacion-misc",
+                            "participacion": "Normal"
+                        }
+                    ]
+                },
+                "ios": [],
+                "prioridad": "Normal",
+                "desc": "Puestos a disposición otros fondos generales e internos de investigación para el cuerpo académico."
+            },
             "DAF-23-H03": {
                 "cobertura": "Acotada",
                 "tipo": "Hito",
@@ -6917,57 +6968,6 @@
                 "ios": [],
                 "prioridad": "Alta",
                 "desc": "Diseñados y formalizados los mecanismos institucionales para el levantamiento, mantención y ajuste de centros de responsabilidad, que se articulen directamente con los procesos de diseño y control de gestión de la planificación institucional."
-            },
-            "DI-06-H09": {
-                "cobertura": "Acotada",
-                "tipo": "Hito",
-                "naturaleza": "Analítica",
-                "mdvs": [{
-                    "estandares": [
-                        "Documentación formal sobre otros fondos de investigación internos distintos a semilla y equipamiento interno.",
-                        "Puede considerar decretos de bases de fondos, actas de selección, decretos de adjudicación, entre otros validadores pertinentes."
-                    ],
-                    "plazo": "dic",
-                    "nombre": "Validadores generales para otros fondos internos de investigación."
-                }],
-                "cod": "H09",
-                "capacidades": {
-                    "Informado": [{
-                        "id": "multiple-todos-gestion-academica",
-                        "participacion": "Normal"
-                    }],
-                    "Consultado": [
-                        {
-                            "id": "SG-JUR-coordinacion-general",
-                            "participacion": "Normal"
-                        },
-                        {
-                            "id": "SG-JUR-operacion-misc",
-                            "participacion": "Normal"
-                        },
-                        {
-                            "id": "DAF-FIN-coordinacion-general",
-                            "participacion": "Normal"
-                        },
-                        {
-                            "id": "DAF-FIN-finanzas",
-                            "participacion": "Normal"
-                        }
-                    ],
-                    "Responsable": [
-                        {
-                            "id": "DI-DINV-coordinacion-general",
-                            "participacion": "Normal"
-                        },
-                        {
-                            "id": "DI-DINV-operacion-misc",
-                            "participacion": "Normal"
-                        }
-                    ]
-                },
-                "ios": [],
-                "prioridad": "Normal",
-                "desc": "Puestos a disposición otros fondos generales e internos de investigación para el cuerpo académico."
             },
             "DAF-23-H02": {
                 "cobertura": "Acotada",
@@ -11407,6 +11407,7 @@
                             "Debe dar cuenta de aspectos cualitativos respecto a la calidad de las sesiones y percepción de estudiantes respecto a ellas como mecanismo de inducción a la vida universitaria.",
                             "Acompañado tanto de respuestas individuales como de indicadores agregados que den cuenta de la percepción general sobre las sesiones."
                         ],
+                        "plazo": "may",
                         "nombre": "Encuesta de satisfacción del proceso de inducción."
                     }
                 ],
@@ -14631,14 +14632,6 @@
                         },
                         {
                             "id": "DVcM-TE-operacion-misc",
-                            "participacion": "Normal"
-                        },
-                        {
-                            "id": "REC-RI-coordinacion-general",
-                            "participacion": "Normal"
-                        },
-                        {
-                            "id": "REC-RI-operacion-misc",
                             "participacion": "Normal"
                         },
                         {
@@ -18766,14 +18759,6 @@
                             "participacion": "Esporádica"
                         },
                         {
-                            "id": "REC-RI-coordinacion-general",
-                            "participacion": "Esporádica"
-                        },
-                        {
-                            "id": "REC-RI-operacion-misc",
-                            "participacion": "Esporádica"
-                        },
-                        {
                             "id": "multiple-todos-gestion-academica",
                             "participacion": "Normal"
                         }
@@ -19015,14 +19000,6 @@
                             "participacion": "Normal"
                         },
                         {
-                            "id": "REC-RI-coordinacion-general",
-                            "participacion": "Normal"
-                        },
-                        {
-                            "id": "REC-RI-operacion-misc",
-                            "participacion": "Normal"
-                        },
-                        {
                             "id": "DPAC-AI-coordinacion-general",
                             "participacion": "Esporádica"
                         },
@@ -19087,14 +19064,6 @@
                         },
                         {
                             "id": "DVcM-TE-operacion-misc",
-                            "participacion": "Normal"
-                        },
-                        {
-                            "id": "REC-RI-coordinacion-general",
-                            "participacion": "Normal"
-                        },
-                        {
-                            "id": "REC-RI-operacion-misc",
                             "participacion": "Normal"
                         },
                         {
@@ -19169,14 +19138,6 @@
                         {
                             "id": "DVcM-TE-operacion-misc",
                             "participacion": "Esporádica"
-                        },
-                        {
-                            "id": "REC-RI-coordinacion-general",
-                            "participacion": "Normal"
-                        },
-                        {
-                            "id": "REC-RI-operacion-misc",
-                            "participacion": "Normal"
                         },
                         {
                             "id": "DPAC-GC-coordinacion-general",
@@ -22029,6 +21990,7 @@
                             "Incorporar registro visual de las instancias.",
                             "Puede agregar registro de fidelizador con comunicado a la comunidad universitaria."
                         ],
+                        "plazo": "abr",
                         "nombre": "Material de difusión"
                     }
                 ],
@@ -22678,14 +22640,6 @@
                             "participacion": "Esporádica"
                         },
                         {
-                            "id": "REC-RI-coordinacion-general",
-                            "participacion": "Esporádica"
-                        },
-                        {
-                            "id": "REC-RI-operacion-misc",
-                            "participacion": "Esporádica"
-                        },
-                        {
                             "id": "DPAC-GC-coordinacion-general",
                             "participacion": "Esporádica"
                         },
@@ -22759,14 +22713,6 @@
                         },
                         {
                             "id": "DI-DINV-operacion-misc",
-                            "participacion": "Normal"
-                        },
-                        {
-                            "id": "REC-RI-coordinacion-general",
-                            "participacion": "Normal"
-                        },
-                        {
-                            "id": "REC-RI-operacion-misc",
                             "participacion": "Normal"
                         },
                         {
@@ -22848,14 +22794,6 @@
                         {
                             "id": "DI-DINV-operacion-misc",
                             "participacion": "Normal"
-                        },
-                        {
-                            "id": "REC-RI-coordinacion-general",
-                            "participacion": "Esporádica"
-                        },
-                        {
-                            "id": "REC-RI-operacion-misc",
-                            "participacion": "Esporádica"
                         },
                         {
                             "id": "multiple-todos-estrategicos",
@@ -26270,14 +26208,6 @@
                             "participacion": "Normal"
                         },
                         {
-                            "id": "REC-RI-coordinacion-general",
-                            "participacion": "Esporádica"
-                        },
-                        {
-                            "id": "REC-RI-operacion-misc",
-                            "participacion": "Esporádica"
-                        },
-                        {
                             "id": "multiple-todos-gestion-academica",
                             "participacion": "Normal"
                         }
@@ -26337,14 +26267,6 @@
                         {
                             "id": "DVcM-TE-operacion-misc",
                             "participacion": "Normal"
-                        },
-                        {
-                            "id": "REC-RI-coordinacion-general",
-                            "participacion": "Esporádica"
-                        },
-                        {
-                            "id": "REC-RI-operacion-misc",
-                            "participacion": "Esporádica"
                         },
                         {
                             "id": "multiple-todos-gestion-academica",
@@ -26417,14 +26339,6 @@
                         },
                         {
                             "id": "DVcM-TE-operacion-misc",
-                            "participacion": "Normal"
-                        },
-                        {
-                            "id": "REC-RI-coordinacion-general",
-                            "participacion": "Normal"
-                        },
-                        {
-                            "id": "REC-RI-operacion-misc",
                             "participacion": "Normal"
                         },
                         {
@@ -26533,7 +26447,7 @@
                             "Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
                             "Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
                         ],
-                        "nombre": "Bitácora de requerimientos de transparencia"
+                        "nombre": "Planilla de requerimientos de transparencia"
                     },
                     {
                         "estandares": [
@@ -28663,14 +28577,6 @@
                             "participacion": "Esporádica"
                         },
                         {
-                            "id": "REC-RI-coordinacion-general",
-                            "participacion": "Esporádica"
-                        },
-                        {
-                            "id": "REC-RI-operacion-misc",
-                            "participacion": "Esporádica"
-                        },
-                        {
                             "id": "DPAC-GC-coordinacion-general",
                             "participacion": "Normal"
                         },
@@ -28836,10 +28742,6 @@
                             "participacion": "Normal"
                         },
                         {
-                            "id": "REC-RI-coordinacion-general",
-                            "participacion": "Normal"
-                        },
-                        {
                             "id": "multiple-todos-gestion-academica",
                             "participacion": "Normal"
                         }
@@ -28878,15 +28780,6 @@
                 "tipo": "Hito",
                 "naturaleza": "Analítica",
                 "mdvs": [
-                    {
-                        "estandares": [
-                            "Incorpora una revisión bibliografica en materia de uso y manejo de redes sociales a nivel organizacional.",
-                            "Incluye revisión de normativa de instituciones públicas, especialmente de Instituciones de Educación SUperior Estatales, respecto del uso de plataforma digitales.",
-                            "Considerar su formalización vía decreto."
-                        ],
-                        "plazo": "may",
-                        "nombre": "Manuales de uso y manejo de redes sociales institucionales"
-                    },
                     {
                         "estandares": [
                             "Incluye matriz de priorización de requerimientos de desarrollo web.",
@@ -35029,6 +34922,10 @@
                 }],
                 "cod": "H02",
                 "capacidades": {
+                    "Informado": [{
+                        "id": "multiple-todos-estrategicos",
+                        "participacion": "Normal"
+                    }],
                     "Responsable": [
                         {
                             "id": "DAF-FIN-coordinacion-general",
@@ -35038,11 +34935,7 @@
                             "id": "DAF-FIN-finanzas",
                             "participacion": "Normal"
                         }
-                    ],
-                    "Informados": [{
-                        "id": "multiple-todos-estrategicos",
-                        "participacion": "Normal"
-                    }]
+                    ]
                 },
                 "ios": [],
                 "prioridad": "Alta",
@@ -35062,6 +34955,10 @@
                 }],
                 "cod": "H01",
                 "capacidades": {
+                    "Informado": [{
+                        "id": "multiple-todos-estrategicos",
+                        "participacion": "Normal"
+                    }],
                     "Responsable": [
                         {
                             "id": "DAF-FIN-coordinacion-general",
@@ -35071,11 +34968,7 @@
                             "id": "DAF-FIN-finanzas",
                             "participacion": "Normal"
                         }
-                    ],
-                    "Informados": [{
-                        "id": "multiple-todos-estrategicos",
-                        "participacion": "Normal"
-                    }]
+                    ]
                 },
                 "ios": [],
                 "prioridad": "Alta",
@@ -37066,7 +36959,7 @@
                     ]
                 },
                 "ios": [{
-                    "meta": "165",
+                    "meta": "80",
                     "formula": "Número de informes de toma de razón emitidos y que han sido informados a actores pertinentes.",
                     "nombre": "Controles de legalidad sujetos a revisión y entregados."
                 }],
@@ -40639,55 +40532,6 @@
                 "prioridad": "Alta",
                 "desc": "Entregados los datos de la encuesta INE de investigación y desarrollo."
             },
-            "DPAC-05-H08": {
-                "cobertura": "Mínima",
-                "tipo": "Hito",
-                "naturaleza": "Analítica",
-                "mdvs": [{
-                    "estandares": [
-                        "Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados.",
-                        "Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción que dará origen a la entrega.",
-                        "Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
-                        "Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
-                    ],
-                    "plazo": "nov",
-                    "nombre": "Respaldos de entrega de datos e información."
-                }],
-                "cod": "H08",
-                "capacidades": {
-                    "Consultado": [
-                        {
-                            "id": "DAC-EPRE-coordinacion-general",
-                            "participacion": "Normal"
-                        },
-                        {
-                            "id": "DAC-EPRE-coordinacion-admision-matricula",
-                            "participacion": "Normal"
-                        },
-                        {
-                            "id": "DAC-EPRE-admision-matricula",
-                            "participacion": "Normal"
-                        }
-                    ],
-                    "Soporte": [{
-                        "id": "DPAC-TGI-gobierno-datos",
-                        "participacion": "Esporádica"
-                    }],
-                    "Responsable": [
-                        {
-                            "id": "DPAC-AI-coordinacion-general",
-                            "participacion": "Normal"
-                        },
-                        {
-                            "id": "DPAC-AI-operacion-misc",
-                            "participacion": "Normal"
-                        }
-                    ]
-                },
-                "ios": [],
-                "prioridad": "Alta",
-                "desc": "Entregados los datos del proceso SIES: oferta académica vigente."
-            },
             "DVcM-18-H06": {
                 "cobertura": "Mediana",
                 "tipo": "Hito",
@@ -40793,6 +40637,55 @@
                 "ios": [],
                 "prioridad": "Alta",
                 "desc": "Diseñados y piloteados mecanismos institucionales que orientan la caracterización y medición cualitativa y cuantitativa de bidireccionalidad e impacto de las actividades académicas"
+            },
+            "DPAC-05-H08": {
+                "cobertura": "Mínima",
+                "tipo": "Hito",
+                "naturaleza": "Analítica",
+                "mdvs": [{
+                    "estandares": [
+                        "Puede estar acompañado de comunicaciones (ej.: correo) y de archivos de datos e información que ha sido entregada en los formatos solicitados.",
+                        "Se debe establecer en detalle los grupos de datos e información necesaria para operacionalizar la construcción que dará origen a la entrega.",
+                        "Debe considerar y/o incorporar estándares institucionales en materia de gobierno de datos.",
+                        "Considera diccionario de datos y respaldo de información generada en el repositorio de datos institucional."
+                    ],
+                    "plazo": "nov",
+                    "nombre": "Respaldos de entrega de datos e información."
+                }],
+                "cod": "H08",
+                "capacidades": {
+                    "Consultado": [
+                        {
+                            "id": "DAC-EPRE-coordinacion-general",
+                            "participacion": "Normal"
+                        },
+                        {
+                            "id": "DAC-EPRE-coordinacion-admision-matricula",
+                            "participacion": "Normal"
+                        },
+                        {
+                            "id": "DAC-EPRE-admision-matricula",
+                            "participacion": "Normal"
+                        }
+                    ],
+                    "Soporte": [{
+                        "id": "DPAC-TGI-gobierno-datos",
+                        "participacion": "Esporádica"
+                    }],
+                    "Responsable": [
+                        {
+                            "id": "DPAC-AI-coordinacion-general",
+                            "participacion": "Normal"
+                        },
+                        {
+                            "id": "DPAC-AI-operacion-misc",
+                            "participacion": "Normal"
+                        }
+                    ]
+                },
+                "ios": [],
+                "prioridad": "Alta",
+                "desc": "Entregados los datos del proceso SIES: oferta académica vigente."
             },
             "DPAC-05-H07": {
                 "cobertura": "Mínima",
@@ -42902,11 +42795,11 @@
                 "objetivo": "Diseñar, coordinar y ejecutar el plan de auditorias anual, que permita a la institución tener orientaciones sobre mejoras necesarias en el marco procedimental y normativo.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "CI-01-H02",
-                    "CI-01-H03",
                     "CI-01-H05",
-                    "CI-01-H01",
                     "CI-01-H04",
+                    "CI-01-H02",
+                    "CI-01-H01",
+                    "CI-01-H03",
                     "CI-01-F01"
                 ],
                 "responsable": "CI-AUD",
@@ -42917,8 +42810,8 @@
                 "objetivo": "Desarrollar las actividades necesarias para el control de actos administrativos desde la perspectiva de su coherencia y regularidad con el marco normativo que rige a la Institución.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "CI-02-F01",
-                    "CI-02-F02"
+                    "CI-02-F02",
+                    "CI-02-F01"
                 ],
                 "responsable": "CI-LCJ",
                 "titulo": "Control de juridicidad de actos administrativos y documentación institucional."
@@ -42928,9 +42821,9 @@
                 "objetivo": "Implementar mejoras de naturaleza tecnológica que apoyen el desarrollo de actividades asociadas al control de juridicidad y actos administrativos.",
                 "tipo": "Desarrollo",
                 "tacticas": [
+                    "CI-05-H02",
                     "CI-05-H01",
-                    "CI-05-H04",
-                    "CI-05-H02"
+                    "CI-05-H04"
                 ],
                 "responsable": "CI-LCJ",
                 "titulo": "Soporte tecnológico en apoyo a labores de juridicidad y control de actos administrativos."
@@ -42953,10 +42846,10 @@
                 "objetivo": "Ejecutar diversas acciones de coordinación y sistematización de información que permita a Rectoría gestionar su tiempo y organizar sus actividades de forma transparente y ágil junto a diversos otros actores tanto internos como externos.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "Rectoria-01-F01",
+                    "Rectoria-01-F02",
                     "Rectoria-01-F04",
-                    "Rectoria-01-F03",
-                    "Rectoria-01-F02"
+                    "Rectoria-01-F01",
+                    "Rectoria-01-F03"
                 ],
                 "responsable": "Gabinete",
                 "titulo": "Gestión de agenda y comunicación de Rectoría con actores internos y externos."
@@ -42966,8 +42859,8 @@
                 "objetivo": "Instalar mecanismos que permitan potenciar el despegue del laboratorio como una incubadora de proyectos institucionales, derivados desde la actividad académica y en coherencia a la metodología de Innovación Social, que permita generar resultados de impacto notable en el medio.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DVcM-19-H04",
                     "DVcM-19-H02",
+                    "DVcM-19-H04",
                     "DVcM-19-H01",
                     "DVcM-19-H03"
                 ],
@@ -42979,10 +42872,10 @@
                 "objetivo": "Diseñar y desplegar un sistema de gestión, basado en metodologías, procesos, información y otros mecanismos, que permita la promoción de la bidireccionalidad y la medición objetiva de impacto en el corto, mediano y largo plazo que generan las actividades académicas en la Institución.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DVcM-18-H04",
-                    "DVcM-18-H02",
+                    "DVcM-18-H06",
                     "DVcM-18-H01",
-                    "DVcM-18-H06"
+                    "DVcM-18-H02",
+                    "DVcM-18-H04"
                 ],
                 "responsable": "DVcM-TE",
                 "titulo": "Instalación del Sistema de gestión de la Vinculación con el Medio UAysén."
@@ -43006,14 +42899,14 @@
                 "objetivo": "Formalizar lineamientos y mecanismos para potenciar sistemáticamente el posicionamiento de la Institución en el medio.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DVcM-15-H07",
+                    "DVcM-15-H04",
                     "DVcM-15-H04b",
-                    "DVcM-15-H03",
-                    "DVcM-15-H01",
-                    "DVcM-15-H05",
                     "DVcM-15-H06",
-                    "DVcM-15-H02",
-                    "DVcM-15-H04"
+                    "DVcM-15-H07",
+                    "DVcM-15-H01",
+                    "DVcM-15-H03",
+                    "DVcM-15-H05",
+                    "DVcM-15-H02"
                 ],
                 "responsable": "DVcM-COM",
                 "titulo": "Instalación de la estrategia de posicionamiento en el medio de la Universidad de Aysén."
@@ -43024,8 +42917,8 @@
                 "tipo": "Desarrollo",
                 "tacticas": [
                     "DVcM-13-H02",
-                    "DVcM-13-H03",
-                    "DVcM-13-H01"
+                    "DVcM-13-H01",
+                    "DVcM-13-H03"
                 ],
                 "responsable": "DVcM-TE",
                 "titulo": "Mejoras a la gestión y funcionamiento del Consejo Social."
@@ -43035,12 +42928,12 @@
                 "objetivo": "Gestionar la implementación de las Escuelas de temporada 2021 institucionalizadas en la región, para entregar oportunidades de vinculación y colaboración con los actores del medio.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DVcM-12-H05",
+                    "DVcM-12-H03",
                     "DVcM-12-H02",
-                    "DVcM-12-H01",
-                    "DVcM-12-H04b",
                     "DVcM-12-H04",
-                    "DVcM-12-H03"
+                    "DVcM-12-H04b",
+                    "DVcM-12-H05",
+                    "DVcM-12-H01"
                 ],
                 "responsable": "DVcM-TE",
                 "titulo": "Escuelas de Temporada UAysén."
@@ -43050,11 +42943,11 @@
                 "objetivo": "Desarrollo de actividades de soporte comunicacional para la coordinación de los equipos en la institución, al alero de orientaciones estratégicas de mediano y largo plazo.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DVcM-11-H01",
-                    "DVcM-11-F01",
                     "DVcM-11-F02",
                     "DVcM-11-F03",
-                    "DVcM-11-F04"
+                    "DVcM-11-F04",
+                    "DVcM-11-H01",
+                    "DVcM-11-F01"
                 ],
                 "responsable": "DVcM-COM",
                 "titulo": "Gestión de las comunicaciones internas de la Institución."
@@ -43064,11 +42957,11 @@
                 "objetivo": "Desarrollo de actividades de soporte comunicacional y posicionamiento de la Institución en el medio, al alero de orientaciones estratégicas de mediano y largo plazo.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DVcM-10-F02",
                     "DVcM-10-F01",
-                    "DVcM-10-F03",
+                    "DVcM-10-F02",
                     "DVcM-10-F04",
-                    "DVcM-10-H01"
+                    "DVcM-10-H01",
+                    "DVcM-10-F03"
                 ],
                 "responsable": "DVcM-COM",
                 "titulo": "Posicionamiento de la Institución en el medio regional, nacional e internacional."
@@ -43078,10 +42971,10 @@
                 "objetivo": "Monitorear y realizar seguimiento de estudiantes, tanto egresados como potencial nueva matrícula, para implementar y retroalimentar la oferta de programas en la Institución.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DAC-16-F01",
-                    "DAC-16-F04",
                     "DAC-16-F02",
-                    "DAC-16-F03"
+                    "DAC-16-F01",
+                    "DAC-16-F03",
+                    "DAC-16-F04"
                 ],
                 "responsable": "DAC-EPYEC",
                 "titulo": "Seguimiento de (ex-)estudiantes y/o potenciales estudiantes de programas de educación continua"
@@ -43091,12 +42984,12 @@
                 "objetivo": "Revisar mejorar los mecanismos a través de los cuales se evalúa la actividad docente, fomentando un uso sistemático e integral de la información.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAC-17-H05",
-                    "DAC-17-H01",
                     "DAC-17-H06",
                     "DAC-17-H04",
-                    "DAC-17-H02",
-                    "DAC-17-H03"
+                    "DAC-17-H03",
+                    "DAC-17-H05",
+                    "DAC-17-H01",
+                    "DAC-17-H02"
                 ],
                 "responsable": "DAC-EPRE",
                 "titulo": "Evaluación y mejoramiento de la calidad docente"
@@ -43106,8 +42999,8 @@
                 "objetivo": "Realizar las actividades conducentes a la instalación de mecanismos que regulen el funcionamiento interno de los departamentos, en coherencia y sinergia a los mecanismos institucionales de desarrollo académico (URY 20991).",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAC-18-H02",
-                    "DAC-18-H01"
+                    "DAC-18-H01",
+                    "DAC-18-H02"
                 ],
                 "responsable": "DAC-DA",
                 "titulo": "Avance hacia la mejora en la organización interna de los Departamentos"
@@ -43139,10 +43032,10 @@
                 "objetivo": "Registrar y proveer información asociada a la gestión contable y administrativa de la Universidad tanto con internos como con externos.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DAF-09-H02",
-                    "DAF-09-H01",
-                    "DAF-09-F02",
                     "DAF-09-F01",
+                    "DAF-09-F02",
+                    "DAF-09-H01",
+                    "DAF-09-H02",
                     "DAF-09-F03"
                 ],
                 "responsable": "DAF-FIN",
@@ -43153,10 +43046,10 @@
                 "objetivo": "Aplicar mecanismos que permitan asegurar el desarrollo de la docencia en coherencia al Modelo Educativo.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DAC-12-F01",
-                    "DAC-12-F03",
                     "DAC-12-F02",
-                    "DAC-12-H01"
+                    "DAC-12-F01",
+                    "DAC-12-H01",
+                    "DAC-12-F03"
                 ],
                 "responsable": "DAC-EPRE",
                 "titulo": "Acompañamiento y soporte para el desarrollo de la docencia universitaria"
@@ -43166,9 +43059,9 @@
                 "objetivo": "Desarrollar actividades de atención y capacitación a usuarios para acceder a los recursos bibliográficos que la institución ofrece.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DAC-13-F02",
                     "DAC-13-F01",
-                    "DAC-13-F03"
+                    "DAC-13-F03",
+                    "DAC-13-F02"
                 ],
                 "responsable": "DAC-BRA",
                 "titulo": "Servicios para atender requerimientos de acceso a recursos bibliográficos."
@@ -43178,24 +43071,24 @@
                 "objetivo": "Realizar actividades de soporte a los actores de la institución en materia de monitoreo, sistematización, logística y abastecimiento respecto a sus bienes muebles y al inventario respectivo.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DAF-07-F02",
-                    "DAF-07-F04",
                     "DAF-07-F03",
                     "DAF-07-H01",
-                    "DAF-07-F01"
+                    "DAF-07-F01",
+                    "DAF-07-F04",
+                    "DAF-07-F02"
                 ],
                 "responsable": "DAF-ADQ",
                 "titulo": "Gestión y control del inventario institucional."
             },
             "DAC-14": {
                 "area": "DAC",
-                "objetivo": "Ofrecer soporte y realizar difusión a los estudiantes respecto al acceso a beneficios para apoyar su proceso formativo.",
+                "objetivo": "Gestionar aspectos académicos del funcionamiento del CAE.",
                 "tipo": "Misional",
                 "tacticas": [
+                    "DAC-14-F01",
                     "DAC-14-F01b",
-                    "DAC-14-F02",
                     "DAC-14-F03",
-                    "DAC-14-F01"
+                    "DAC-14-F02"
                 ],
                 "responsable": "DAC-DE",
                 "titulo": "Gestión de becas y beneficios estudiantiles."
@@ -43216,9 +43109,9 @@
                 "objetivo": "Desarrollar actividades que complementen la actividad curricular de los estudiantes, apuntando a su desarrollo integral.",
                 "tipo": "Misional",
                 "tacticas": [
+                    "DAC-15-F02",
                     "DAC-15-F01",
-                    "DAC-15-F03",
-                    "DAC-15-F02"
+                    "DAC-15-F03"
                 ],
                 "responsable": "DAC-DE",
                 "titulo": "Gestión y promoción de actividades extracurriculares y salud mental para los estudiantes"
@@ -43228,14 +43121,14 @@
                 "objetivo": "Desarrollar todas las actividades y tareas administrativas conducentes a implementar eficientemente el Plan de Compras del periodo vigente, respondiendo a la normativa de compras públicas, y desde aquello elaborar directrices para la construcción oportuna del Plan del periodo siguiente.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DAF-05-H03",
+                    "DAF-05-F04",
+                    "DAF-05-F02",
+                    "DAF-05-H02",
                     "DAF-05-H01",
                     "DAF-05-F01",
-                    "DAF-05-F02",
+                    "DAF-05-H03",
                     "DAF-05-F05",
-                    "DAF-05-F03",
-                    "DAF-05-F04",
-                    "DAF-05-H02"
+                    "DAF-05-F03"
                 ],
                 "responsable": "DAF-ADQ",
                 "titulo": "Gestión del Plan de Compras de la Institución."
@@ -43245,10 +43138,10 @@
                 "objetivo": "Gestionar el desarrollo de instancias que permitan articular esfuerzos y lineamientos estratégicos conducentes a la promoción de la equidad de género y eliminación de la violencia sexual.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "Rectoria-04-H01",
                     "Rectoria-04-F01",
-                    "Rectoria-04-F02",
-                    "Rectoria-04-F03"
+                    "Rectoria-04-F03",
+                    "Rectoria-04-H01",
+                    "Rectoria-04-F02"
                 ],
                 "responsable": "EG",
                 "titulo": "Coordinación interna y externa de instancias asociadas al Género."
@@ -43269,12 +43162,12 @@
                 "objetivo": "Implementar procesos instalados y otras iniciativas que permitan identificar casos de violencia o discriminación y abordarlos de forma pertinente y oportuna.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "Rectoria-05-F01",
-                    "Rectoria-05-F05",
-                    "Rectoria-05-F02",
                     "Rectoria-05-F04",
                     "Rectoria-05-F03",
-                    "Rectoria-05-H01"
+                    "Rectoria-05-F05",
+                    "Rectoria-05-H01",
+                    "Rectoria-05-F02",
+                    "Rectoria-05-F01"
                 ],
                 "responsable": "EG",
                 "titulo": "Operacionalización del Protocolo contra la Violencia Sexual y la Discriminación Arbitraria (PVSDA)."
@@ -43284,10 +43177,10 @@
                 "objetivo": "Desplegar mecanismos de preparación y difusión sobre el proceso de calificación de desempeño del personal, permitiendo avanzar a su operacionalización durante el 2022.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DAF-03-H01b",
                     "DAF-03-H03",
-                    "DAF-03-H02",
-                    "DAF-03-H01"
+                    "DAF-03-H01",
+                    "DAF-03-H01b",
+                    "DAF-03-H02"
                 ],
                 "responsable": "DAF-DP",
                 "titulo": "Calificación de desempeño del personal de colaboración de la Universidad."
@@ -43297,9 +43190,9 @@
                 "objetivo": "Desarrollar y operacionalizar mecanismos procedimentales para dar respuesta a los requerimientos de la Ley del Lobby (20.730).",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "Rectoria-02-H03",
+                    "Rectoria-02-H01",
                     "Rectoria-02-H02",
-                    "Rectoria-02-H01"
+                    "Rectoria-02-H03"
                 ],
                 "responsable": "Gabinete",
                 "titulo": "Implementación de la Ley del Lobby."
@@ -43309,12 +43202,12 @@
                 "objetivo": "Levantar los insumos necesarios para el desarrollo de la docencia anual y de las actividades académicas relacionadas.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DAC-10-H01",
                     "DAC-10-H04",
-                    "DAC-10-H05",
+                    "DAC-10-H03",
+                    "DAC-10-H01",
                     "DAC-10-F01",
-                    "DAC-10-H02",
-                    "DAC-10-H03"
+                    "DAC-10-H05",
+                    "DAC-10-H02"
                 ],
                 "responsable": "DAC-EPRE",
                 "titulo": "Programación de docencia 2021"
@@ -43325,15 +43218,15 @@
                 "tipo": "Misional",
                 "tacticas": [
                     "Rectoria-03-H08",
-                    "Rectoria-03-H03",
-                    "Rectoria-03-H09",
-                    "Rectoria-03-F02",
-                    "Rectoria-03-F01",
-                    "Rectoria-03-H06",
-                    "Rectoria-03-H01",
                     "Rectoria-03-H05",
+                    "Rectoria-03-H01",
                     "Rectoria-03-H02",
-                    "Rectoria-03-H04"
+                    "Rectoria-03-H09",
+                    "Rectoria-03-H04",
+                    "Rectoria-03-H06",
+                    "Rectoria-03-F01",
+                    "Rectoria-03-H03",
+                    "Rectoria-03-F02"
                 ],
                 "responsable": "EG",
                 "titulo": "Prevención de la violencia y promoción de la equidad en género."
@@ -43343,14 +43236,14 @@
                 "objetivo": "Implementar procedimientos que permitan evaluar, priorizar y apoyar el desempeño de los estudiantes con miras a su participacion activa y continuidad de estudios.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DAC-11-F05",
-                    "DAC-11-H03",
-                    "DAC-11-H02",
-                    "DAC-11-F03",
-                    "DAC-11-H01",
                     "DAC-11-F02",
                     "DAC-11-F04",
-                    "DAC-11-F01"
+                    "DAC-11-F01",
+                    "DAC-11-F03",
+                    "DAC-11-H01",
+                    "DAC-11-F05",
+                    "DAC-11-H02",
+                    "DAC-11-H03"
                 ],
                 "responsable": "DAC-EPRE",
                 "titulo": "Seguimiento y soporte al desempeño académico de los estudiantes"
@@ -43360,10 +43253,10 @@
                 "objetivo": "Gestionar todas las acciones conducentes a completar de forma eficiente los procesos de contratación del personal, en sus distintas calidades y requerimientos específicos, y acorde al marco legal vigente.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DAF-01-H01",
+                    "DAF-01-F01",
                     "DAF-01-F03",
-                    "DAF-01-F02",
-                    "DAF-01-F01"
+                    "DAF-01-H01",
+                    "DAF-01-F02"
                 ],
                 "responsable": "DAF-DP",
                 "titulo": "Coordinación de procesos de contratación anual."
@@ -43373,12 +43266,12 @@
                 "objetivo": "Desarrollar actividades fundacionales para la instalación y proyección de la perspectiva de Inclusión en la Institución, de forma articulada con el Género.",
                 "tipo": "Desarrollo",
                 "tacticas": [
+                    "Rectoria-08-H06",
                     "Rectoria-08-H03",
                     "Rectoria-08-H01",
-                    "Rectoria-08-H06",
+                    "Rectoria-08-H02",
                     "Rectoria-08-H05",
-                    "Rectoria-08-H04",
-                    "Rectoria-08-H02"
+                    "Rectoria-08-H04"
                 ],
                 "responsable": "EG",
                 "titulo": "Instalación de la Inclusión como perspectiva transversal en la Institución (URY 1855)."
@@ -43388,11 +43281,11 @@
                 "objetivo": "Diseñar e implementar mecanismos estratégicos y operativos fundacionales que permitan transversalizar el Género en todo el quehacer Universitario.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "Rectoria-09-H08",
                     "Rectoria-09-H02",
-                    "Rectoria-09-H03",
+                    "Rectoria-09-H08",
                     "Rectoria-09-H07",
-                    "Rectoria-09-H04"
+                    "Rectoria-09-H04",
+                    "Rectoria-09-H03"
                 ],
                 "responsable": "EG",
                 "titulo": "Mecanismos para la transversalización del Género."
@@ -43402,14 +43295,14 @@
                 "objetivo": "Diseñar e implementar mejoras al PVSDA que promuevan su funcionamiento efectivo y su despliegue integral en la Institución.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "Rectoria-06-H02",
-                    "Rectoria-06-H05",
-                    "Rectoria-06-H07",
-                    "Rectoria-06-H04",
                     "Rectoria-06-H09",
-                    "Rectoria-06-H03",
+                    "Rectoria-06-H05",
+                    "Rectoria-06-H06",
+                    "Rectoria-06-H07",
+                    "Rectoria-06-H02",
+                    "Rectoria-06-H04",
                     "Rectoria-06-H01",
-                    "Rectoria-06-H06"
+                    "Rectoria-06-H03"
                 ],
                 "responsable": "EG",
                 "titulo": "Mejoramiento estructural y funcional del Protocolo contra la Violencia Sexual y Discriminación Arbitraria (PVSDA)."
@@ -43419,11 +43312,11 @@
                 "objetivo": "Desarrollar instancias de discusión orientadas hacia la implementación de una institucionalidad y orgánica actualizadas que aborden estratégicamente la incorporación de perspectivas transversales, con especial foco en el Género, en todo el quehacer Universitario.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "Rectoria-07-H05",
-                    "Rectoria-07-H02",
                     "Rectoria-07-H04",
+                    "Rectoria-07-H01",
+                    "Rectoria-07-H05",
                     "Rectoria-07-H03",
-                    "Rectoria-07-H01"
+                    "Rectoria-07-H02"
                 ],
                 "responsable": "EG",
                 "titulo": "Revisión de la orgánica de Equidad de Género y Perspectivas Transversales en la Institución."
@@ -43433,16 +43326,16 @@
                 "objetivo": "Desarrollar acciones de difusión, vinculación y diseño estratégico para el desarrollo del área de Educación como línea de trabajo de la Universidad con los territorios.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DVcM-08-H10",
-                    "DVcM-08-H04",
+                    "DVcM-08-H05",
                     "DVcM-08-H09",
                     "DVcM-08-H08",
+                    "DVcM-08-H03",
+                    "DVcM-08-H06",
                     "DVcM-08-H01",
                     "DVcM-08-H07",
+                    "DVcM-08-H04",
                     "DVcM-08-H02",
-                    "DVcM-08-H05",
-                    "DVcM-08-H03",
-                    "DVcM-08-H06"
+                    "DVcM-08-H10"
                 ],
                 "responsable": "DVcM-TE",
                 "titulo": "Vinculación con la Educación Escolar regional desde la Universidad de Aysén"
@@ -43452,11 +43345,11 @@
                 "objetivo": "Coordinar e implementar los Consejos Sociales durante el periodo, como mecanismos de retroalimentación y asesoría a la gestión institucional con mirada territorial.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DVcM-07-H03",
-                    "DVcM-07-F02",
                     "DVcM-07-F03",
                     "DVcM-07-H01",
+                    "DVcM-07-H03",
                     "DVcM-07-H04",
+                    "DVcM-07-F02",
                     "DVcM-07-F01"
                 ],
                 "responsable": "DVcM-TE",
@@ -43467,15 +43360,15 @@
                 "objetivo": "Desarrollar actividades académicas en vinculación al medio internacional bajo lineamientos estratégicos establecidos, que permitan enriquecer y profundizar las relaciones y el posicionamiento internacional.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "Rectoria-10-H03",
-                    "Rectoria-10-H01",
-                    "Rectoria-10-H06",
-                    "Rectoria-10-H05",
-                    "Rectoria-10-H04",
                     "Rectoria-10-H02",
+                    "Rectoria-10-H03",
                     "Rectoria-10-H09",
-                    "Rectoria-10-H07",
-                    "Rectoria-10-H08"
+                    "Rectoria-10-H05",
+                    "Rectoria-10-H08",
+                    "Rectoria-10-H06",
+                    "Rectoria-10-H04",
+                    "Rectoria-10-H01",
+                    "Rectoria-10-H07"
                 ],
                 "responsable": "REC-RI",
                 "titulo": "Despliegue de la estrategia de posicionamiento de actividades académicas en el medio Internacional."
@@ -43485,9 +43378,9 @@
                 "objetivo": "Desarrollar actividades de levantamiento y sistematización de necesidades que puedan ser articuladas con las capacidades académicas que la Universidad tiene para trabajar en conjunto a los territorios.",
                 "tipo": "Misional",
                 "tacticas": [
+                    "DVcM-06-F04",
                     "DVcM-06-H01",
                     "DVcM-06-F03",
-                    "DVcM-06-F04",
                     "DVcM-06-F01"
                 ],
                 "responsable": "DVcM-TE",
@@ -43499,16 +43392,16 @@
                 "tipo": "Desarrollo",
                 "tacticas": [
                     "DVcM-05-H11",
-                    "DVcM-05-H07",
-                    "DVcM-05-H09",
-                    "DVcM-05-H03",
-                    "DVcM-05-H04",
                     "DVcM-05-H08",
+                    "DVcM-05-H04",
                     "DVcM-05-H06",
+                    "DVcM-05-H10",
+                    "DVcM-05-H01",
+                    "DVcM-05-H09",
                     "DVcM-05-H02",
                     "DVcM-05-H05",
-                    "DVcM-05-H10",
-                    "DVcM-05-H01"
+                    "DVcM-05-H03",
+                    "DVcM-05-H07"
                 ],
                 "responsable": "DVcM-TE",
                 "titulo": "Operacionalización del Modelo de Gestión Territorial (MGT) UAysén (URY 2095)."
@@ -43530,15 +43423,15 @@
                 "objetivo": "Gestionar actividades artístico-culturales que permitan a la Institución aportar al medio desde esta perspectiva.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DVcM-03-H01",
-                    "DVcM-03-H05",
-                    "DVcM-03-F02",
-                    "DVcM-03-F03",
-                    "DVcM-03-F02b",
-                    "DVcM-03-H06",
                     "DVcM-03-F01",
+                    "DVcM-03-H05",
+                    "DVcM-03-H04",
+                    "DVcM-03-F02",
+                    "DVcM-03-H06",
                     "DVcM-03-H03",
-                    "DVcM-03-H04"
+                    "DVcM-03-H01",
+                    "DVcM-03-F03",
+                    "DVcM-03-F02b"
                 ],
                 "responsable": "DVcM-CU",
                 "titulo": "Promoción y desarrollo de actividades artístico-culturales."
@@ -43548,14 +43441,14 @@
                 "objetivo": "Evaluar los avances del cuerpo académico en lo que respecta a sus actividades en el corto y largo plazo.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DAC-09-H03",
-                    "DAC-09-H04",
-                    "DAC-09-H05",
                     "DAC-09-H05b",
-                    "DAC-09-H03b",
+                    "DAC-09-H05",
                     "DAC-09-H01b",
                     "DAC-09-H02",
+                    "DAC-09-H03",
                     "DAC-09-H01",
+                    "DAC-09-H04",
+                    "DAC-09-H03b",
                     "DAC-09-F01"
                 ],
                 "responsable": "DAC-DA",
@@ -43566,10 +43459,10 @@
                 "objetivo": "Seguimiento periódico de las acciones internas y articuladas de la dirección, para asegurar el cumplimiento de su rol y su apropiada respuesta a las instancias de seguimiento institucional.",
                 "tipo": "Misional",
                 "tacticas": [
+                    "DVcM-02-F02",
                     "DVcM-02-F03",
-                    "DVcM-02-F01",
                     "DVcM-02-F04",
-                    "DVcM-02-F02"
+                    "DVcM-02-F01"
                 ],
                 "responsable": "DVcM",
                 "titulo": "Instancias de coordinación de la Vinculación con el Medio."
@@ -43579,9 +43472,9 @@
                 "objetivo": "Establecer capacidades, mecanismos conductores y orientaciones para la implementación de portales web y gestión de redes sociales que apoyen el posicionamiento estratégico.",
                 "tipo": "Desarrollo",
                 "tacticas": [
+                    "DVcM-01-H01",
                     "DVcM-01-H03",
                     "DVcM-01-H02",
-                    "DVcM-01-H01",
                     "DVcM-01-H04"
                 ],
                 "responsable": "DVcM-COM",
@@ -43592,13 +43485,13 @@
                 "objetivo": "Modernizar los procesos que dan soporte a la admisión institucional, con su respectivo vínculo con el proceso de matrícula.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAC-05-H05",
-                    "DAC-05-H02",
-                    "DAC-05-H03",
                     "DAC-05-H07",
-                    "DAC-05-H01",
+                    "DAC-05-H02",
+                    "DAC-05-H06",
+                    "DAC-05-H03",
                     "DAC-05-H04",
-                    "DAC-05-H06"
+                    "DAC-05-H05",
+                    "DAC-05-H01"
                 ],
                 "responsable": "DAC-EPRE",
                 "titulo": "Modernización del macroproceso de admisión institucional"
@@ -43631,8 +43524,8 @@
                 "tipo": "Misional",
                 "tacticas": [
                     "DAC-08-H02",
-                    "DAC-08-H03",
-                    "DAC-08-H01"
+                    "DAC-08-H01",
+                    "DAC-08-H03"
                 ],
                 "responsable": "DAC-DA",
                 "titulo": "Planificación académica 2021"
@@ -43642,12 +43535,12 @@
                 "objetivo": "Sistematizar, gestionar y usar información con el propósito de apoyar los procesos de acompañamiento de los estudiantes y tener antecedentes curriculares en su proceso formativo.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DAC-01-H06",
-                    "DAC-01-H04",
+                    "DAC-01-H03",
                     "DAC-01-H05",
                     "DAC-01-H02",
+                    "DAC-01-H04",
                     "DAC-01-H01",
-                    "DAC-01-H03"
+                    "DAC-01-H06"
                 ],
                 "responsable": "DAC-EPRE",
                 "titulo": "Gestión de información en apoyo al acompañamiento, gestión curricular y documental de los estudiantes."
@@ -43668,19 +43561,19 @@
                 "objetivo": "Gestionar todas las actividades institucionales que permitan la incorporación de los nuevos estudiantes al periodo 2021, y la atracción e incorporación a la institución de nuevos estudiantes para el año 2022.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DAC-03-H05b",
-                    "DAC-03-H05",
-                    "DAC-03-H08",
-                    "DAC-03-H03",
-                    "DAC-03-H10",
-                    "DAC-03-F01",
-                    "DAC-03-F02",
-                    "DAC-03-H01",
-                    "DAC-03-H09",
-                    "DAC-03-H04",
+                    "DAC-03-H06",
                     "DAC-03-H07",
+                    "DAC-03-H03",
+                    "DAC-03-H05",
+                    "DAC-03-H05b",
+                    "DAC-03-F02",
+                    "DAC-03-H10",
                     "DAC-03-H02",
-                    "DAC-03-H06"
+                    "DAC-03-F01",
+                    "DAC-03-H09",
+                    "DAC-03-H01",
+                    "DAC-03-H08",
+                    "DAC-03-H04"
                 ],
                 "responsable": "DAC-EPRE",
                 "titulo": "Proceso de matrícula 2021 y admisión 2022"
@@ -43690,14 +43583,14 @@
                 "objetivo": "Avanzar en la implementación inicial del sistema que permita gestionar el ciclo de vida del estudiante, con principal foco en el módulo de registro curricular.",
                 "tipo": "Desarrollo",
                 "tacticas": [
+                    "DAC-04-H05",
                     "DAC-04-H01",
+                    "DAC-04-H02",
                     "DAC-04-H05b",
+                    "DAC-04-H04",
                     "DAC-04-H06",
                     "DAC-04-H07",
-                    "DAC-04-H04",
-                    "DAC-04-H05",
-                    "DAC-04-H03",
-                    "DAC-04-H02"
+                    "DAC-04-H03"
                 ],
                 "responsable": "DAC-EPRE",
                 "titulo": "Despliegue del Sistema de Gestión Académica (SGA) UAysén"
@@ -43707,10 +43600,10 @@
                 "objetivo": "Realizar acciones periódicas de levantamiento de requerimientos y soporte a la infraestructura de laboratorios y otros recursos de la actividad científica.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DI-11-F03",
-                    "DI-11-F02",
                     "DI-11-F01",
-                    "DI-11-F04"
+                    "DI-11-F02",
+                    "DI-11-F04",
+                    "DI-11-F03"
                 ],
                 "responsable": "DI-DINV",
                 "titulo": "Gestión técnica de la infraestructura para el desarrollo de la investigación."
@@ -43720,11 +43613,11 @@
                 "objetivo": "Instalar capacidades y mecanismos emergentes que permitan formalizar las acciones actuales y futuras en materia de difusión y divulgación de la ciencia, en el marco de los propósitos institucionales y su vocación regional.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DI-12-H05",
-                    "DI-12-H04",
-                    "DI-12-H02",
+                    "DI-12-H01",
                     "DI-12-H06",
-                    "DI-12-H01"
+                    "DI-12-H05",
+                    "DI-12-H02",
+                    "DI-12-H04"
                 ],
                 "responsable": "DI-DDC",
                 "titulo": "Despliegue del área de Difusión y Divulgación de la Ciencia (URY 2093)."
@@ -43742,13 +43635,13 @@
                 "objetivo": "Diseñar e implementar un sistema de gestión fundacional y con sello UAysén que contextualice los diversos mecanismos que permitirán gestionar el ciclo de vida de la investigación, incluyendo la investigación básica, aplicada, la innovación, el emprendimiento y la transferencia tecnológica.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DI-14-H01",
-                    "DI-14-H03",
-                    "DI-14-H07",
-                    "DI-14-H06",
+                    "DI-14-H04",
                     "DI-14-H02",
+                    "DI-14-H07",
                     "DI-14-H05",
-                    "DI-14-H04"
+                    "DI-14-H01",
+                    "DI-14-H06",
+                    "DI-14-H03"
                 ],
                 "responsable": "DI-DINV",
                 "titulo": "Instalación de un sistema de gestión integral para el ciclo de vida de la investigación."
@@ -43758,10 +43651,10 @@
                 "objetivo": "Implementar y aplicar mecanismos de forma emergente en la institución que permitan potenciar la productividad y la divulgación de la ciencia realizada por los investigadores y las investigadoras, proyectando su crecimiento y consolidación en el tiempo.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DI-15-H02",
+                    "DI-15-H01",
                     "DI-15-H03",
-                    "DI-15-H04",
-                    "DI-15-H01"
+                    "DI-15-H02",
+                    "DI-15-H04"
                 ],
                 "responsable": "DI-DINV",
                 "titulo": "Despliegue del plan de productividad y divulgación científica."
@@ -43779,9 +43672,9 @@
                 "objetivo": "Formalizar y realizar acciones emergentes que permitan operacionalizar las líneas de investigación institucionales como directrices para la actividad académica.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DI-17-H03",
+                    "DI-17-H01",
                     "DI-17-H02",
-                    "DI-17-H01"
+                    "DI-17-H03"
                 ],
                 "responsable": "DI-DINV",
                 "titulo": "Despliegue de las líneas de investigación institucionales."
@@ -43803,10 +43696,10 @@
                 "objetivo": "Desarrollar gestiones para coordinar mediante mecanismos institucionalizados el área de postgrado y educación continua con actores internos y externos, para su retroalimentación y desarrollo integrado.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAC-38-H02",
+                    "DAC-38-H03",
                     "DAC-38-H01",
                     "DAC-38-H04",
-                    "DAC-38-H03"
+                    "DAC-38-H02"
                 ],
                 "responsable": "DAC-EPYEC",
                 "titulo": "Despliegue de mecanismos de coordinación interna y externa para postgrado y educación continua."
@@ -43816,11 +43709,11 @@
                 "objetivo": "Diseñar mecanismos e incorporar capacidades institucionales que, en articulación cercana con pregrado, permitan desplegar el área de títulos y grados en la institución, dando soporte a las etapas de egreso de los estudiantes en la Universidad.",
                 "tipo": "Desarrollo",
                 "tacticas": [
+                    "SG-07-H06",
                     "SG-07-H04",
                     "SG-07-H01",
                     "SG-07-H03",
-                    "SG-07-H05",
-                    "SG-07-H06"
+                    "SG-07-H05"
                 ],
                 "responsable": "SG-TG",
                 "titulo": "Instalación de la Unidad de Títulos y Grados."
@@ -43830,11 +43723,11 @@
                 "objetivo": "Implementar los primeros pasos de un modelo de gestión integral y los mecanismos asociados que permitan planificar, organizar, monitorear y evaluar sistemáticamente las actividades que realiza el cuerpo académico, con miras al desarrollo de su carrera.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAC-34-H03",
-                    "DAC-34-H04",
                     "DAC-34-H02b",
-                    "DAC-34-H05",
                     "DAC-34-H01",
+                    "DAC-34-H04",
+                    "DAC-34-H03",
+                    "DAC-34-H05",
                     "DAC-34-H02"
                 ],
                 "responsable": "DAC-DA",
@@ -43845,10 +43738,10 @@
                 "objetivo": "Instalar un sistema de gestión para proyectar y valorizar el Plan Maestro, con sello UAysén, que en sintonía con la planificación y la coordinación institucional coordine las necesidades de infraestructura, las priorice de forma flexible y entregue insumos para generar un Plan de Inversión coherente.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAF-28-H01",
                     "DAF-28-H04",
-                    "DAF-28-H03",
-                    "DAF-28-H05"
+                    "DAF-28-H05",
+                    "DAF-28-H01",
+                    "DAF-28-H03"
                 ],
                 "responsable": "DAF-INSG",
                 "titulo": "Sistema para la gestión y priorización de requerimientos de la Infraestructura Institucional"
@@ -43858,9 +43751,9 @@
                 "objetivo": "Generar las condiciones normativas para el diseño de los primeros programas de postgrado en coherencia a los lineamientos institucionales y al Modelo Educativo.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAC-35-H03",
+                    "DAC-35-H02",
                     "DAC-35-H01",
-                    "DAC-35-H02"
+                    "DAC-35-H03"
                 ],
                 "responsable": "DAC-EPYEC",
                 "titulo": "Avance en el diseño de la oferta fundacional de postgrado."
@@ -43870,11 +43763,11 @@
                 "objetivo": "Implementar mecanismos fundacionales para la institución en materia de gestión de riesgo y seguridad.",
                 "tipo": "Desarrollo",
                 "tacticas": [
+                    "DAF-29-H01",
+                    "DAF-29-H04",
                     "DAF-29-H05",
                     "DAF-29-H02",
-                    "DAF-29-H03",
-                    "DAF-29-H04",
-                    "DAF-29-H01"
+                    "DAF-29-H03"
                 ],
                 "responsable": "DAF-INSG",
                 "titulo": "Directrices y mecanismos para la gestión de riesgos y seguridad"
@@ -43884,10 +43777,10 @@
                 "objetivo": "Generar las condiciones normativas para la implementación de programas de educación continua con pertinencia a los lineamientos institucionales y al Modelo Educativo.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAC-36-H04",
-                    "DAC-36-H03",
                     "DAC-36-H02",
-                    "DAC-36-H01"
+                    "DAC-36-H04",
+                    "DAC-36-H01",
+                    "DAC-36-H03"
                 ],
                 "responsable": "DAC-EPYEC",
                 "titulo": "Implementación de la oferta fundacional de educación continua bajo lineamientos institucionalizados."
@@ -43908,14 +43801,14 @@
                 "objetivo": "Ejercer el rol institucional de gestión del proyecto, coordinando el avance del cronograma definido en las bases adjudicadas.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAF-27-H05",
                     "DAF-27-H02",
-                    "DAF-27-H07",
-                    "DAF-27-H06",
-                    "DAF-27-H01",
+                    "DAF-27-H05",
                     "DAF-27-H08",
                     "DAF-27-H04",
-                    "DAF-27-H03"
+                    "DAF-27-H01",
+                    "DAF-27-H07",
+                    "DAF-27-H03",
+                    "DAF-27-H06"
                 ],
                 "responsable": "DAF-INSG",
                 "titulo": "Diseño del Proyecto Infraestructura Fundacional UAysén - Segunda Etapa Campus Río Simpson"
@@ -43925,9 +43818,9 @@
                 "objetivo": "Levantar requerimientos desde procesos e implementar módulos SGA para la gestión de becas y beneficios de los estudiantes.",
                 "tipo": "Desarrollo",
                 "tacticas": [
+                    "DAC-30-H01",
                     "DAC-30-H02",
-                    "DAC-30-H03",
-                    "DAC-30-H01"
+                    "DAC-30-H03"
                 ],
                 "responsable": "DAC-DE",
                 "titulo": "Modernización tecnológica en la gestión de becas y beneficios estudiantiles"
@@ -43937,10 +43830,10 @@
                 "objetivo": "Sistematizar procesos e implementar módulos SGA para dar soporte a las atenciones psocisociales de los estudiantes.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAC-31-H01",
                     "DAC-31-H3",
-                    "DAC-31-H02",
-                    "DAC-31-H4"
+                    "DAC-31-H4",
+                    "DAC-31-H01",
+                    "DAC-31-H02"
                 ],
                 "responsable": "DAC-DE",
                 "titulo": "Mejoramiento de procesos sobre atenciones psicosociales a los estudiantes"
@@ -43950,8 +43843,8 @@
                 "objetivo": "Desarrollar una hoja de ruta y mecanismos emergentes para establecer medios de generación de recursos que aporten a la sostenibilidad de la institución en función a su realidad.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAF-25-H03",
-                    "DAF-25-H04"
+                    "DAF-25-H04",
+                    "DAF-25-H03"
                 ],
                 "responsable": "DAF-FIN",
                 "titulo": "Instalación de estrategia para la sostenibilidad institucional por medio de ingreso de recursos"
@@ -43961,10 +43854,10 @@
                 "objetivo": "Sistematizar procesos e implementar módulos SGA para dar soporte a la participación de estudiantes en actividades extracurriculares.",
                 "tipo": "Desarrollo",
                 "tacticas": [
+                    "DAC-32-H01",
                     "DAC-32-H04",
-                    "DAC-32-H02",
                     "DAC-32-H03",
-                    "DAC-32-H01"
+                    "DAC-32-H02"
                 ],
                 "responsable": "DAC-DE",
                 "titulo": "Mejoramiento de procesos sobre participación estudiantil en actividades extracurriculares"
@@ -43975,8 +43868,8 @@
                 "tipo": "Desarrollo",
                 "tacticas": [
                     "DAF-22-H01",
-                    "DAF-22-H03",
-                    "DAF-22-H02"
+                    "DAF-22-H02",
+                    "DAF-22-H03"
                 ],
                 "responsable": "DAF-ADQ",
                 "titulo": "Modernización de solicitudes de compras"
@@ -43986,13 +43879,13 @@
                 "objetivo": "Implementar los primeros pasos de un modelo de gestión integral y los mecanismos que permitan hacer un seguimiento sistemático de la progresión académica, y desplegando desde ello procesos que favorezcan su nivelación y retención.",
                 "tipo": "Desarrollo",
                 "tacticas": [
+                    "DAC-33-H07",
                     "DAC-33-H02",
-                    "DAC-33-H03",
+                    "DAC-33-H06",
                     "DAC-33-H04",
                     "DAC-33-H05",
                     "DAC-33-H01",
-                    "DAC-33-H06",
-                    "DAC-33-H07"
+                    "DAC-33-H03"
                 ],
                 "responsable": "DAC-EPRE",
                 "titulo": "Despliegue de sistema de gestión para la progresión académica de los estudiantes"
@@ -44002,10 +43895,10 @@
                 "objetivo": "Instalar un sistema de gestión para las finanzas y el presupuesto institucional, con sello UAysén, que en sintonía con la planificación y la coordinación institucional articule el uso de capacidades con recursos financieros, de forma proyectada en el tiempo y bajo criterios de aseguramiento de la calidad.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAF-23-H07",
-                    "DAF-23-H01",
                     "DAF-23-H05",
                     "DAF-23-H03",
+                    "DAF-23-H07",
+                    "DAF-23-H01",
                     "DAF-23-H02",
                     "DAF-23-H06",
                     "DAF-23-H04"
@@ -44018,10 +43911,10 @@
                 "objetivo": "Implementar diversos mecanismos para el área de adquisiciones, al alero de procesos establecidos institucionalmente, que permitan su apropiada operacionalización.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAF-20-H01",
                     "DAF-20-H03",
-                    "DAF-20-H06",
-                    "DAF-20-H02"
+                    "DAF-20-H01",
+                    "DAF-20-H02",
+                    "DAF-20-H06"
                 ],
                 "responsable": "DAF-ADQ",
                 "titulo": "Mecanismos de adquisiciones para avanzar en implementación de procesos."
@@ -44043,8 +43936,8 @@
                 "objetivo": "Implementar diversos mecanismos para el área de inventario, al alero de procesos establecidos institucionalmente, que permitan su apropiada operacionalización.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAF-21-H02",
                     "DAF-21-H03",
+                    "DAF-21-H02",
                     "DAF-21-H05"
                 ],
                 "responsable": "DAF-ADQ",
@@ -44055,8 +43948,8 @@
                 "objetivo": "Diseñar, validar y desplegar el MGU como mecanismo central de desarrollo de la gestión en la Institución en el largo plazo.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DPAC-23-H02",
                     "DPAC-23-H01",
+                    "DPAC-23-H02",
                     "DPAC-23-H03"
                 ],
                 "responsable": "DPAC",
@@ -44067,9 +43960,9 @@
                 "objetivo": "Formular y validar los PED de cada dirección con miras al cierre del PEDI actual, evaluando su sinergia y complementariedad con las Políticas Institucionales.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DPAC-24-H01",
-                    "DPAC-24-H02",
                     "DPAC-24-H04",
+                    "DPAC-24-H02",
+                    "DPAC-24-H01",
                     "DPAC-24-H03"
                 ],
                 "responsable": "DPAC",
@@ -44092,8 +43985,8 @@
                 "tipo": "Misional",
                 "tacticas": [
                     "SG-01-F03",
-                    "SG-01-F01",
-                    "SG-01-F02"
+                    "SG-01-F02",
+                    "SG-01-F01"
                 ],
                 "responsable": "SG-OPGDT",
                 "titulo": "Provisión de documentación institucional y correspondencia."
@@ -44125,10 +44018,10 @@
                 "objetivo": "Normalizar y modernizar los procesos asociados a la postulación, evaluación, adjudicación y seguimiento de proyectos de investigación internos y externos en la Universidad.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DI-02-H02",
-                    "DI-02-H03",
                     "DI-02-H04",
-                    "DI-02-H01"
+                    "DI-02-H01",
+                    "DI-02-H02",
+                    "DI-02-H03"
                 ],
                 "responsable": "DI-DINV",
                 "titulo": "Mejora de procesos para la gestión de proyectos de investigación."
@@ -44139,10 +44032,10 @@
                 "tipo": "Misional",
                 "tacticas": [
                     "DI-03-H02",
-                    "DI-03-F03",
                     "DI-03-H01",
                     "DI-03-F01",
                     "DI-03-F04",
+                    "DI-03-F03",
                     "DI-03-F02"
                 ],
                 "responsable": "DI-DINV",
@@ -44153,9 +44046,9 @@
                 "objetivo": "Realizar una integración a nivel de procesos y sistemas de información que permita implementar habilitadores tecnológicos para la gestión de documentación institucional.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "SG-05-H04",
-                    "SG-05-H05",
                     "SG-05-H02",
+                    "SG-05-H05",
+                    "SG-05-H04",
                     "SG-05-H03",
                     "SG-05-H01"
                 ],
@@ -44167,10 +44060,10 @@
                 "objetivo": "Realizar el control de gestión de los proyectos de investigación en ejecución, con mirada específica en las necesidades de desarrollo científico y el éxito de sus resultados.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DI-04-H01",
-                    "DI-04-F02",
+                    "DI-04-F03",
                     "DI-04-F01",
-                    "DI-04-F03"
+                    "DI-04-H01",
+                    "DI-04-F02"
                 ],
                 "responsable": "DI-DINV",
                 "titulo": "Seguimiento y control de proyectos de investigación adjudicados y asociados a la institución."
@@ -44180,9 +44073,9 @@
                 "objetivo": "Implementar mecanismos de gestión para mejorar la recepción, registro y tramitación de convenios que sostiene la Institución con actores externos del medio.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "SG-06-H03",
                     "SG-06-H02",
-                    "SG-06-H01"
+                    "SG-06-H01",
+                    "SG-06-H03"
                 ],
                 "responsable": "SG-JUR",
                 "titulo": "Mejoramiento de la gestión de convenios institucionales."
@@ -44192,10 +44085,10 @@
                 "objetivo": "Gestionar acciones articuladas con las unidades administrativas de la institución para asegurar un soporte apropiado al desarrollo de los proyectos de investigación en curso.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DI-05-F03",
-                    "DI-05-F01",
                     "DI-05-H01",
-                    "DI-05-F02"
+                    "DI-05-F03",
+                    "DI-05-F02",
+                    "DI-05-F01"
                 ],
                 "responsable": "DI-DINV",
                 "titulo": "Soporte administrativo al desarrollo de proyectos de investigación adjudicados."
@@ -44205,9 +44098,9 @@
                 "objetivo": "Realizar todo el soporte logístico y funcional para el desarrollo periódico de sesiones del Consejo Superior, estableciendo coordinaciones apropiadas con los distintos actores involucrados.",
                 "tipo": "Misional",
                 "tacticas": [
+                    "SG-03-H01",
                     "SG-03-F01",
                     "SG-03-F02",
-                    "SG-03-H01",
                     "SG-03-H02"
                 ],
                 "responsable": "SG-JUR",
@@ -44219,14 +44112,14 @@
                 "tipo": "Misional",
                 "tacticas": [
                     "DI-06-H08",
-                    "DI-06-H06",
-                    "DI-06-H02",
-                    "DI-06-H04",
+                    "DI-06-H03",
                     "DI-06-H05",
-                    "DI-06-H01",
+                    "DI-06-H04",
+                    "DI-06-H06",
                     "DI-06-H09",
+                    "DI-06-H02",
                     "DI-06-H07",
-                    "DI-06-H03"
+                    "DI-06-H01"
                 ],
                 "responsable": "DI-DINV",
                 "titulo": "Gestión de fondos y recursos internos para el desarrollo de la investigación."
@@ -44236,11 +44129,11 @@
                 "objetivo": "Realizar todo el soporte logístico y funcional para el desarrollo periódico de sesiones del Senado Universitario, estableciendo coordinaciones apropiadas con los distintos actores involucrados.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "SG-04-H01",
-                    "SG-04-F03",
                     "SG-04-F01",
-                    "SG-04-F02",
-                    "SG-04-H02"
+                    "SG-04-F03",
+                    "SG-04-H02",
+                    "SG-04-H01",
+                    "SG-04-F02"
                 ],
                 "responsable": "SG-JUR",
                 "titulo": "Gestión de trabajo con el Senado Universitario."
@@ -44250,10 +44143,10 @@
                 "objetivo": "Realizar acciones de acompañamiento del cuerpo académico en la generación de productos de investigación (publicaciones, proyectos, etc.)y en la logística de su difusión, con el propósito de asegurar resultados de productividad apropiados.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DI-07-F03",
                     "DI-07-H01",
                     "DI-07-F02",
-                    "DI-07-F01"
+                    "DI-07-F01",
+                    "DI-07-F03"
                 ],
                 "responsable": "DI-DINV",
                 "titulo": "Acompañamiento al cuerpo académico en el desarrollo y difusión de sus investigaciones."
@@ -44263,9 +44156,9 @@
                 "objetivo": "Diseñar e implementar un sistema de formación integral a los tutores pares, entregándoles herramientas que aporten a su labor tutorial.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAC-27-H02",
                     "DAC-27-H01",
-                    "DAC-27-H03"
+                    "DAC-27-H03",
+                    "DAC-27-H02"
                 ],
                 "responsable": "DAC-EPRE",
                 "titulo": "Programa de Tutores Pares"
@@ -44275,8 +44168,8 @@
                 "objetivo": "Sistematizar y mejorar el acceso periódico a los datos sobre productividad científica en coherencia a las actividades académicas desarrolladas.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DI-08-F02",
-                    "DI-08-F01"
+                    "DI-08-F01",
+                    "DI-08-F02"
                 ],
                 "responsable": "DI-DINV",
                 "titulo": "Gestión de información de la productividad en la investigación."
@@ -44286,9 +44179,9 @@
                 "objetivo": "Sistematizar procesos fundamentales de Biblioteca que permitan potenciar los servicios ofrecidos y complementarlos con TICs de soporte.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAC-28-H01",
                     "DAC-28-H03",
-                    "DAC-28-H02"
+                    "DAC-28-H02",
+                    "DAC-28-H01"
                 ],
                 "responsable": "DAC-BRA",
                 "titulo": "Mejora de procesos y recursos TIC de Biblioteca"
@@ -44298,8 +44191,8 @@
                 "objetivo": "Movilizar y generar nuevas redes de colaboración con actores externos, destinadas a potenciar el desarrollo científico de la Institución.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DI-09-F01",
-                    "DI-09-H01"
+                    "DI-09-H01",
+                    "DI-09-F01"
                 ],
                 "responsable": "DI-DINV",
                 "titulo": "Gestión de redes nacionales e internacionales para el desarrollo de la investigación."
@@ -44309,9 +44202,9 @@
                 "objetivo": "Sistematizar procesos y mecanismos relacionados con la gestión de becas y beneficios de los estudiantes.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAC-29-H02",
                     "DAC-29-H03",
-                    "DAC-29-H01"
+                    "DAC-29-H01",
+                    "DAC-29-H02"
                 ],
                 "responsable": "DAC-DE",
                 "titulo": "Mejora de los procesos para la gestión de becas y beneficios estudiantiles"
@@ -44332,9 +44225,9 @@
                 "objetivo": "Implementar y formalizar mecanismos que consoliden la vinculación con actores del medio y el impacto bidireccional de las actividades derivadas.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAC-23-H02",
                     "DAC-23-H03",
-                    "DAC-23-H01"
+                    "DAC-23-H01",
+                    "DAC-23-H02"
                 ],
                 "responsable": "DAC-EPRE",
                 "titulo": "Institucionalización de mecanismos de Vinculación con el Medio para la docencia universitaria."
@@ -44344,8 +44237,8 @@
                 "objetivo": "Implementar mecanismos, desde las definiciones de procesos debidamente sistematizados, que permitan identificar necesidades de capacitación y perfeccionamiento del personal de colaboración universitario.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAF-17-H02",
                     "DAF-17-H03",
+                    "DAF-17-H02",
                     "DAF-17-H01"
                 ],
                 "responsable": "DAF-DP",
@@ -44356,11 +44249,11 @@
                 "objetivo": "Evaluar, ajustar y desplegar un nuevo diseño para la estructura salarial de la institución, tanto en lo que respecta al personal de colaboración como al personal académico, considerando la modificación de la escala de grados y las asignaciones institucionales.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAF-18-H02",
                     "DAF-18-H01",
                     "DAF-18-H04",
-                    "DAF-18-H05",
-                    "DAF-18-H03"
+                    "DAF-18-H02",
+                    "DAF-18-H03",
+                    "DAF-18-H05"
                 ],
                 "responsable": "DAF-DP",
                 "titulo": "Rediseño de la estructura salarial de la Universidad."
@@ -44381,9 +44274,9 @@
                 "objetivo": "Diseñar, formalizar y pilotear los mecanismos institucionales para dar soporte a la realización de prácticas profesionales.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAC-26-H02",
                     "DAC-26-H03",
-                    "DAC-26-H01"
+                    "DAC-26-H01",
+                    "DAC-26-H02"
                 ],
                 "responsable": "DAC-EPRE",
                 "titulo": "Despliegue de mecanismos regulatorios para prácticas profesionales"
@@ -44415,10 +44308,10 @@
                 "objetivo": "Diseñar los procesos críticos asociados a la gestión de personas en la institución, bajo las metodologías institucionales, que den contexto a las diversas iniciativas de mejora en el tema.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAF-14-H04",
-                    "DAF-14-H02",
                     "DAF-14-H03",
-                    "DAF-14-H01"
+                    "DAF-14-H01",
+                    "DAF-14-H02",
+                    "DAF-14-H04"
                 ],
                 "responsable": "DAF-DP",
                 "titulo": "Sistematización de procesos críticos para la gestión de personas."
@@ -44428,8 +44321,8 @@
                 "objetivo": "Sistematizar procesos e información vinculada al seguimiento del logro del perfil de egreso, que permita ajustar oportunamente las estrategias asociadas al proceso formativo.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAC-21-H03",
                     "DAC-21-H02",
+                    "DAC-21-H03",
                     "DAC-21-H01"
                 ],
                 "responsable": "DAC-EPRE",
@@ -44440,10 +44333,10 @@
                 "objetivo": "Brindar soporte financiero a los diversos proyectos de la institución (investigación, fortalecimiento, etc.) que permitan su correcto seguimiento y operación.",
                 "tipo": "Misional",
                 "tacticas": [
+                    "DAF-11-F01",
                     "DAF-11-F02",
                     "DAF-11-F04",
-                    "DAF-11-F03",
-                    "DAF-11-F01"
+                    "DAF-11-F03"
                 ],
                 "responsable": "DAF-FIN",
                 "titulo": "Soporte financiero a proyectos con financiamiento interno y externo."
@@ -44453,9 +44346,9 @@
                 "objetivo": "Levantar una estrategia y los mecanismos iniciales que permitan potenciar la formación transversal en coherencia al modelo educativo.",
                 "tipo": "Desarrollo",
                 "tacticas": [
+                    "DAC-22-H04",
                     "DAC-22-H01",
                     "DAC-22-H02",
-                    "DAC-22-H04",
                     "DAC-22-H03"
                 ],
                 "responsable": "DAC-EPRE",
@@ -44466,10 +44359,10 @@
                 "objetivo": "Realizar diversos servicios que permitan la operación básica y diaria de los equipos en términos logísticos.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DAF-12-F04",
-                    "DAF-12-F01",
                     "DAF-12-F02",
-                    "DAF-12-F03"
+                    "DAF-12-F03",
+                    "DAF-12-F01",
+                    "DAF-12-F04"
                 ],
                 "responsable": "DAF-INSG",
                 "titulo": "Servicios generales para académicos y funcionarios de la Institución."
@@ -44479,10 +44372,10 @@
                 "objetivo": "Desarrollar actividades técnicas y administrativas de aspectos financieros asociadas a los estudiantes de la Universidad.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DAF-10-F02",
                     "DAF-10-F03",
                     "DAF-10-H01",
-                    "DAF-10-F01"
+                    "DAF-10-F01",
+                    "DAF-10-F02"
                 ],
                 "responsable": "DAF-FIN",
                 "titulo": "Gestión y control financiero de asuntos estudiantiles."
@@ -44493,8 +44386,8 @@
                 "tipo": "Desarrollo",
                 "tacticas": [
                     "DPAC-10-H01",
-                    "DPAC-10-H02",
-                    "DPAC-10-H03"
+                    "DPAC-10-H03",
+                    "DPAC-10-H02"
                 ],
                 "responsable": "DPAC-TGI",
                 "titulo": "Gestión de la calidad para los procesos de desarrollo de sistemas de información institucional"
@@ -44504,9 +44397,9 @@
                 "objetivo": "Realizar las gestiones en colaboración con REUNA para avanzar en la conectividad física de la UAysén con la red.",
                 "tipo": "Desarrollo",
                 "tacticas": [
+                    "DPAC-11-H02",
                     "DPAC-11-H03",
-                    "DPAC-11-H01",
-                    "DPAC-11-H02"
+                    "DPAC-11-H01"
                 ],
                 "responsable": "DPAC-TGI",
                 "titulo": "Avance en conexión física con Red REUNA"
@@ -44516,11 +44409,11 @@
                 "objetivo": "Implementar MACs que permitan la gestión de la plataforma con orientación a la seguridad y monitoreo de la información y los servicios institucionales.",
                 "tipo": "Desarrollo",
                 "tacticas": [
+                    "DPAC-09-H05",
                     "DPAC-09-H04",
-                    "DPAC-09-H02",
                     "DPAC-09-H03",
-                    "DPAC-09-H01",
-                    "DPAC-09-H05"
+                    "DPAC-09-H02",
+                    "DPAC-09-H01"
                 ],
                 "responsable": "DPAC-TGI",
                 "titulo": "Gestión de la calidad para la plataforma computacional e información de la Institución"
@@ -44530,13 +44423,13 @@
                 "objetivo": "Gestionar y articular los esfuerzos necesarios para dar comienzo al 2do proceso de autoevaluación de la Institución, con proyección al 1er proceso de acreditación institucional para el 2022.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DPAC-07-H07",
-                    "DPAC-07-H02",
-                    "DPAC-07-H06",
-                    "DPAC-07-H01",
                     "DPAC-07-H05",
+                    "DPAC-07-H06",
+                    "DPAC-07-H04",
+                    "DPAC-07-H07",
                     "DPAC-07-H03",
-                    "DPAC-07-H04"
+                    "DPAC-07-H02",
+                    "DPAC-07-H01"
                 ],
                 "responsable": "DPAC-GC",
                 "titulo": "Proceso de autoevaluación 2021 - 2022"
@@ -44546,9 +44439,9 @@
                 "objetivo": "Operacionalizar instancias de coordinación entre distintas áreas de la institución en donde la Investigación tiene un rol relevante.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DI-11b-F04",
-                    "DI-11b-F03",
                     "DI-11b-F02",
+                    "DI-11b-F03",
+                    "DI-11b-F04",
                     "DI-11b-F01"
                 ],
                 "responsable": "DI-DINV",
@@ -44559,10 +44452,10 @@
                 "objetivo": "Implementar mecanismos tecnológicos que permitan automatizar y digitalizar procesos institucionales bajo una estructura estandarizada.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DPAC-08-H02",
-                    "DPAC-08-H03",
                     "DPAC-08-H04",
-                    "DPAC-08-H01"
+                    "DPAC-08-H01",
+                    "DPAC-08-H03",
+                    "DPAC-08-H02"
                 ],
                 "responsable": "DPAC-TGI",
                 "titulo": "Modernización de flujos de trabajo para dar soporte a procesos institucionales"
@@ -44572,15 +44465,15 @@
                 "objetivo": "Resolver diversos requerimientos de información internos y externos, en donde las capacidades de Análisis Institucional permitan respaldar la calidad de las entregas y un control apropiado.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DPAC-05-H07",
-                    "DPAC-05-H06",
-                    "DPAC-05-H08",
                     "DPAC-05-H02",
                     "DPAC-05-H05",
-                    "DPAC-05-F01",
-                    "DPAC-05-H01",
                     "DPAC-05-H03",
                     "DPAC-05-H04",
+                    "DPAC-05-H06",
+                    "DPAC-05-F01",
+                    "DPAC-05-H08",
+                    "DPAC-05-H07",
+                    "DPAC-05-H01",
                     "DPAC-05-H09"
                 ],
                 "responsable": "DPAC-AI",
@@ -44591,9 +44484,9 @@
                 "objetivo": "Implementación y despliegue de mecanismos de uso periódico que permitan recopilar información cualitativa sobre la calidad de los servicios internos de la institución, para generar reportes periódicos que sirvan a los equipos en la mejora de sus procesos.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DPAC-06-H01",
                     "DPAC-06-H03",
-                    "DPAC-06-H02"
+                    "DPAC-06-H02",
+                    "DPAC-06-H01"
                 ],
                 "responsable": "DPAC-GC",
                 "titulo": "Evaluación de servicios internos UAysén."
@@ -44603,15 +44496,15 @@
                 "objetivo": "Sistematizar la información que permite consolidar las acciones planificadas para el año 2022 de forma oportuna y coherente a las capacidades institucionales.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DPAC-03-H05",
-                    "DPAC-03-F01",
-                    "DPAC-03-H06",
-                    "DPAC-03-H02",
-                    "DPAC-03-H09",
                     "DPAC-03-H08",
                     "DPAC-03-H01",
                     "DPAC-03-H03",
-                    "DPAC-03-H07"
+                    "DPAC-03-H05",
+                    "DPAC-03-H02",
+                    "DPAC-03-F01",
+                    "DPAC-03-H07",
+                    "DPAC-03-H09",
+                    "DPAC-03-H06"
                 ],
                 "responsable": "DPAC-PCI",
                 "titulo": "Diseño de la Planificación Institucional 2022."
@@ -44622,11 +44515,11 @@
                 "tipo": "Misional",
                 "tacticas": [
                     "DPAC-04-F02",
+                    "DPAC-04-H03",
                     "DPAC-04-F01",
+                    "DPAC-04-F04",
                     "DPAC-04-F03",
                     "DPAC-04-H01",
-                    "DPAC-04-F04",
-                    "DPAC-04-H03",
                     "DPAC-04-H02"
                 ],
                 "responsable": "DPAC-PCI",
@@ -44638,10 +44531,10 @@
                 "tipo": "Misional",
                 "tacticas": [
                     "DPAC-01-F03",
-                    "DPAC-01-F02",
-                    "DPAC-01-F04",
                     "DPAC-01-F01",
-                    "DPAC-01-F05"
+                    "DPAC-01-F05",
+                    "DPAC-01-F04",
+                    "DPAC-01-F02"
                 ],
                 "responsable": "DPAC-TGI",
                 "titulo": "Desarrollo de servicios computacionales y de información institucional."
@@ -44651,9 +44544,9 @@
                 "objetivo": "Implementar los componentes computacionales en la institución asociados a los mecanismos de almacenamiento, de computo y de comunicación, junto con los componentes de seguridad para su funcionamiento apropiado.",
                 "tipo": "Misional",
                 "tacticas": [
+                    "DPAC-02-F03",
                     "DPAC-02-F01",
-                    "DPAC-02-F02",
-                    "DPAC-02-F03"
+                    "DPAC-02-F02"
                 ],
                 "responsable": "DPAC-TGI",
                 "titulo": "Gestión de la infraestructura tecnológica institucional."
@@ -44663,9 +44556,9 @@
                 "objetivo": "Diseñar y pilotear un sistema que organice mecanismos para normar, procedimentar y articular la producción y uso de datos, información y conocimiento sobre la Institución.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DPAC-21-H03",
                     "DPAC-21-H02",
-                    "DPAC-21-H01"
+                    "DPAC-21-H01",
+                    "DPAC-21-H03"
                 ],
                 "responsable": "DPAC-AI",
                 "titulo": "Implementación de un Sistema emergente para el Gobierno de Datos Institucional"
@@ -44675,9 +44568,9 @@
                 "objetivo": "Analizar y proponer ajustes de largo y corto plazo a la estructura organizacional, implementando los últimos.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DPAC-22-H01",
                     "DPAC-22-H02",
-                    "DPAC-22-H03"
+                    "DPAC-22-H03",
+                    "DPAC-22-H01"
                 ],
                 "responsable": "DPAC",
                 "titulo": "Evaluación e implementación de ajustes a la Estructura Organizacional"
@@ -44687,12 +44580,12 @@
                 "objetivo": "Gestionar y completar del desarrollo del proceso de Evaluación Intermedia de la Gestión Institucional en coordinación con CNA.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DPAC-20-H01",
-                    "DPAC-20-H03",
+                    "DPAC-20-H02",
                     "DPAC-20-H05",
+                    "DPAC-20-H01",
                     "DPAC-20-H06",
                     "DPAC-20-H04",
-                    "DPAC-20-H02"
+                    "DPAC-20-H03"
                 ],
                 "responsable": "DPAC-GC",
                 "titulo": "Continuidad del proceso de Evaluación Intermedia de la Gestión Institucional"
@@ -44702,11 +44595,11 @@
                 "objetivo": "Desarrollar mecanismos y actividades que permitan institucionalizar y dar proyección a la movilidad estudiantil en la institución.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAC-41-H03",
-                    "DAC-41-H02",
                     "DAC-41-H05",
                     "DAC-41-H04",
-                    "DAC-41-H01"
+                    "DAC-41-H01",
+                    "DAC-41-H02",
+                    "DAC-41-H03"
                 ],
                 "responsable": "DAC-EPRE",
                 "titulo": "Institucionalización de la movilidad estudiantil"
@@ -44716,8 +44609,8 @@
                 "objetivo": "Revisar aspectos de la política de Gestión Integral de la Calidad, levantando aspectos de mejora y profundización que permitan avanzar en el diseño detallado del sistema y su proyección en el tiempo.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DPAC-18-H05",
                     "DPAC-18-H02",
+                    "DPAC-18-H05",
                     "DPAC-18-H01",
                     "DPAC-18-H04",
                     "DPAC-18-H03"
@@ -44730,9 +44623,9 @@
                 "objetivo": "Sistematizar y disponibilizar información asociada a los recursos bibliográficos que den soporte a la docencia universitaria.",
                 "tipo": "Misional",
                 "tacticas": [
-                    "DAC-42-F03",
+                    "DAC-42-F02",
                     "DAC-42-F01",
-                    "DAC-42-F02"
+                    "DAC-42-F03"
                 ],
                 "responsable": "DAC-BRA",
                 "titulo": "Gestión de la bibliografía para el desarrollo de la docencia."
@@ -44742,8 +44635,8 @@
                 "objetivo": "Diseñar, pilotear y formalizar una metodología ágil para levantar procesos institucionales, en coherencia y articulación con la metodología integral.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DPAC-19-H01",
                     "DPAC-19-H03",
+                    "DPAC-19-H01",
                     "DPAC-19-H02"
                 ],
                 "responsable": "DPAC-GC",
@@ -44754,11 +44647,11 @@
                 "objetivo": "Realizar las acciones administrativas y de gestión para operacionalizar el Espacio, permitiendo con ello generar instancias de apoyo para estudiantes que convivan con niñ@s que cursen primero y/o segundo ciclo básico, y que requieran delegar el cuidado de estos con el fin de poder dedicar ese tiempo a las actividades académicas.",
                 "tipo": "Misional",
                 "tacticas": [
+                    "DAC-43-H04",
                     "DAC-43-H01",
-                    "DAC-43-F01",
-                    "DAC-43-H02",
                     "DAC-43-H03",
-                    "DAC-43-H04"
+                    "DAC-43-H02",
+                    "DAC-43-F01"
                 ],
                 "responsable": "DAC-DE",
                 "titulo": "Operacionalización del Espacio de Cuidados"
@@ -44768,8 +44661,8 @@
                 "objetivo": "Formalizar y generar herramientas tecnológicas básicas para dar soporte a los procesos asociados al SPCI.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DPAC-16-H01",
                     "DPAC-16-H02",
+                    "DPAC-16-H01",
                     "DPAC-16-H03"
                 ],
                 "responsable": "DPAC-PCI",
@@ -44780,9 +44673,9 @@
                 "objetivo": "Desarrollar actividades que permitan instalar capacidades de despliegue de una OTEC que contribuya a la formación regional y a la sostenibilidad económica de la Institución.",
                 "tipo": "Desarrollo",
                 "tacticas": [
+                    "DAC-44-H01",
                     "DAC-44-H02",
-                    "DAC-44-H03",
-                    "DAC-44-H01"
+                    "DAC-44-H03"
                 ],
                 "responsable": "DAC-EPYEC",
                 "titulo": "Planificación de la Oficina Técnica de Capacitación (OTEC) en la Universidad de Aysén."
@@ -44812,9 +44705,9 @@
                 "objetivo": "Desarrollo de actividades para propiciar la instalación adecuada del equipo de Planificación y Coordinación Institucional.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DPAC-15-H04",
                     "DPAC-15-H01",
-                    "DPAC-15-H05"
+                    "DPAC-15-H05",
+                    "DPAC-15-H04"
                 ],
                 "responsable": "DPAC-PCI",
                 "titulo": "Despliegue de capacidades de Planificación y Coordinación Institucional"
@@ -44824,9 +44717,9 @@
                 "objetivo": "Implementar mejoras a las herramientas informáticas que dan soporte al gobierno de datos y a la gestión de información institucional.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DPAC-12-H02",
                     "DPAC-12-H04",
                     "DPAC-12-H03",
+                    "DPAC-12-H02",
                     "DPAC-12-H01"
                 ],
                 "responsable": "DPAC-TGI",
@@ -44837,11 +44730,11 @@
                 "objetivo": "Diseñar y formalizar mecanismos que den cuenta de una articulación sistemática entre la docencia en todos sus niveles con la investigación y en coherencia al Modelo Educativo.",
                 "tipo": "Desarrollo",
                 "tacticas": [
-                    "DAC-40-H01",
+                    "DAC-40-H02",
                     "DAC-40-H03",
                     "DAC-40-H06",
                     "DAC-40-H05",
-                    "DAC-40-H02"
+                    "DAC-40-H01"
                 ],
                 "responsable": "DAC-EPRE",
                 "titulo": "Institucionalizar la articulación de la docencia con la investigación"
@@ -44860,8 +44753,8 @@
                 "tipo": "Desarrollo",
                 "tacticas": [
                     "DPAC-13-H04",
-                    "DPAC-13-H01",
-                    "DPAC-13-H02"
+                    "DPAC-13-H02",
+                    "DPAC-13-H01"
                 ],
                 "responsable": "DPAC-TGI",
                 "titulo": "Despliegue de mecanismos orientados a la seguridad de la información institucional"
